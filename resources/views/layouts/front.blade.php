@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="{{asset('front/assets/css/magnific-popup.min.css')}}">
 		<link rel="stylesheet" href="{{asset('front/assets/css/style.css')}}">
 		<link rel="stylesheet" href="{{asset('front/assets/css/responsive.css')}}">
-		
+
 		<!--=== Favicon ===-->
 		<link rel="icon" type="image/png" href="{{asset('front/assets/images/favicon.png')}}">
 		<!--=== Title ===-->
@@ -24,9 +24,9 @@
 
     <style>
         .owl-carousel{
-            display: flex !important; 
-            flex-direction: row;   
-            justify-content: center; 
+            display: flex !important;
+            flex-direction: row;
+            justify-content: center;
         }
     </style>
 
@@ -47,7 +47,7 @@
             </div>
         </div>
 		<!--=== End Preloader Section ===-->
-		
+
 		<!--=== Start Header Section ===-->
 		<header class="header-section">
 			<div class="up-header-content bg-color-150f03">
@@ -88,13 +88,13 @@
 										<i class="icofont-linkedin"></i>
 									</a>
 								</li>
-								
+
 							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<a class="navbar-brand" href="index.html">
@@ -117,7 +117,7 @@
 							<div class="mobile-menu-bar"></div>
 						</div>
 					</a>
-					
+
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav m-auto">
 							<li class="nav-item">
@@ -125,7 +125,7 @@
 							</li>
 
 
-                            <li class="nav-item"> 
+                            <li class="nav-item">
 								<a href="#" class="nav-link dropdown-toggles">Services</a>
 
 								<ul class="sub-menu">
@@ -139,26 +139,31 @@
 								</ul>
 							</li>
 
-							<li class="nav-item"> 
+							<li class="nav-item">
 								<a href="#" class="nav-link dropdown-toggles">Produits</a>
 
 								<ul class="sub-menu">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">Armement</a>
-                                    </li>
-        
-                                    <li class="nav-item">
+                                   <li class="nav-item">
                                         <a href="#" class="nav-link dropdown-toggles">Pylônes</a>
-        
+
                                         <ul class="sub-menu-sub">
-                                            <li class="nav-item">
-                                                <a href="#" class="nav-link">polygonaux</a>
-                                            </li>
-        
                                             <li class="nav-item">
                                                 <a href="#" class="nav-link">BS</a>
                                             </li>
+
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Tubulaire</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" class="nav-link">Armement</a>
+                                            </li>
                                         </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Charpente métallique</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">Divers</a>
                                     </li>
                                 </ul>
 							</li>
@@ -170,7 +175,7 @@
                             <li class="nav-item">
 								<a href="#" class="nav-link">Tlemcen</a>
 							</li>
-						
+
 							<li class="nav-item">
 								<a href="#" class="nav-link">Contact</a>
 							</li>
@@ -212,7 +217,7 @@
                     </li>
 
 
-                    <li class="nav-item has-children"> 
+                    <li class="nav-item has-children">
                         <a href="#" class="nav-link dropdown-toggles">Services</a>
 
                         <ul class="sub-menu">
@@ -226,7 +231,7 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item has-children"> 
+                    <li class="nav-item has-children">
                         <a href="#" class="nav-link dropdown-toggles">Produits</a>
 
                         <ul class="sub-menu">
@@ -257,7 +262,7 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link">Tlemcen</a>
                     </li>
-                
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">Contact</a>
                     </li>
@@ -266,14 +271,14 @@
 
 
 
-					
+
 				</ul>
 			</nav>
 		</aside>
 		<div class="body-overlay"></div>
 		<!--=== End Menu Slide Bar ===-->
 
-		
+
 
 		@yield('content')
 
@@ -290,7 +295,7 @@
 								<img src="{{asset('front/assets/images/logo-white.png')}}" alt="Image">
 							</a>
 							<p> Usine de Galvanisation à Chaud & Transformation Métallique </p>
-							
+
 							<ul class="footer-social-content">
                                 <li>
 									<a href="https://www.facebook.com/metgav/" target="_blank">
@@ -314,7 +319,7 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="main-footer-item wow fadeInUp delay-0-4s">
 							<h3>Services</h3>
-							
+
 							<ul class="import-link">
 								<li>
 									<a href="#">Galvanisation à Chaud</a>
@@ -329,7 +334,7 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="main-footer-item wow fadeInUp delay-0-6s">
 							<h3>liens rapides</h3>
-							
+
 							<ul class="import-link">
 								<li>
 									<a href="#">Produits</a>
@@ -340,7 +345,7 @@
 								<li>
 									<a href="#">Tlemcen</a>
 								</li>
-						
+
 							</ul>
 						</div>
 					</div>
@@ -348,7 +353,7 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="main-footer-item wow fadeInUp delay-0-8s">
 							<h3>Contact</h3>
-							
+
 							<ul class="contact-info">
 								<li>
 									<i class="icofont-envelope"></i>
@@ -379,7 +384,7 @@
 		<!--=== End Copy Right Section ===-->
 
         <!--=== JS Link ===-->
-        <script src="{{asset('front/assets/js/jquery.min.js')}}"></script> 
+        <script src="{{asset('front/assets/js/jquery.min.js')}}"></script>
         <script src="{{asset('front/assets/js/bootstrap.bundle.min.js')}}"></script>
 		<script src="{{asset('front/assets/js/mobile-menu.js')}}"></script>
 		<script src="{{asset('front/assets/js/owl.carousel.min.js')}}"></script>

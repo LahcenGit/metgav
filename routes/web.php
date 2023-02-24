@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\ActualiteController;
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,8 +19,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome-new');
 });
-
+Route::get('/BS', function () {
+    return view('Bs-detail');
+});
+Route::get('/tubulaire', function () {
+    return view('tubulaire-detail');
+});
+Route::get('/armement', function () {
+    return view('armement-detail');
+});
+Route::get('/charpente-metallique', function () {
+    return view('charpente-metallique-detail');
+});
 
 Auth::routes();
-
+Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
+Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
+Route::resource('/admin',AdminController::class)->middleware('can:admin');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
