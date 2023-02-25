@@ -31,6 +31,9 @@ Route::get('/armement', function () {
 Route::get('/charpente-metallique', function () {
     return view('charpente-metallique-detail');
 });
+Route::get('/article', function () {
+    return view('article');
+});
 
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
