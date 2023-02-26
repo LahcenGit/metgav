@@ -9,10 +9,7 @@ use Illuminate\Support\Str;
 class ArticleController extends Controller
 {
     //
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+
     public function create(){
         return view('admin.add-article');
     }
