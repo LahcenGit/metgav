@@ -54,7 +54,7 @@
                                         <label>Photos* :</label>
                                         <div class="basic-form custom_file_input">
                                             <div class="input-group mb-3">
-                                                <input type="file" class="image" multiple name="photos[]" accept="image/*" required multiple>
+                                                <input type="file" class="image" multiple name="photos[]" accept="image/*"  multiple>
                                             </div>
                                         </div>
                                     </div>
