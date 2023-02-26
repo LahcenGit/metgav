@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="blog-details-content">
-                    <img src="{{ asset('front/assets/images/blog/blog-6.jpg') }}" class="blog-details-main-img" alt="Image">
+                    <img src="{{ asset('storage/images/articles/'.$article->images[0]->link) }}" class="blog-details-main-img" alt="Image">
                     <ul>
                         <li>
                             <i class="icofont-user-alt-3"></i>
@@ -36,9 +36,9 @@
                             Agu 10, 2021
                         </li>
                     </ul>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page is when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ique maiestatis sum quod sum ut alienum nec et to summo possim persequeris vix mea. Adhuc quodsi qui, sit no tale essent electramei sum sums rodesset in pro, quo scripta feugait vidisse. Lorem ipsum dolor sit amet, eu duo ferri labor dicat Mea ex modo reque senserit, et sed hinc dolor, scaevola sum salutandi expetendis vix ne his quod mundi consequat sum. There are not many of passages of lorem</p>
+                    <p>{!! $article->description !!}</p>
 
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page is when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+
 
                     <div class="services-blog">
                         <div class="row">

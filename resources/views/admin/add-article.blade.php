@@ -38,12 +38,7 @@
                                         <input type="date" class="form-control input-default " name="date"  required>
                                     </div>
                                 </div>
-                                <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <label>Déscription* :</label>
-                                        <textarea class="form-control" rows="4" id="comment" name="description"></textarea>
-                                    </div>
-                                </div>
+
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label>Image principale * :</label>
@@ -62,6 +57,11 @@
                                                 <input type="file" class="image" multiple name="photos[]" accept="image/*" required multiple>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-12 col-xxl-12">
+                                        <textarea class="summernote" class="form-control " name="description" >{{old('description')}}</textarea>
                                     </div>
                                 </div>
                                 <button type="submit"  class="btn btn-primary mt-3">Ajouter</button>

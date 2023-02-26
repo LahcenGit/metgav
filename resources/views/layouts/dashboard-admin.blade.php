@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="{{ asset('dashboard/vendor/chartist/css/chartist.min.css') }}">
     <link href="{{ asset('dashboard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet">
     <link href="{{ asset('dashboard/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('dashboard/vendor/summernote/summernote.css') }}" rel="stylesheet">
 	<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('dashboard/uploader/drop_uploader.css')}}">
 
@@ -737,6 +738,10 @@
 	<script src="{{asset('dashboard/vendor/datatables/js/jquery.dataTables.min.js')}}"></script>
 	<script src="{{asset('dashboard/js/plugins-init/datatables.init.js')}}"></script>
     <script src="{{asset('dashboard/uploader/drop_uploader.js')}}"></script>
+    <!-- Summernote -->
+    <script src="{{ asset('dashboard/vendor/summernote/js/summernote.min.js') }}"></script>
+    <!-- Summernote init -->
+    <script src="{{ asset('dashboard/js/plugins-init/summernote-init.js') }}"></script>
 	<script>
 	(function($) {
 		"use strict"

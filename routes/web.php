@@ -39,4 +39,5 @@ Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
 Route::resource('/admin',AdminController::class)->middleware('can:admin');
+Route::get('/article/{slug}',[App\Http\Controllers\ArticleController::class, 'detail']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
