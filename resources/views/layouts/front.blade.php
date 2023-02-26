@@ -381,6 +381,8 @@
 				<p>Copyright © 2023 Metgav. All Rights Reserved.</p>
 			</div>
 		</div>
+
+		
 		<!--=== End Copy Right Section ===-->
 
         <!--=== JS Link ===-->
@@ -394,6 +396,21 @@
         <script src="{{asset('front/assets/js/waypoints.min.js')}}"></script>
         <script src="{{asset('front/assets/js/countdown.min.js')}}"></script>
 		<script src="{{asset('front/assets/js/main.js')}}"></script>
+
+		  
+		<script>
+			$(document).ready(function() {
+			  $('.slider-carousel').owlCarousel({
+				loop: true,
+				autoplay: true,
+				autoplayTimeout: 3000,
+				autoplayHoverPause: false,
+				items: 1,
+				nav:true,
+				smartSpeed: 2000,
+			  });
+			});
+		  </script>
 
     </body>
 </html>
