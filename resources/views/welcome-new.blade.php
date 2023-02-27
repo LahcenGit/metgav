@@ -59,6 +59,7 @@
 
 <!--=== Start Banner Section ===-->
 <div class="slider-carousel owl-carousel">
+
     <div class="item">
         <section class="banner-section bg-1">
             <div class="container">
@@ -78,13 +79,15 @@
             </div>
         </section>
     </div>
+
+
     <div class="item">
-        <section class="banner-section bg-1">
+        <section class="banner-section bg-1" style="background-image: url('/front/assets/images/banner/banner-bg-2.jpg')">
             <div class="container">
                 <div class="item">
                     <div class="banner-content">
-                        <h1 class="wow fadeInUp delay-0-2s">METGAV INDUSTRY ,</h1>
-                        <p class="wow fadeInUp delay-0-4s"> Usine de Galvanisation à Chaud & Transformation Métallique</p>
+                        <h1 class="wow fadeInUp delay-0-2s">Infrastructure moderne  ,</h1>
+                        <p class="wow fadeInUp delay-0-4s">Pour assurer une production efficace et un service de qualité</p>
             
                         <a href="#" class="main-btn wow fadeInUp delay-0-8s">
                             <span>
@@ -98,8 +101,45 @@
         </section>
     </div>
 
+    <div class="item">
+        <section class="banner-section bg-1" style="background-image: url('/front/assets/images/banner/banner-bg-3.jpg')">
+            <div class="container">
+                <div class="item">
+                    <div class="banner-content">
+                        <h1 class="wow fadeInUp delay-0-2s">Engagement qualité</h1>
+                        <p class="wow fadeInUp delay-0-4s">pour garantir une collaboration fructueuse avec nos clients</p>
+            
+                        <a href="#" class="main-btn wow fadeInUp delay-0-8s">
+                            <span>
+                                En savoir plus
+                                <i class="icofont-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
-
+    <div class="item">
+        <section class="banner-section bg-1" style="background-image: url('/front/assets/images/banner/banner-bg-4.jpg')">
+            <div class="container">
+                <div class="item">
+                    <div class="banner-content">
+                        <h1 class="wow fadeInUp delay-0-2s">Des machines de pointe,</h1>
+                        <p class="wow fadeInUp delay-0-4s">pour garantir une finition de haute qualité</p>
+            
+                        <a href="#" class="main-btn wow fadeInUp delay-0-8s">
+                            <span>
+                                En savoir plus
+                                <i class="icofont-arrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 </div>
 <div class="owl-dots"></div>
@@ -111,7 +151,7 @@
 <section class="features-section pt-100 pb-70">
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-6 ">
                 <div class="main-features-item wow fadeInUp delay-0-2s">
                     <i class="main-icon icofont-workers-group"></i> 
                     <i class="shape-icon icofont-workers-group"></i>
@@ -168,9 +208,9 @@
             </div>
             <div class="col-lg-6">
                 <div class="about-content ms-15 wow fadeInRight delay-0-2s">
-                    <span class="up-title">METGAV</span>
-                    <h2>Un savoir-faire métallurgique</h2>
-                    <p>Située à l’Ouest de l’Algérie à 15 kilomètres de la wilaya de Tlemcen dans la commune de Ain Fezza, METGAV INDUSTRY  est une entreprise qui active dans le domaine de la construction métallique et du traitement de surfaces par galvanisation à chaud, qui se veut innovante et inscrit sa démarche dans la durée et dont l’objectif principal demeure la satisfaction pleine et totale de ses clients afin de leur fournir un gain de compétitivité.</p>
+                    <span class="up-title">un savoir-faire inégalé</span>
+                    <h2>METGAV INDUSTRY</h2>
+                    <p>Une entreprise qui active dans le domaine de la construction métallique et du traitement de surfaces par galvanisation à chaud, qui se veut innovante et inscrit sa démarche dans la durée et dont l’objectif principal demeure la satisfaction pleine et totale de ses clients afin de leur fournir un gain de compétitivité.</p>
                     <ul>
                         <li>
                             <i class="icofont-hand-drawn-right"></i>

@@ -403,7 +403,7 @@
 			  $('.slider-carousel').owlCarousel({
 				loop: true,
 				autoplay: true,
-				autoplayTimeout: 3000,
+				autoplayTimeout: 4000,
 				autoplayHoverPause: false,
 				items: 1,
 				nav:true,
