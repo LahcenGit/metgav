@@ -2817,26 +2817,14 @@ textarea.form-control {
 29 - Page Banner Style
 <<<<======================================================>>>>*/
 .page-banner-section {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   height: 100%;
   position: relative;
   z-index: 1;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.page-banner-section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(1, 5, 9, 0.77);
-  z-index: -1;
-}
 
 .page-banner-section.bg-1 {
   background-image: url(../images/page-bg/page-bg-1.jpg);

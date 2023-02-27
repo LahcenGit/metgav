@@ -97,7 +97,7 @@
 
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
-					<a class="navbar-brand" href="index.html">
+					<a class="navbar-brand" href="{{asset('/')}}">
 						<img src="{{asset('front/assets/images/logo.png')}}" alt="Logo">
 					</a>
 
@@ -333,7 +333,7 @@
 
 					<div class="col-lg-3 col-sm-6">
 						<div class="main-footer-item wow fadeInUp delay-0-6s">
-							<h3>liens rapides</h3>
+							<h3>Liens rapides</h3>
 
 							<ul class="import-link">
 								<li>
@@ -409,6 +409,26 @@
 				nav:true,
 				smartSpeed: 2000,
 			  });
+			});
+
+			$('.article-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				autoplay: true,
+				dots:true,
+				autoplayTimeout: 3000,
+				smartSpeed: 2000,
+				responsive:{
+					0:{
+						items:1
+					},
+					600:{
+						items:1
+					},
+					1000:{
+						items:1
+					}
+				}
 			});
 		  </script>
 

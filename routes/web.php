@@ -16,9 +16,7 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome-new');
-});
+
 Route::get('/BS', function () {
     return view('Bs-detail');
 });
@@ -40,4 +38,4 @@ Route::resource('/admin/articles',ArticleController::class)->middleware('can:adm
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
 Route::resource('/admin',AdminController::class)->middleware('can:admin');
 Route::get('/article/{slug}',[App\Http\Controllers\ArticleController::class, 'detail']);
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);

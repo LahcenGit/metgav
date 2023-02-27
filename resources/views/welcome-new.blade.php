@@ -54,6 +54,12 @@
   transition: opacity 1s ease-in-out;
 }
 
+.overflow-section{
+    line-height: 1.5 !important;
+    height: 4.5em !important;
+    overflow: hidden !important;
+}
+
 </style>
 
 
@@ -390,15 +396,14 @@
                             <h3>
                                 <a href="#">Pylônes</a>
                             </h3>
-                            <span>BS, polygonaux...</span>
+                            <span>BS, Tubulaires, Armements</span>
 
                             <div class="team-social-link">
                                 <button class="controller">
                                     <i class="icofont-arrow-right"></i>
                                 </button>
-
-                                
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -413,9 +418,9 @@
                     <div class="team-content hover-style">
                         <div class="inner-border">
                             <h3>
-                                <a href="#">Armement</a>
+                                <a href="#">Charpantes métaliques</a>
                             </h3>
-                            <span>Une résistance maximale</span>
+                            <span>des charpantes métaliques sur mesure </span>
 
                             <div class="team-social-link">
                                 <button class="controller">
@@ -438,9 +443,10 @@
                     <div class="team-content hover-style">
                         <div class="inner-border">
                             <h3>
-                                <a href="#">Supports photovoltaïque </a>
+                                <a href="#">Divers</a>
                             </h3>
-                            <span>Des solutions pour les supports photovoltaïques</span>
+                            <span>Supports photovoltaïque, Hangar ...
+                                </span>
 
                             <div class="team-social-link">
                                 <button class="controller">
@@ -556,7 +562,7 @@
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title left-title">
                         <span class="up-title">Derniers Articles</span>
-                        <h2>Découvrir les innovations et les meilleures pratiques de notre métier. </h2>
+                        <h2>Découvrir toutes nos actualités. </h2>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
@@ -566,86 +572,33 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
-                <div class="main-blog-item wow fadeInUp delay-0-2s">
-                    <a href="#" class="blog-img">
-                        <img src="{{asset('front/assets/images/blog/blog-1.jpg')}}" alt="Image">
-                    </a>
 
-                    <div class="blog-content hover-style">
-                        <div class="inner-border">
-                            <ul>
-                                <li>février 12, 2023</li>
-                                <li>
-                                    <a href="#">Commentaire (03)</a>
-                                </li>
-                            </ul>
-                            <h3>
-                                <a href="#">L’économie de l’acier : une activité cyclique</a>
-                            </h3>
-                            <p>L’acier est un alliage métallique composé de fer et de carbone, auquel peut être ajouté du  nickel, du chrome, du manganèse et du molybdène...  </p>
-                            <a href="#" class="main-detail-btn">
-                                Lire plus
-                                <i class="icofont-plus"></i>
-                            </a>
+            @foreach ($articles as $article)
+                <div class="col-lg-4 col-md-6">
+                    <div class="main-blog-item wow fadeInUp delay-0-2s">
+                        <a href="{{asset('article/'.$article->slug)}}" class="blog-img">
+                            <img src="{{asset('storage/images/articles/'.$article->images[0]->link)}}" alt="Image">
+                        </a>
+
+                        <div class="blog-content hover-style">
+                            <div class="inner-border">
+                                <ul>
+                                    <li>février 12, 2023</li>
+                                </ul>
+                                <h3>
+                                    <a href="{{asset('article/'.$article->slug)}}">{{$article->title}}</a>
+                                </h3>
+                                <p class="overflow-section">{{$article->description }}...</p>
+                                <a href="{{asset('article/'.$article->slug)}}" class="main-detail-btn">
+                                    Lire plus
+                                    <i class="icofont-plus"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="main-blog-item wow fadeInUp delay-0-4s">
-                    <a href="#" class="blog-img">
-                        <img src="{{asset('front/assets/images/blog/blog-2.jpg')}}" alt="Image">
-                    </a>
-
-                    <div class="blog-content hover-style">
-                        <div class="inner-border">
-                            <ul>
-                                <li>mai 10, 2020</li>
-                                <li>
-                                    <a href="#">Commentaires (01)</a>
-                                </li>
-                            </ul>
-                            <h3>
-                                <a href="#">Processus de galvanisation</a>
-                            </h3>
-                            <p>La galvanisation à chaud est une liaison métallurgique de zinc et d'acier produite en usine sous des conditions contrôlées. Ce procédé,...</p>
-                            <a href="#" class="main-detail-btn">
-                                Lire plus
-                                <i class="icofont-plus"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="main-blog-item wow fadeInUp delay-0-2s">
-                    <a href="#" class="blog-img">
-                        <img src="{{asset('front/assets/images/blog/blog-3.jpg')}}" alt="Image">
-                    </a>
-
-                    <div class="blog-content hover-style">
-                        <div class="inner-border">
-                            <ul>
-                                <li>février 12, 2023</li>
-                                <li>
-                                    <a href="#">Commentaire (03)</a>
-                                </li>
-                            </ul>
-                            <h3>
-                                <a href="#">L’économie de l’acier : une activité cyclique</a>
-                            </h3>
-                            <p>L’acier est un alliage métallique composé de fer et de carbone, auquel peut être ajouté du  nickel, du chrome, du manganèse et du molybdène...  </p>
-                            <a href="#" class="main-detail-btn">
-                                Lire plus
-                                <i class="icofont-plus"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                
+            @endforeach
 
         </div>
     </div>

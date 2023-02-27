@@ -49,6 +49,7 @@ class ArticleController extends Controller
 
     public function detail($slug){
         $article = Article::where('slug',$slug)->first();
-        return view('article',compact('article'));
+        $articles = Article::all();
+        return view('article',compact('article','articles'));
     }
 }
