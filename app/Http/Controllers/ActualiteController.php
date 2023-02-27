@@ -48,4 +48,6 @@ class ActualiteController extends Controller
         }
      return redirect()->back();
     }
+
+
 }

@@ -37,5 +37,7 @@ Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
 Route::resource('/admin',AdminController::class)->middleware('can:admin');
-Route::get('/article/{slug}',[App\Http\Controllers\ArticleController::class, 'detail']);
+Route::get('/article/{slug}',[App\Http\Controllers\FrontController::class, 'detailArticle']);
+Route::get('/actualite/{slug}',[App\Http\Controllers\FrontController::class, 'detailActualite']);
+Route::get('/actualites',[App\Http\Controllers\FrontController::class, 'actualites']);
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);

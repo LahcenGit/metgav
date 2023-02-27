@@ -9,7 +9,10 @@ use Illuminate\Support\Str;
 class ArticleController extends Controller
 {
     //
-
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function create(){
         return view('admin.add-article');
     }
@@ -47,9 +50,5 @@ class ArticleController extends Controller
      return redirect()->back();
     }
 
-    public function detail($slug){
-        $article = Article::where('slug',$slug)->first();
-        $articles = Article::all();
-        return view('article',compact('article','articles'));
-    }
+
 }
