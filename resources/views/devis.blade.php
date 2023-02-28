@@ -53,8 +53,10 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <select  class="form-control" name="product">
-                                         <option>Bs</option>
-                                         <option>Tubulaires</option>
+                                         <option value="Bs">Bs</option>
+                                         <option value="Tubulaires">Tubulaires</option>
+                                         <option value="Armement">Armement</option>
+                                         <option value="Charpente métaliqu">Charpente métalique</option>
                                         </select>
                                     </div>
                                 </div>
