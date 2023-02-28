@@ -148,19 +148,19 @@
 
                                         <ul class="sub-menu-sub">
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">BS</a>
+                                                <a href="{{asset('/BS')}}" class="nav-link">BS</a>
                                             </li>
 
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Tubulaire</a>
+                                                <a href="{{asset('/tubulaire')}}" class="nav-link">Tubulaire</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">Armement</a>
+                                                <a href="{{asset('/armement')}}" class="nav-link">Armement</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Charpente métallique</a>
+                                        <a href="{{asset('/charpente-metallique')}}" class="nav-link">Charpente métallique</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">Divers</a>
@@ -418,6 +418,7 @@
 				dots:true,
 				autoplayTimeout: 3000,
 				smartSpeed: 2000,
+				nav:true,
 				responsive:{
 					0:{
 						items:1

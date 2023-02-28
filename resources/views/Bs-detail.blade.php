@@ -1,5 +1,66 @@
 @extends('layouts.front')
 @section('content')
+
+<style>
+
+    .owl-carousel  {
+        position: relative;
+    }
+    .owl-carousel .owl-nav {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+      font-size: 20px;
+      background-color: #035479;
+        width: 2rem;
+        height: 2rem;
+        color: #ffff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover,
+    .owl-carousel .owl-nav button.owl-next:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    
+    
+    .owl-carousel .owl-nav button.owl-prev {
+      position: relative;
+      left: -5px;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next {
+      position: relative;
+      right: -5px;
+    }
+    
+    .owl-carousel .owl-item.fadeOut {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    
+    .owl-carousel .owl-item.fadeIn {
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+    
+    .overflow-section{
+        line-height: 1.5 !important;
+        height: 4.5em !important;
+        overflow: hidden !important;
+    }
+    
+    </style>
+
 <!--=== Start Page Banner Section ===-->
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
@@ -23,9 +84,20 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="product-main-image">
-                    <img src="{{ asset('front/assets/images/products/product-1.jpg') }}" alt="Image">
+
+                <div class="article-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/bs/bs-1.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/bs/bs-2.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/bs/bs-3.jpg') }}" alt="Image">
+                        </div>
                 </div>
+
+              
             </div>
 
             <div class="col-lg-6">
@@ -76,33 +148,24 @@
                                     <table class="table info-table">
                                         <tbody>
                                             <tr>
-                                                <td>Specialty</td>
-                                                <td>Themeforest</td>
+                                                <td>Types</td>
                                             </tr>
                                             <tr>
-                                                <td>Ingredient Type</td>
-                                                <td>Themeforest</td>
+                                                <td>Type 67 BS</td>
                                             </tr>
                                             <tr>
-                                                <td>Brand</td>
-                                                <td>Crop Theme</td>
+                                                <td>Type 96 BS</td>
                                             </tr>
                                             <tr>
-                                                <td>Package Information</td>
-                                                <td>Box</td>
+                                                <td>Type 106 BS</td>
                                             </tr>
                                             <tr>
-                                                <td>Manufacturer</td>
-                                                <td>Prayagh Nutri Product Crop Theme Ltd</td>
+                                                <td>Type 126 BS</td>
                                             </tr>
                                             <tr>
-                                                <td>Item part number</td>
-                                                <td>LE 014 - 20pcs Crème Bakes (Pack of 2)</td>
+                                                <td>Type 146 BS</td>
                                             </tr>
-                                            <tr>
-                                                <td>Net Quantity</td>
-                                                <td>40.00 count</td>
-                                            </tr>
+                                          
                                         </tbody>
                                     </table>
                                 </div>
@@ -112,13 +175,11 @@
                         <div class="tab-pane fade" id="instuctions" role="tabpanel" aria-labelledby="instuctions-tab">
                             <div class="product-instructions-info">
                                 <ul>
-                                    <li>
-                                       <a href="#"> Bs-support.pdf</a>
-                                      
+                                    Cliquez sur le lien pour télécharger la fiche technique : 
+                                    <li class="mt-4">
+                                       <a href="{{asset('fiches-techniques/BS.pdf')}}"> Supports-metalliques-BS.pdf</a>
                                     </li>
-                                    <li>
-                                        <a href="#"> Bs-models.pdf</a>
-                                    </li>
+                                  
                                    
                                 </ul>
                             </div>
