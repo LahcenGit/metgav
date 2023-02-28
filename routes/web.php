@@ -45,6 +45,9 @@ Route::get('/OPW-750-la-soudeuse-automatique', function () {
 Route::get('/vernet-behringer-Scie-à-ruban-HBP-series', function () {
     return view('investissement.vernet-behringer');
 });
+Route::get('/demande-devis', function () {
+    return view('devis');
+});
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
