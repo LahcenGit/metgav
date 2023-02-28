@@ -32,10 +32,24 @@ Route::get('/charpente-metallique', function () {
 Route::get('/article', function () {
     return view('article');
 });
+Route::get('/ermaksan-cutting-machine', function () {
+    return view('investissement.ermaksan');
+});
 
+Route::get('/presse-plieuse-hydraulique-SPEED-BEND-PRO', function () {
+    return view('investissement.presse-plieuse');
+});
+Route::get('/OPW-750-la-soudeuse-automatique', function () {
+    return view('investissement.opw-750');
+});
+Route::get('/vernet-behringer-Scie-à-ruban-HBP-series', function () {
+    return view('investissement.vernet-behringer');
+});
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
 Route::resource('/admin',AdminController::class)->middleware('can:admin');
-Route::get('/article/{slug}',[App\Http\Controllers\ArticleController::class, 'detail']);
+Route::get('/article/{slug}',[App\Http\Controllers\FrontController::class, 'detailArticle']);
+Route::get('/actualite/{slug}',[App\Http\Controllers\FrontController::class, 'detailActualite']);
+Route::get('/actualites',[App\Http\Controllers\FrontController::class, 'actualites']);
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
