@@ -32,7 +32,19 @@ Route::get('/charpente-metallique', function () {
 Route::get('/article', function () {
     return view('article');
 });
+Route::get('/ermaksan-cutting-machine', function () {
+    return view('investissement.ermaksan');
+});
 
+Route::get('/presse-plieuse-hydraulique-SPEED-BEND-PRO', function () {
+    return view('investissement.presse-plieuse');
+});
+Route::get('/OPW-750-la-soudeuse-automatique', function () {
+    return view('investissement.opw-750');
+});
+Route::get('/vernet-behringer-Scie-à-ruban-HBP-series', function () {
+    return view('investissement.vernet-behringer');
+});
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');

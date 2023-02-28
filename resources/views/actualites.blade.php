@@ -32,12 +32,12 @@
             <div class="row">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title left-title">
-                        <span class="up-title">Our Largest Blog</span>
-                        <h2>This Best Largest Blog Membar Of Helped Succee</h2>
+                        <span class="up-title">Actualités</span>
+                        <h2>Découvrir toutes nos actualités. </h2>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                    <p>Louasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.</p>
+                    <p>Nous partageons notre expertise et notre expérience à travers une variété de sujets pertinents pour vous aider à mieux comprendre notre métier et à rester informé sur les dernières avancées de l'industrie. Consultez notre sélection d'articles pour rester à la pointe de l'actualité dans notre domaine.</p>
                 </div>
             </div>
         </div>
@@ -55,11 +55,11 @@
                             <ul>
                                 <li>{{ $item->date }}</li>
                             </ul>
-                            <h3>
-                                <a href="{{ asset('actualite/'.$item->sulg) }}">{{ $item->title }}.</a>
+                            <h3  class="overflow-section">
+                                <a href="{{asset('actualite/'.$item->slug)}}">{{ $item->title }}</a>
                             </h3>
-                            <p class="overflow-section">{{$item->description }}@if($item->description)...@endif</p>
-                            <a href="{{ asset('actualite/'.$item->sulg) }}" class="main-detail-btn">
+                            <p class="overflow-section">{{$item->description }}...</p>
+                            <a href="{{asset('actualite/'.$item->slug)}}" class="main-detail-btn">
                                 Lire la suite
                                 <i class="icofont-plus"></i>
                             </a>
