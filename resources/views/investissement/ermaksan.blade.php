@@ -64,9 +64,21 @@
                         <h3>Voir plus</h3>
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="{{ asset('/presse-plieuse-hydraulique-SPEED-BEND-PRO') }}">
                                     <i class="icofont-long-arrow-right"></i>
                                     Presse plieuse hydraulique SPEED-BEND PRO
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('/OPW-750-la-soudeuse-automatique') }}">
+                                    <i class="icofont-long-arrow-right"></i>
+                                    OPW 750 la soudeuse automatique
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ asset('/vernet-behringer-Scie-à-ruban-HBP-series') }}">
+                                    <i class="icofont-long-arrow-right"></i>
+                                    Vernet Behringer Scie à ruban HBP series
                                 </a>
                             </li>
                         </ul>
