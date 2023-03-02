@@ -83,7 +83,9 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="blog-details-content">
-
+                    @if($actualite->link)
+                    <iframe width="700" height="400" src="{{asset('https://www.youtube.com/embed/'.$actualite->link)}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    @else
                     <div class="article-carousel owl-carousel owl-theme">
                         @foreach ($actualite->images as $img)
                             <div class="item">
@@ -91,13 +93,11 @@
                             </div>
                         @endforeach
                     </div>
+                   @endif
 
 
                     <ul>
-                        <li>
-                            <i class="icofont-user-alt-3"></i>
-                            <a href="javascript:void(0)">Administrateur</a>
-                        </li>
+
                         <li>
                             <i class="icofont-calendar"></i>
                            {{$actualite->date}}

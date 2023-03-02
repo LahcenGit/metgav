@@ -22,9 +22,11 @@ class ActualiteController extends Controller
         $actualite->description = $request->description;
         $actualite->date = $request->date;
         $actualite->slug = str::slug($request->title);
+        $actualite->link = $request->link;
         $actualite->save();
         $hasFile = $request->hasFile('photo');
         $hasFileTwo = $request->hasFile('photos');
+
         if($hasFile){
                 $destination = 'public/images/actualites';
                 $path = $request->file('photo')->store($destination);

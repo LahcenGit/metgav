@@ -46,10 +46,16 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
+                                        <label>lien :</label>
+                                        <input type="text" class="form-control input-default " name="link" placeholder="Titre" >
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6">
                                         <label>Image principale * :</label>
                                         <div class="basic-form custom_file_input">
                                             <div class="input-group mb-3">
-                                                <input type="file" class="image" multiple name="photo" accept="image/*" required>
+                                                <input type="file" class="image" multiple name="photo" accept="image/*" >
                                             </div>
                                         </div>
                                     </div>
@@ -59,7 +65,7 @@
                                         <label>Photos* :</label>
                                         <div class="basic-form custom_file_input">
                                             <div class="input-group mb-3">
-                                                <input type="file" class="image" multiple name="photos[]" accept="image/*" required multiple>
+                                                <input type="file" class="image" multiple name="photos[]" accept="image/*"  multiple>
                                             </div>
                                         </div>
                                     </div>
