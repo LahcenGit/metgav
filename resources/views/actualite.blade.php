@@ -1,10 +1,68 @@
 @extends('layouts.front')
 @section('content')
+<style>
+.owl-carousel  {
+    position: relative;
+}
+.owl-carousel .owl-nav {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 20px;
+  background-color: #035479;
+    width: 2rem;
+    height: 2rem;
+    color: #ffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev {
+  position: relative;
+  left: -5px;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  position: relative;
+  right: -5px;
+}
+
+.owl-carousel .owl-item.fadeOut {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.owl-carousel .owl-item.fadeIn {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.overflow-section{
+    line-height: 1.5 !important;
+    height: 4.5em !important;
+    overflow: hidden !important;
+}
+
+</style>
 
 <!--=== Start Page Banner Section ===-->
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
-        <div class="page-banner-content">
+        <div class="page-banner-content" style="max-width: 800px;">
             <h2>{{$actualite->title}}</h2>
             <ul>
                 <li>

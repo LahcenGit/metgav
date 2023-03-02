@@ -1,6 +1,66 @@
 @extends('layouts.front')
 @section('content')
 
+<style>
+
+    .owl-carousel  {
+        position: relative;
+    }
+    .owl-carousel .owl-nav {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+      font-size: 20px;
+      background-color: #035479;
+        width: 2rem;
+        height: 2rem;
+        color: #ffff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover,
+    .owl-carousel .owl-nav button.owl-next:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    
+    
+    .owl-carousel .owl-nav button.owl-prev {
+      position: relative;
+      left: -5px;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next {
+      position: relative;
+      right: -5px;
+    }
+    
+    .owl-carousel .owl-item.fadeOut {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    
+    .owl-carousel .owl-item.fadeIn {
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+    
+    .overflow-section{
+        line-height: 1.5 !important;
+        height: 4.5em !important;
+        overflow: hidden !important;
+    }
+    
+    </style>
+
 <!--=== Start Page Banner Section ===-->
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
@@ -36,12 +96,7 @@
                     </div>
 
 
-                    <ul>
-                        <li>
-                            <i class="icofont-user-alt-3"></i>
-                            <a href="javascript:void(0)">Administrateur</a>
-                        </li>
-                    </ul>
+              
                     <p>Machine de découpe au plasma EPL 3 AXIS XPR La machine de découpe au plasma continue d’offrir des solutions larges et flexibles avec ses avantages en termes de coûts d’investissement et d’exploitation, étant adaptée aux lignes de production et à l’automatisation, une qualité de découpe plus précise. La série EPL sera le centre de profit de votre atelier grâce à ses coûts d’entretien et de pièces consommables minimes et au fait qu’elle ne perdra pas sa précision pendant de longues années. ÉQUIPEMENT STANDARD – Hypertherm EDGE® Pro CNC – * 15 » LCD Sanayi Tipi Dokunmatik Ekran – * Ecran tactile LCD 15 » de type industriel – * Panneau de commande Hypertherm – * Entrée et sortie du module de sécurité – * Système de communication Hypernet – * Interface de connexion à distance – * Interface Phoenix –
                         * Jauges métriques et en pouces. – Source de plasma HyPerformance® HPR130XD – * Console manuelle de gaz Hypertherm – * Marquage au plasma – Arc Glide™ Système de contrôle automatique de la hauteur THC – * Système de communication Hypernet – * Module d’interface entrée-sortie de sécurité – * Capteur de buse – Capteur de collision – * Course standard de 220 mm – * Pointeur de lazer – Logiciel Cad/Cam TurboNest – 3 Axes (X,Y,Z) – * 3 pièces Mitsubishi AC servo moteur et driver – * Boîte de vitesses Neugart à 3 pièces de type planétaire – * Rails linéaires de haute précision – * Une crémaillère silencieuse Atlanta Helis de haute précision – * Plateau de câbles silencieux de la marque X,Y, Z Axis Igus – Table de coupe avec système pneumatique – Système de panneau de contrôle mobile – 2 Boutons d’urgence – 6 Arrêts mécaniques.
                     </p>

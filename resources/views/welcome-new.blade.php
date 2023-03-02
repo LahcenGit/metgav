@@ -74,7 +74,7 @@
                         <h1 class="wow fadeInUp delay-0-2s">METGAV INDUSTRY ,</h1>
                         <p class="wow fadeInUp delay-0-4s"> Usine de Galvanisation à Chaud & Transformation Métallique</p>
             
-                        <a href="#" class="main-btn wow fadeInUp delay-0-8s">
+                        <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                             <span>
                                 En savoir plus
                                 <i class="icofont-arrow-right"></i>
@@ -95,7 +95,7 @@
                         <h1 class="wow fadeInUp delay-0-2s">Infrastructure moderne  ,</h1>
                         <p class="wow fadeInUp delay-0-4s">Pour assurer une production efficace et un service de qualité</p>
             
-                        <a href="#" class="main-btn wow fadeInUp delay-0-8s">
+                        <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                             <span>
                                 En savoir plus
                                 <i class="icofont-arrow-right"></i>
@@ -115,7 +115,7 @@
                         <h1 class="wow fadeInUp delay-0-2s">Engagement qualité</h1>
                         <p class="wow fadeInUp delay-0-4s">pour garantir une collaboration fructueuse avec nos clients</p>
             
-                        <a href="#" class="main-btn wow fadeInUp delay-0-8s">
+                        <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                             <span>
                                 En savoir plus
                                 <i class="icofont-arrow-right"></i>
@@ -135,7 +135,7 @@
                         <h1 class="wow fadeInUp delay-0-2s">Des machines de pointe,</h1>
                         <p class="wow fadeInUp delay-0-4s">pour garantir une finition de haute qualité</p>
             
-                        <a href="#" class="main-btn wow fadeInUp delay-0-8s">
+                        <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                             <span>
                                 En savoir plus
                                 <i class="icofont-arrow-right"></i>
@@ -216,26 +216,27 @@
                 <div class="about-content ms-15 wow fadeInRight delay-0-2s">
                     <span class="up-title">un savoir-faire inégalé</span>
                     <h2>METGAV INDUSTRY</h2>
-                    <p>Une entreprise qui active dans le domaine de la construction métallique et du traitement de surfaces par galvanisation à chaud, qui se veut innovante et inscrit sa démarche dans la durée et dont l’objectif principal demeure la satisfaction pleine et totale de ses clients afin de leur fournir un gain de compétitivité.</p>
+                    <p class="mt-2">
+                        <b>Depuis 2014,</b> Metgav s'est engagée à fournir des produits de qualité supérieure à nos clients en Algérie et dans d'autres pays. Nous sommes spécialisés dans la production de produits métalliques tels que des profilés en acier, des tubes en acier, des poutrelles en acier et des produits de galvanisation à chaud.
+                       <p> Notre usine est équipée des technologies les plus avancées pour répondre aux normes internationales de qualité et de sécurité. Nous sommes fiers de notre expertise technique et de notre capacité à répondre aux demandes des clients, quels que soient leurs besoins.</p>
+                      </p>
                     <ul>
                         <li>
                             <i class="icofont-hand-drawn-right"></i>
-                            Adopter une approche systématique de la gestion de la qualité en adéquation avec la
+                            METGAV  adopte une approche systématique de la gestion de la qualité en adéquation avec la
                             norme ISO 9001-2015. 
                         </li>
                         <li>
                             <i class="icofont-hand-drawn-right"></i>
-                            METGAV Industry propose des ateliers de dernière génération
+                            METGAV propose des ateliers de dernière génération
                         </li>
                         <li>
                             <i class="icofont-hand-drawn-right"></i>
-                           
-                                METGAV Industry membre de l'Association Galvazinc depuis janvier 2019
-
+                                METGAV membre de l'Association Galvazinc depuis janvier 2019
                         </li>
                     </ul>
 
-                    <a href="#" class="main-btn">
+                    <a href="{{asset('/a-propos-metgav')}}" class="main-btn">
                         <span>
                             En savoir plus
                             <i class="icofont-arrow-right"></i>
@@ -260,11 +261,11 @@
             <div class="main-services-item wow fadeInUp delay-0-2s">
                 <i class="icofont-fire-burn"></i>
                 <h3>
-                    <a href="#">Galvanisation à chaud</a>
+                    <a href="{{asset('/galvanisation-a-chaud')}}">Galvanisation à chaud</a>
                 </h3>
                 <p>La galvanisation est devenue à la fois un slogan et une exigence pour le secteur métallurgique vu son importance en ...</p>
                     
-                <a href="#" class="main-detail-btn">
+                <a href="{{asset('/galvanisation-a-chaud')}}" class="main-detail-btn">
                     <i class="icofont-plus"></i>
                     Lire plus
                 </a>
@@ -274,11 +275,11 @@
             <div class="main-services-item wow fadeInUp delay-0-4s ">
                 <i class="icofont-building"></i>
                 <h3>
-                    <a href="#">Construction métallique</a>
+                    <a href="{{asset('/transformation-metalique')}}">Transformation métallique</a>
                 </h3>
-                <p>pécialisée dans l’étude, la conception et la fabrication, METGAV dispose d’un atelier de transformation métallique...</p>
+                <p>Spécialisée dans l’étude, la conception et la fabrication, METGAV dispose d’un atelier de transformation métallique...</p>
                     
-                <a href="#" class="main-detail-btn">
+                <a href="{{asset('/transformation-metalique')}}" class="main-detail-btn">
                     <i class="icofont-plus"></i>
                     Lire plus
                 </a>
@@ -293,7 +294,7 @@
 <!--=== End Services Section ===-->
 
 <!--=== Start Projects Section ===-->
-<section class="projects-section pt-100 pb-70">
+{{--<section class="projects-section pt-100 pb-70">
     <div class="container">
         <div class="main-section-title-wrap">
             <div class="row">
@@ -364,6 +365,90 @@
             
         </div>
     </div>
+</section>--}}
+<section class="projects-section pt-100 pb-70">
+    <div class="container">
+        <div class="main-section-title-wrap">
+            <div class="row">
+                <div class="col-lg-6 wow fadeInLeft delay-0-2s">
+                    <div class="main-section-title left-title">
+                        <span class="up-title">Nos invesstissements</span>
+                        <h2>Equipements de haute technologie</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight delay-0-2s">
+                    <p>Nous disposons d'une vaste gamme d'équipements de haute technologie, y compris des machines de découpe, de planage, de pliage et de soudage, ainsi que des équipements spécialisés pour notre atelier de galvanisation à chaud. Nous utilisons des technologies avancées pour surveiller et contrôler la qualité</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="main-projects-item wow fadeInUp delay-0-2s">
+                    <a href="{{asset('/ermaksan-cutting-machine')}}" class="projects-img">
+                        <img src="{{asset('front/assets/images/machines/ERMAKSAN.jpg')}}" alt="Image">
+                    </a>
+
+                    <div class="project-content hover-style">
+                        <div class="inner-border">
+                            <h3>
+                                <a href="{{asset('/ermaksan-cutting-machine')}}">ERMAKSAN CUTTING MACHINE </a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="main-projects-item wow fadeInUp delay-0-4s">
+                    <a href="{{asset('/presse-plieuse-hydraulique-speed-bend-pro')}}" class="projects-img">
+                        <img src="{{asset('front/assets/images/machines/SPEED-BEND.jpg')}}" alt="Image">
+                    </a>
+
+                    <div class="project-content hover-style">
+                        <div class="inner-border">
+                            <h3>
+                                <a href="{{asset('/presse-plieuse-hydraulique-speed-bend-pro')}}">SPEED-BEND PRO Presse plieuse</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="main-projects-item wow fadeInUp delay-0-6s">
+                    <a href="{{asset('/opw-750-la-soudeuse-automatique')}}" class="projects-img">
+                        <img src="{{asset('front/assets/images/machines/OPW-750.jpg')}}" alt="Image">
+                    </a>
+
+                    <div class="project-content hover-style">
+                        <div class="inner-border">
+                            <h3>
+                                <a href="{{asset('/opw-750-la-soudeuse-automatique')}}">OPW 750 soudeuse automatique</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="main-projects-item wow fadeInUp delay-0-6s">
+                    <a href="{{asset('/vernet-behringer-scie-a-ruban-hbp-series')}}" class="projects-img">
+                        <img src="{{asset('front/assets/images/machines/HBP.jpg')}}" alt="Image">
+                    </a>
+                    <div class="project-content hover-style">
+                        <div class="inner-border">
+                            <h3>
+                                <a href="{{asset('/vernet-behringer-scie-a-ruban-hbp-series')}}">Vernet Behringer Scie à ruban</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
 </section>
 <!--=== End Projects Section ===-->
 
@@ -375,7 +460,7 @@
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title left-title">
                         <span class="up-title">Nos produits</span>
-                        <h2>Découvrez notre gamme complète de produits de haute qualité</h2>
+                        <h2>Découvrez nos produits de haute qualité</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
@@ -385,79 +470,99 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
-                <div class="main-team-item fadeInUp delay-0-2s">
-                    <a href="#" class="team-img">
-                        <img src="{{asset('front/assets/images/team/tean-1.jpg')}}" alt="Image">
-                    </a>
-                    
-                    <div class="team-content hover-style wow">
-                        <div class="inner-border">
-                            <h3>
-                                <a href="#">Pylônes</a>
-                            </h3>
-                            <span>BS, Tubulaires, Armements</span>
 
-                            <div class="team-social-link">
-                                <button class="controller">
-                                    <i class="icofont-arrow-right"></i>
-                                </button>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="main-team-item wow fadeInUp delay-0-4s">
-                    <a href="#" class="team-img">
-                        <img src="{{asset('front/assets/images/team/tean-2.jpg')}}" alt="Image">
-                    </a>
-                    
-                    <div class="team-content hover-style">
-                        <div class="inner-border">
-                            <h3>
-                                <a href="#">Charpantes métaliques</a>
-                            </h3>
-                            <span>des charpantes métaliques sur mesure </span>
-
-                            <div class="team-social-link">
-                                <button class="controller">
-                                    <i class="icofont-arrow-right"></i>
-                                </button>
-
-                               
+            <div class="product-carousel owl-carousel ">
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/supports-bs')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/bs-exemple.jpg')}}" alt="Image">
+                            </a>
+                            
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/supports-bs')}}">Supports BS</a>
+                                    </h3>
+                                    <span>conçues pour supporter les lignes électriques <br> à haute tension...</span>
+        
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+        
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="main-team-item hover-style wow fadeInUp delay-0-6s">
-                    <a href="#" class="team-img">
-                        <img src="{{asset('front/assets/images/team/tean-3.jpg')}}" alt="Image">
-                    </a>
-                    
-                    <div class="team-content hover-style">
-                        <div class="inner-border">
-                            <h3>
-                                <a href="#">Divers</a>
-                            </h3>
-                            <span>Supports photovoltaïque, Hangar ...
-                                </span>
-
-                            <div class="team-social-link">
-                                <button class="controller">
-                                    <i class="icofont-arrow-right"></i>
-                                </button>
-
-                                
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/supports-tubulaire')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/tub-exemple.jpg')}}" alt="Image">
+                            </a>
+                            
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/supports-tubulaire')}}">Supports tubulaires</a>
+                                    </h3>
+                                    <span>Composants essentiels pour la distribution  <br> d'énergie électrique...</span>
+        
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+        
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/armements-electriques')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/armement-exemple.jpg')}}" alt="Image">
+                            </a>
+                            
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/armements-electriques')}}">Armements électriques</a>
+                                    </h3>
+                                    <span>Fabriqués avec précision à partir de matériaux <br> de haute qualité...</span>
+        
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/charpente-metallique')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/cm-exemple.jpg')}}" alt="Image">
+                            </a>
+                            
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/charpente-metallique')}}">Charpentes Métalliques</a>
+                                    </h3>
+                                    <span>Fabriquées sur mesure pour répondre aux <br> spécifications...</span>
+        
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -527,27 +632,17 @@
                     <h2>Plongez dans l'univers de notre usine </h2>
                     <p>Observez la structure de notre usine et les processus de production en action pour mieux comprendre notre savoir-faire en matière...</p>
                         
-                    <button class="main-btn">
+                    <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                         <span>
                             En savoir plus
                             <i class="icofont-arrow-right"></i>
                         </span>
-                    </button>
+                    </a>
                 </div>
             </div>
 
             <div class="col-lg-6">
-                <div class="text-center wow fadeInRight delay-0-2s">
-                    <div class="video-btn">
-                        <a href="https://www.youtube.com/watch?v=Rhrjh6JXOHo" class="popup-youtube">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <i class="icofont-play-alt-2"></i>
-                        </a>
-                    </div>
-                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rhrjh6JXOHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -566,7 +661,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                    <p>Nous partageons notre expertise et notre expérience à travers une variété de sujets pertinents pour vous aider à mieux comprendre notre métier et à rester informé sur les dernières avancées de l'industrie. Consultez notre sélection d'articles pour rester à la pointe de l'actualité dans notre domaine.</p>
+                    <p style="line-height: 1.5">Nous partageons notre expertise et notre expérience à travers une variété de sujets pertinents pour vous aider à mieux comprendre notre métier et à rester informé sur les dernières avancées de l'industrie. Consultez notre sélection d'articles pour rester à la pointe de l'actualité dans notre domaine.</p>
                 </div>
             </div>
         </div>

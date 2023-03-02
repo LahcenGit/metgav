@@ -1,5 +1,64 @@
 @extends('layouts.front')
 @section('content')
+<style>
+
+    .owl-carousel  {
+        position: relative;
+    }
+    .owl-carousel .owl-nav {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+      font-size: 20px;
+      background-color: #035479;
+        width: 2rem;
+        height: 2rem;
+        color: #ffff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    .owl-carousel .owl-nav button.owl-prev:hover,
+    .owl-carousel .owl-nav button.owl-next:hover {
+      opacity: 1;
+      transition: 0.5s;
+    }
+    
+    
+    .owl-carousel .owl-nav button.owl-prev {
+      position: relative;
+      left: -5px;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next {
+      position: relative;
+      right: -5px;
+    }
+    
+    .owl-carousel .owl-item.fadeOut {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+    
+    .owl-carousel .owl-item.fadeIn {
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+    }
+    
+    .overflow-section{
+        line-height: 1.5 !important;
+        height: 4.5em !important;
+        overflow: hidden !important;
+    }
+    
+    </style>
 
 <!--=== Start Page Banner Section ===-->
 <section class="page-banner-section" style="background-color: #035479; ">
@@ -39,12 +98,6 @@
                     </div>
 
 
-                    <ul>
-                        <li>
-                            <i class="icofont-user-alt-3"></i>
-                            <a href="javascript:void(0)">Administrateur</a>
-                        </li>
-                    </ul>
                     <p>La machine automatique élevée de soudure de Polonais de mât est utilisée pour le poteau de poteau / puissance élevé de poteau de mât assemblent la soudure. Avec le contrôleur de PLC, la machine peut tenir automatiquement le corps de poteau (le corps de poteau peut être 2 ou plusieurs morceaux soudés par plat) et souder automatiquement. Le taux de slops de pôle peut être programmable selon la conception. Pour le soudage de la plaque d’une grande épaisseur de poteau de poteau / poteau de puissance élevé, le soudage de submersion est appliqué.
                     </p>
 

@@ -120,21 +120,21 @@
 
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav m-auto">
+
 							<li class="nav-item">
 								<a href="{{asset('/')}}" class="nav-link  active">Accueil</a>
 							</li>
-
 
                             <li class="nav-item">
 								<a href="#" class="nav-link dropdown-toggles">Services</a>
 
 								<ul class="sub-menu">
 									<li class="nav-item">
-										<a href="#" class="nav-link">Galvanisation à chaud </a>
+										<a href="{{asset('/galvanisation-a-chaud')}}" class="nav-link">Galvanisation à chaud </a>
 									</li>
 
 									<li class="nav-item">
-										<a href="#" class="nav-link">Construction métallique</a>
+										<a href="{{asset('/transformation-metalique')}}" class="nav-link">Transformation métallique</a>
 									</li>
 								</ul>
 							</li>
@@ -145,17 +145,16 @@
 								<ul class="sub-menu">
                                    <li class="nav-item">
                                         <a href="#" class="nav-link dropdown-toggles">Pylônes</a>
-
                                         <ul class="sub-menu-sub">
                                             <li class="nav-item">
-                                                <a href="{{asset('/BS')}}" class="nav-link">BS</a>
+                                                <a href="{{asset('/supports-bs')}}" class="nav-link">Supports BS</a>
                                             </li>
 
                                             <li class="nav-item">
-                                                <a href="{{asset('/tubulaire')}}" class="nav-link">Tubulaire</a>
+                                                <a href="{{asset('/supports-tubulaire')}}" class="nav-link">Supports Tubulaires</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="{{asset('/armement')}}" class="nav-link">Armement</a>
+                                                <a href="{{asset('/armements-electriques')}}" class="nav-link">Armements Electriques</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -169,20 +168,20 @@
 							</li>
 
                             <li class="nav-item">
-								<a href="#" class="nav-link">A propos</a>
+								<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
 							</li>
 
                             <li class="nav-item">
-								<a href="#" class="nav-link">Tlemcen</a>
+								<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
 							</li>
 
 							<li class="nav-item">
-								<a href="#" class="nav-link">Contact</a>
+								<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
 							</li>
 						</ul>
 
 						<div class="menu-right-options">
-							<a href="#" class="main-btn">
+							<a href="{{asset('/demande-devis')}}" class="main-btn">
 								<span>
 									Besoin d'un devis
 									<i class="icofont-arrow-right"></i>
@@ -199,7 +198,7 @@
 		<aside class="menu-slide-bar">
 			<div class="close-mobile-menu">
 				<div class="mobile-logo">
-					<a href="#" class="mobile-logo">
+					<a href="{{asset('/')}}" class="mobile-logo">
 						<img src="{{asset('front/assets/images/logo.png')}}" alt="Logo">
 					</a>
 				</div>
@@ -222,54 +221,54 @@
 
                         <ul class="sub-menu">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Galvanisation à chaud </a>
-                            </li>
+								<a href="{{asset('/galvanisation-a-chaud')}}" class="nav-link">Galvanisation à chaud </a>
+							</li>
 
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Construction métallique</a>
-                            </li>
+							<li class="nav-item">
+								<a href="{{asset('/transformation-metalique')}}" class="nav-link">Transformation métallique</a>
+							</li>
                         </ul>
                     </li>
 
                     <li class="nav-item has-children">
                         <a href="#" class="nav-link dropdown-toggles">Produits</a>
 
-                        <ul class="sub-menu">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">Armement</a>
-                            </li>
+						<ul class="sub-menu">
+							<li class="nav-item">
+								 <a href="#" class="nav-link dropdown-toggles">Pylônes</a>
+								 <ul class="sub-menu-sub">
+									 <li class="nav-item">
+										 <a href="{{asset('/supports-bs')}}" class="nav-link">Supports BS</a>
+									 </li>
 
-                            <li class="nav-item">
-                                <a href="#" class="nav-link dropdown-toggles">Pylônes</a>
-
-                                <ul class="sub-menu-sub">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">polygonaux</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">BS</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+									 <li class="nav-item">
+										 <a href="{{asset('/supports-tubulaire')}}" class="nav-link">Supports Tubulaires</a>
+									 </li>
+									 <li class="nav-item">
+										 <a href="{{asset('/armements-electriques')}}" class="nav-link">Armements Electriques</a>
+									 </li>
+								 </ul>
+							 </li>
+							 <li class="nav-item">
+								 <a href="{{asset('/charpente-metallique')}}" class="nav-link">Charpente métallique</a>
+							 </li>
+							 <li class="nav-item">
+								 <a href="#" class="nav-link">Divers</a>
+							 </li>
+						 </ul>
                     </li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">A propos</a>
-                    </li>
+					<li class="nav-item">
+						<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
+					</li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Tlemcen</a>
-                    </li>
+					<li class="nav-item">
+						<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
+					</li>
 
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-
-
-
-
+					<li class="nav-item">
+						<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
+					</li>
 
 
 				</ul>
@@ -404,7 +403,7 @@
 				loop: true,
 				autoplay: true,
 				autoplayTimeout: 4000,
-				autoplayHoverPause: false,
+				autoplayHoverPause: true,
 				items: 1,
 				nav:true,
 				smartSpeed: 2000,
@@ -419,6 +418,7 @@
 				autoplayTimeout: 3000,
 				smartSpeed: 2000,
 				nav:true,
+				autoplayHoverPause: true,
 				responsive:{
 					0:{
 						items:1
@@ -431,7 +431,20 @@
 					}
 				}
 			});
+
+			$('.product-carousel').owlCarousel({
+				loop:true,
+				margin:20,
+				autoplay: true,
+				dots:true,
+				autoplayTimeout: 3000,
+				smartSpeed: 2000,
+				nav:true,
+				autoplayHoverPause: true,
+			
+			});
 		  </script>
+
 
     </body>
 </html>

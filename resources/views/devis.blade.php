@@ -5,13 +5,13 @@
 <section class="page-banner-section bg-7"style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Demande un devis</h2>
+            <h2>Demander un devis</h2>
             <ul>
                 <li>
                     <a href="index.html">Accueil</a>
                 </li>
                 <li>
-                    Demande un devis
+                    Demander un devis
                 </li>
             </ul>
         </div>
@@ -26,7 +26,8 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="contact-form ptb-100">
-                        <h2>We Are Always Ready To Solution Your All Problem.</h2>
+                        <h2>Demander un devis facilement !</h2>
+                        <p>Remplissez le formulaire ci-dessous pour recevoir un devis personnalisé pour vos besoins en galvanisation à chaud et transformation métallique.</p>
 
                         <form class="form-contact">
                             <div class="row d-flex justify-content-center">
@@ -53,6 +54,7 @@
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <select  class="form-control" name="product">
+                                         <option value="select">Selectionner un produit...</option>
                                          <option value="Bs">Bs</option>
                                          <option value="Tubulaires">Tubulaires</option>
                                          <option value="Armement">Armement</option>
@@ -62,7 +64,7 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <textarea cols="30" rows="10" class="form-control" placeholder="Déscription"></textarea>
+                                        <textarea cols="30" rows="10" class="form-control" placeholder="Plus de détails..."></textarea>
                                     </div>
                                 </div>
                                 <div class="col-12">
