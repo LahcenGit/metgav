@@ -156,7 +156,7 @@
             <div class=" row project-details-cntent ptb-50">
                 <div class="col-md-8">
                     <p class="mt-2">
-                        <b>Depuis 2014,</b> Metgav s'est engagée à fournir des produits de qualité supérieure à nos clients en Algérie et dans d'autres pays. Nous sommes spécialisés dans la production de produits métalliques tels que des profilés en acier, des tubes en acier, des poutrelles en acier et des produits de galvanisation à chaud.
+                        <b>Depuis 2019,</b> Metgav s'est engagée à fournir des produits de qualité supérieure à nos clients en Algérie et dans d'autres pays. Nous sommes spécialisés dans la production de produits métalliques tels que des profilés en acier, des tubes en acier, des poutrelles en acier et des produits de galvanisation à chaud.
                        <p> Notre usine est équipée des technologies les plus avancées pour répondre aux normes internationales de qualité et de sécurité. Nous sommes fiers de notre expertise technique et de notre capacité à répondre aux demandes des clients, quels que soient leurs besoins.</p>
                       </p>
                 </div>
