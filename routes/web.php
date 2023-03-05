@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ActualiteController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,11 +41,11 @@ Route::get('/article', function () {
 
 Route::get('/galvanisation-a-chaud', function () {
     return view('galvanisation');
-}); 
+});
 
 Route::get('/transformation-metalique', function () {
     return view('transformation-metal');
-}); 
+});
 
 
 Route::get('/ermaksan-cutting-machine', function () {
@@ -73,7 +74,7 @@ Route::get('/a-propos-metgav', function () {
 });
 
 
-
+Route::resource('/contact',MailController::class);
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
@@ -82,3 +83,4 @@ Route::get('/article/{slug}',[App\Http\Controllers\FrontController::class, 'deta
 Route::get('/actualite/{slug}',[App\Http\Controllers\FrontController::class, 'detailActualite']);
 Route::get('/actualites',[App\Http\Controllers\FrontController::class, 'actualites']);
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
+

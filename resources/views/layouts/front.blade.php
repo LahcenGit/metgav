@@ -18,6 +18,8 @@
 
 		<!--=== Favicon ===-->
 		<link rel="icon" type="image/png" href="{{asset('front/assets/images/favicon.png')}}">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+
 		<!--=== Title ===-->
 		<title>METGAV INDUSTRY, Usine de Galvanisation à Chaud & Transformation Métallique</title>
     </head>
@@ -381,7 +383,7 @@
 			</div>
 		</div>
 
-		
+
 		<!--=== End Copy Right Section ===-->
 
         <!--=== JS Link ===-->
@@ -396,7 +398,7 @@
         <script src="{{asset('front/assets/js/countdown.min.js')}}"></script>
 		<script src="{{asset('front/assets/js/main.js')}}"></script>
 
-		  
+
 		<script>
 			$(document).ready(function() {
 			  $('.slider-carousel').owlCarousel({
@@ -441,10 +443,10 @@
 				smartSpeed: 2000,
 				nav:true,
 				autoplayHoverPause: true,
-			
+
 			});
 		  </script>
-
+@stack('contact-scripts')
 
     </body>
 </html>
