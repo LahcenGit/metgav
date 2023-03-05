@@ -111,7 +111,7 @@
 
                         <div class="experience">
                             <div class="experience-bg">
-                                <span>Depuis 2014</span>
+                                <span>Depuis 2019</span>
                             </div>
                         </div>
                     </div>

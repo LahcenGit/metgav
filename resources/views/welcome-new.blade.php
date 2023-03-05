@@ -207,7 +207,7 @@
 
                     <div class="experience">
                         <div class="experience-bg">
-                            <span>Depuis 2014</span>
+                            <span>Depuis 2019</span>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
                     <span class="up-title">un savoir-faire inégalé</span>
                     <h2>METGAV INDUSTRY</h2>
                     <p class="mt-2">
-                        <b>Depuis 2014,</b> Metgav s'est engagée à fournir des produits de qualité supérieure à nos clients en Algérie et dans d'autres pays. Nous sommes spécialisés dans la production de produits métalliques tels que des profilés en acier, des tubes en acier, des poutrelles en acier et des produits de galvanisation à chaud.
+                        <b>Depuis 2019,</b> Metgav s'est engagée à fournir des produits de qualité supérieure à nos clients en Algérie et dans d'autres pays. Nous sommes spécialisés dans la production de produits métalliques tels que des profilés en acier, des tubes en acier, des poutrelles en acier et des produits de galvanisation à chaud.
                        <p> Notre usine est équipée des technologies les plus avancées pour répondre aux normes internationales de qualité et de sécurité. Nous sommes fiers de notre expertise technique et de notre capacité à répondre aux demandes des clients, quels que soient leurs besoins.</p>
                       </p>
                     <ul>
@@ -656,12 +656,12 @@
             <div class="row">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title left-title">
-                        <span class="up-title">Derniers Articles</span>
-                        <h2>Découvrir toutes nos actualités. </h2>
+                        <span class="up-title">section Articles</span>
+                        <h2>Une variété d'articles pertinents.</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                    <p style="line-height: 1.5">Nous partageons notre expertise et notre expérience à travers une variété de sujets pertinents pour vous aider à mieux comprendre notre métier et à rester informé sur les dernières avancées de l'industrie. Consultez notre sélection d'articles pour rester à la pointe de l'actualité dans notre domaine.</p>
+                    <p style="line-height: 1.5">Dans cette section, vous trouverez une variété d'articles pertinents et informatifs sur la galvanisation à chaud et la transformation métallique. Nous partageons notre expertise et nos connaissances pour vous aider à mieux comprendre les avantages de la galvanisation à chaud et ses applications dans différents secteurs.</p>
                 </div>
             </div>
         </div>
