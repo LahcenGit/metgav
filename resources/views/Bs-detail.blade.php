@@ -90,10 +90,16 @@
                             <img src="{{ asset('front/assets/images/products/bs/bs-1.jpg') }}" alt="Image">
                         </div>
                         <div class="item">
+                            <img src="{{ asset('front/assets/images/products/bs/bs-5.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
                             <img src="{{ asset('front/assets/images/products/bs/bs-2.jpg') }}" alt="Image">
                         </div>
                         <div class="item">
                             <img src="{{ asset('front/assets/images/products/bs/bs-3.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/bs/bs-4.jpg') }}" alt="Image">
                         </div>
                 </div>
 

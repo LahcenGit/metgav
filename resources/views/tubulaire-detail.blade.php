@@ -98,6 +98,15 @@
                         <div class="item">
                             <img src="{{ asset('front/assets/images/products/tub/t3.jpg') }}" alt="Image">
                         </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/tub/t4.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/tub/t5.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/tub/t6.jpg') }}" alt="Image">
+                        </div>
                   
                 </div>
 

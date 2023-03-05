@@ -105,9 +105,9 @@
 
 					<div class="for-mobile-options">
 						<div class="menu-right-options d-flex align-items-center">
-							<a href="contact.html" class="main-btn">
+							<a href="{{asset('/demande-devis')}}" class="main-btn">
 								<span>
-									Contact Now
+									 Besoin d'un devis
 									<i class="icofont-arrow-right"></i>
 								</span>
 							</a>
