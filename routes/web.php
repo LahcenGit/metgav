@@ -62,6 +62,7 @@ Route::get('/opw-750-la-soudeuse-automatique', function () {
 Route::get('/vernet-behringer-scie-a-ruban-hbp-series', function () {
     return view('investissement.vernet-behringer');
 });
+
 Route::get('/demande-devis', function () {
     return view('devis');
 });
@@ -73,8 +74,14 @@ Route::get('/a-propos-metgav', function () {
     return view('a-propos');
 });
 
+Route::get('/success-send', function () {
+    return view('mail.success');
+});
 
-Route::resource('/contact',MailController::class);
+
+Route::post('/demande-devis/send',[App\Http\Controllers\MailController::class, 'sendEmail']);
+Route::get('/demande-devis/send',[App\Http\Controllers\MailController::class, 'index']);
+
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
 Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');

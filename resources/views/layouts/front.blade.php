@@ -92,6 +92,8 @@
 								</li>
 
 							</ul>
+
+						</div>
 						</div>
 					</div>
 				</div>
@@ -272,8 +274,18 @@
 						<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
 					</li>
 
+					<a href="{{asset('/demande-devis')}}" class="main-btn">
+						<span>
+							Besoin d'un devis
+							<i class="icofont-arrow-right"></i>
+						</span>
+					</a>
+
 
 				</ul>
+
+		
+
 			</nav>
 		</aside>
 		<div class="body-overlay"></div>
@@ -443,9 +455,21 @@
 				smartSpeed: 2000,
 				nav:true,
 				autoplayHoverPause: true,
+				items: 3,
+				responsive: {
+					0: {
+						items: 2
+					},
+					768: {
+						items: 2
+					},
+					992: {
+						items: 3
+					}
+				}
 
-			});
-		  </script>
+		    });
+	    </script>
 @stack('contact-scripts')
 
     </body>

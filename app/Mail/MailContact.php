@@ -12,15 +12,15 @@ use Illuminate\Queue\SerializesModels;
 class MailContact extends Mailable
 {
     use Queueable, SerializesModels;
-    public $attachment;
+    public $attachment ;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($attachment)
+    public function __construct($attachment )
     {
-        $this->attachment = $attachment;
+        $this->attachment  = $attachment ;
     }
 
     /**
@@ -51,13 +51,15 @@ class MailContact extends Mailable
     {
         return [];
     }
+
+
     public function build()
     {
         $subject = "Message depuis Metgav";
-        return $this
-        ->subject( $subject)
-        ->attach($this->attachment)
-        ->view('mail.contact');
 
+        return $this
+        ->subject($subject)
+        ->attach($this->attachment )
+        ->view('mail.contact');
     }
 }

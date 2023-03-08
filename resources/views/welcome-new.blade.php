@@ -157,12 +157,12 @@
 <section class="features-section pt-100 pb-70">
     <div class="container">
         <div class="row d-flex justify-content-between">
-            <div class="col-lg-3 col-sm-6 ">
-                <div class="main-features-item wow fadeInUp delay-0-2s">
-                    <i class="main-icon icofont-workers-group"></i> 
-                    <i class="shape-icon icofont-workers-group"></i>
-                    <h3>Expertise métallurgique</h3>
-                    <p class="lh-sm  mt-2">Un expertise solide en matière de métallurgie pour offrir des produits de haute qualité à nos clients.</p>
+            <div class="col-lg-3 col-sm-6">
+                <div class="main-features-item wow fadeInUp delay-0-6s">
+                    <i class="main-icon icofont-light-bulb"></i>
+                    <i class="shape-icon icofont-light-bulb"></i>
+                    <h3>Technologie de pointe</h3>
+                    <p class="lh-sm  mt-2">Un usine équipé des technologies les plus avancées pour garantir des résultats précis et cohérents.</p>
                 </div>
             </div>
             
@@ -175,12 +175,12 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-sm-6">
-                <div class="main-features-item wow fadeInUp delay-0-6s">
-                    <i class="main-icon icofont-light-bulb"></i>
-                    <i class="shape-icon icofont-light-bulb"></i>
-                    <h3>Technologie de pointe</h3>
-                    <p class="lh-sm  mt-2">Un usine équipé des technologies les plus avancées pour garantir des résultats précis et cohérents.</p>
+            <div class="col-lg-3 col-sm-6 ">
+                <div class="main-features-item wow fadeInUp delay-0-2s">
+                    <i class="main-icon icofont-connection"></i> 
+                    <i class="shape-icon icofont-connection"></i>
+                    <h3>Flexibilité </h3>
+                    <p class="lh-sm  mt-2"> Nous sommes en mesure de répondre aux besoins spécifiques de nos clients grâce à notre flexibilité.</p>
                 </div>
             </div>
 
