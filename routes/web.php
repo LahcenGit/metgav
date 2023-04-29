@@ -91,3 +91,27 @@ Route::get('/actualite/{slug}',[App\Http\Controllers\FrontController::class, 'de
 Route::get('/actualites',[App\Http\Controllers\FrontController::class, 'actualites']);
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 
+//route products
+
+Route::get('/produit-a-la-chaine/Bs', function () {
+    return view('produit-a-la-chaine.Bs');
+});
+
+Route::get('/produit-a-la-chaine/armements-electriques', function () {
+    return view('produit-a-la-chaine.armement');
+});
+Route::get('/produit-a-la-chaine/tubulaire', function () {
+    return view('produit-a-la-chaine.tubulaire');
+});
+Route::get('/produit-a-la-commande/support-haute-tension', function () {
+    return view('produit-a-la-commande.support-haute-tension');
+});
+Route::get('/produit-a-la-commande/support-eclairage-standard', function () {
+    return view('produit-a-la-commande.support-eclairage-standard');
+});
+Route::get('/produit-a-la-commande/support-eclairage-en-lampe-classique', function () {
+    return view('produit-a-la-commande.support-eclairage-en-lampe-classique');
+});
+Route::get('/produit-a-la-commande/support-eclairage-photovoltaique', function () {
+    return view('produit-a-la-commande.support-eclairage-photovoltaique');
+});

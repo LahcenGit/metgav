@@ -13,7 +13,7 @@
       transform: translateX(-50%);
       text-align: center;
     }
-    
+
     .owl-carousel .owl-nav button.owl-prev,
     .owl-carousel .owl-nav button.owl-next {
       font-size: 20px;
@@ -31,34 +31,34 @@
       opacity: 1;
       transition: 0.5s;
     }
-    
-    
+
+
     .owl-carousel .owl-nav button.owl-prev {
       position: relative;
       left: -5px;
     }
-    
+
     .owl-carousel .owl-nav button.owl-next {
       position: relative;
       right: -5px;
     }
-    
+
     .owl-carousel .owl-item.fadeOut {
       opacity: 0;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .owl-carousel .owl-item.fadeIn {
       opacity: 1;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .overflow-section{
         line-height: 1.5 !important;
         height: 4.5em !important;
         overflow: hidden !important;
     }
-    
+
     </style>
 
 <!--=== Start Page Banner Section ===-->
@@ -71,7 +71,7 @@
                     Produit
                 </li>
                 <li>
-                    <a href="#">ARMEMENTS ELECTRIQUES</a> 
+                    <a href="#">ARMEMENTS ELECTRIQUES</a>
                 </li>
             </ul>
         </div>
@@ -101,10 +101,10 @@
                         <div class="item">
                             <img src="{{ asset('front/assets/images/products/armement/a5.jpg') }}" alt="Image">
                         </div>
-                      
+
                 </div>
 
-              
+
             </div>
 
             <div class="col-lg-6">
@@ -120,51 +120,17 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="additional-tab" data-bs-toggle="tab" data-bs-target="#additional" type="button" role="tab" aria-controls="additional" aria-selected="true">Types</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="instuctions-tab" data-bs-toggle="tab" data-bs-target="#instuctions" type="button" role="tab" aria-controls="instuctions" aria-selected="true">Fiches techniques</button>
-                        </li>
-                   
+
+
                     </ul>
 
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
                                 <p>Les armements électriques sont fabriqués avec précision à partir de matériaux de haute qualité, puis traités avec notre processus de galvanisation à chaud pour une protection maximale contre la corrosion. Nos armements électriques sont produits avec une grande attention aux détails et conformément aux normes les plus élevées de qualité et de sécurité, pour garantir une performance optimale et une longue durée de vie.</p>
-                                
+
                             </div>
                         </div>
-
-                        <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                            <div class="product-additional-info">
-                                <div class="table-responsive">
-                                    <table class="table info-table">
-                                        <tbody>
-                                            <tr>
-                                                <td>Types</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="instuctions" role="tabpanel" aria-labelledby="instuctions-tab">
-                            <div class="product-instructions-info">
-                                <ul>
-                                    Cliquez sur le lien pour télécharger la fiche technique : 
-                                    <li class="mt-4">
-                                       <a href="{{asset('fiches-techniques/Armements-metgav.pdf')}}"> Armements-metgav.pdf</a>
-                                    </li>
-                                  
-                                   
-                                </ul>
-                            </div>
-                        </div>
-
-                       
                     </div>
                 </div>
             </div>

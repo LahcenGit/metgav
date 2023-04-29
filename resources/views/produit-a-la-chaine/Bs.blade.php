@@ -13,7 +13,7 @@
       transform: translateX(-50%);
       text-align: center;
     }
-    
+
     .owl-carousel .owl-nav button.owl-prev,
     .owl-carousel .owl-nav button.owl-next {
       font-size: 20px;
@@ -31,34 +31,34 @@
       opacity: 1;
       transition: 0.5s;
     }
-    
-    
+
+
     .owl-carousel .owl-nav button.owl-prev {
       position: relative;
       left: -5px;
     }
-    
+
     .owl-carousel .owl-nav button.owl-next {
       position: relative;
       right: -5px;
     }
-    
+
     .owl-carousel .owl-item.fadeOut {
       opacity: 0;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .owl-carousel .owl-item.fadeIn {
       opacity: 1;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .overflow-section{
         line-height: 1.5 !important;
         height: 4.5em !important;
         overflow: hidden !important;
     }
-    
+
     </style>
 
 <!--=== Start Page Banner Section ===-->
@@ -71,7 +71,7 @@
                     Produit
                 </li>
                 <li>
-                    <a href="#">supports BS</a> 
+                    <a href="#">supports BS</a>
                 </li>
             </ul>
         </div>
@@ -103,7 +103,7 @@
                         </div>
                 </div>
 
-              
+
             </div>
 
             <div class="col-lg-6">
@@ -120,13 +120,7 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
                         </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="additional-tab" data-bs-toggle="tab" data-bs-target="#additional" type="button" role="tab" aria-controls="additional" aria-selected="true">Types</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="instuctions-tab" data-bs-toggle="tab" data-bs-target="#instuctions" type="button" role="tab" aria-controls="instuctions" aria-selected="true">Fiches techniques</button>
-                        </li>
-                   
+
                     </ul>
 
                     <div class="tab-content" id="myTabContent">
@@ -144,54 +138,9 @@
                                 <p>
                                     Nous sommes fiers de fournir des supports BS de haute qualité et fiables qui répondent aux normes britanniques les plus strictes pour garantir la sécurité et la fiabilité des installations électriques. Contactez-nous pour plus d'informations sur nos supports BS et comment nous pouvons répondre à vos besoins de support de lignes électriques.
                                 </p>
-                                
+
                             </div>
                         </div>
-
-                        <div class="tab-pane fade" id="additional" role="tabpanel" aria-labelledby="additional-tab">
-                            <div class="product-additional-info">
-                                <div class="table-responsive">
-                                    <table class="table info-table">
-                                        <tbody>
-                                            <tr>
-                                                <td>Types</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Type 67 BS</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Type 96 BS</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Type 106 BS</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Type 126 BS</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Type 146 BS</td>
-                                            </tr>
-                                          
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="instuctions" role="tabpanel" aria-labelledby="instuctions-tab">
-                            <div class="product-instructions-info">
-                                <ul>
-                                    Cliquez sur le lien pour télécharger la fiche technique : 
-                                    <li class="mt-4">
-                                       <a href="{{asset('fiches-techniques/BS.pdf')}}"> Supports-metalliques-BS.pdf</a>
-                                    </li>
-                                  
-                                   
-                                </ul>
-                            </div>
-                        </div>
-
-                       
                     </div>
                 </div>
             </div>
