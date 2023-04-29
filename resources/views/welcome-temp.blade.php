@@ -463,21 +463,23 @@
 <section class="team-section bg-1 bg-color-f2f3f5 pt-100 pb-70">
     <div class="container">
         <div class="main-section-title-wrap">
-            <div class="row d-flex justify-content-center">
+            <div class="row">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
-                    <div class="main-section-title">
-                        <span class="up-title">Découvrez nos produits de haute qualité</span>
-                        <h2>Produits à la chaine</h2>
+                    <div class="main-section-title left-title">
+                        <span class="up-title">Nos produits</span>
+                        <h2>Découvrez nos produits de haute qualité</h2>
                     </div>
                 </div>
-              
+                <div class="col-lg-6 wow fadeInRight delay-0-2s">
+                    <p>De la galvanisation à chaud aux pièces métalliques sur mesure, nous offrons une vaste sélection de produits qui répondent aux normes les plus élevées de l'industrie. Parcourez notre sélection pour trouver les solutions métalliques adaptées à vos besoins spécifiques et à vos projets.</p>
+                </div>
             </div>
         </div>
 
         <div class="row justify-content-center">
 
             <div class="product-carousel owl-carousel ">
-                    <div class="col-md-3" style="width:100%;">
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/supports-bs')}}" class="team-img">
                                 <img src="{{asset('front/assets/images/products/bs-exemple.jpg')}}" alt="Image">
@@ -500,7 +502,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" style="width:100%;">
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/supports-tubulaire')}}" class="team-img">
                                 <img src="{{asset('front/assets/images/products/tub-exemple.jpg')}}" alt="Image">
@@ -523,7 +525,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" style="width:100%;">
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/armements-electriques')}}" class="team-img">
                                 <img src="{{asset('front/assets/images/products/armement-exemple.jpg')}}" alt="Image">
@@ -546,7 +548,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3" style="width:100%;">
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/charpente-metallique')}}" class="team-img">
                                 <img src="{{asset('front/assets/images/products/cm-exemple.jpg')}}" alt="Image">
@@ -564,87 +566,6 @@
                                             <i class="icofont-arrow-right"></i>
                                         </button>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </div>
-
-
-        <div class="main-section-title-wrap">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-6 wow fadeInLeft delay-0-2s">
-                    <div class="main-section-title">
-                        <h2>Produits à la commande</h2>
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-
-        <div class="row justify-content-center">
-
-            <div class="product-carousel owl-carousel ">
-                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
-                        <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="{{asset('/supports-bs')}}" class="team-img">
-                                <img src="{{asset('front/assets/images/products/bs-exemple.jpg')}}" alt="Image">
-                            </a>
-                            
-                            <div class="team-content hover-style wow">
-                                <div class="inner-border">
-                                    <h3>
-                                        <a href="{{asset('/supports-bs')}}">Supports BS</a>
-                                    </h3>
-                                    <div class="team-social-link">
-                                        <button class="controller">
-                                            <i class="icofont-arrow-right"></i>
-                                        </button>
-                                    </div>
-        
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
-                        <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="{{asset('/supports-tubulaire')}}" class="team-img">
-                                <img src="{{asset('front/assets/images/products/tub-exemple.jpg')}}" alt="Image">
-                            </a>
-                            
-                            <div class="team-content hover-style wow">
-                                <div class="inner-border">
-                                    <h3>
-                                        <a href="{{asset('/supports-tubulaire')}}">Supports tubulaires</a>
-                                    </h3>
-                                    <div class="team-social-link">
-                                        <button class="controller">
-                                            <i class="icofont-arrow-right"></i>
-                                        </button>
-                                    </div>
-        
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
-                        <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="{{asset('/armements-electriques')}}" class="team-img">
-                                <img src="{{asset('front/assets/images/products/armement-exemple.jpg')}}" alt="Image">
-                            </a>
-                            
-                            <div class="team-content hover-style wow">
-                                <div class="inner-border">
-                                    <h3>
-                                        <a href="{{asset('/armements-electriques')}}">Armements électriques</a>
-                                    </h3>
-                                    <div class="team-social-link">
-                                        <button class="controller">
-                                            <i class="icofont-arrow-right"></i>
-                                        </button>
-                                    </div>
-        
                                 </div>
                             </div>
                         </div>

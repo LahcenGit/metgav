@@ -111,6 +111,23 @@
 	});
 
 	/**<<=== 05 Testimonial Slider JS ==>>**/
+	$('.site-slider').owlCarousel({
+		items: 1,
+		loop: true,
+		margin: 30,
+		nav: false,
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 1000,
+		autoplayHoverPause: true,
+		center: true,
+		navText: [
+			"<i class='ri-arrow-left-line'></i>",
+			"<i class='ri-arrow-right-line'></i>",
+		],
+	});
+
+	/**<<=== 05 Testimonial Slider JS ==>>**/
 	$('.testimonial-slider').owlCarousel({
 		items: 4,
 		loop: true,

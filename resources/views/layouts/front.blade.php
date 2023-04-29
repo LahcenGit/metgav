@@ -450,21 +450,22 @@
 				loop:true,
 				margin:20,
 				autoplay: true,
-				dots:true,
+				dots:false,
 				autoplayTimeout: 3000,
 				smartSpeed: 2000,
 				nav:true,
 				autoplayHoverPause: true,
-				items: 3,
+				items: 4,
 				responsive: {
 					0: {
+
 						items: 2
 					},
 					768: {
 						items: 2
 					},
 					992: {
-						items: 3
+						items: 4
 					}
 				}
 
