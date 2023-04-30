@@ -115,3 +115,36 @@ Route::get('/produit-a-la-commande/support-eclairage-en-lampe-classique', functi
 Route::get('/produit-a-la-commande/support-eclairage-photovoltaique', function () {
     return view('produit-a-la-commande.support-eclairage-photovoltaique');
 });
+Route::get('/produit-a-la-commande/support-telecommunication', function () {
+    return view('produit-a-la-commande.support-telecommunication');
+});
+Route::get('/produit-a-la-commande/catenaires', function () {
+    return view('produit-a-la-commande.catenaire');
+});
+Route::get('/produit-a-la-commande/pivot-irrigation', function () {
+    return view('produit-a-la-commande.pivot-irrigation');
+});
+Route::get('/produit-a-la-commande/chassis-vehicules', function () {
+    return view('produit-a-la-commande.chassis-vehicules');
+});
+Route::get('/produit-a-la-commande/construction-navale', function () {
+    return view('produit-a-la-commande.construction-navale');
+});
+Route::get('/produit-a-la-commande/caillebotis ', function () {
+    return view('produit-a-la-commande.caillebotis ');
+});
+Route::get('/produit-a-la-commande/fabrication-des-citernes ', function () {
+    return view('produit-a-la-commande.fabrication-des-citernes ');
+});
+Route::get('/produit-a-la-commande/galvanisation-par-centrifugation-des-boulons-et-des-visses ', function () {
+    return view('produit-a-la-commande.galvanisation-par-centrifugation-des-boulons-et-des-visses ');
+});
+Route::get('/produit-a-la-commande/galvanisation-a-chaud ', function () {
+    return view('produit-a-la-commande.galvanisation-a-chaud ');
+});
+Route::get('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalow ', function () {
+    return view('produit-a-la-commande.ateliers-hangar-en-charpente-legere-bungalow');
+});
+Route::get('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art ', function () {
+    return view('produit-a-la-commande.portes-et-fenetres-en-œuvre-d art');
+});
