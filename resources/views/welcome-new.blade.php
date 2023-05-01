@@ -650,6 +650,236 @@
                             </div>
                         </div>
                     </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/support-telecommunication')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/st-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/support-telecommunication')}}">Supports de télécommunication </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/catenaires')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/ct-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/catenaires')}}">Caténaires </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/pivot-irrigation')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/pivot-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/pivot-irrigation')}}">Pivots d'irrigation </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/chassis-vehicules')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/pivot-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/chassis-vehicules')}}">Châssis véhicules </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/construction-navale')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/cn-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/construction-navale')}}">La construction navale </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/caillebotis')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/caillebotis-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/caillebotis')}}">Caillebotis </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/fabrication-des-citernes')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/fc-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/fabrication-des-citernes')}}">Fabrication des citernes  </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/galvanisation-par-centrifugation-des-boulons-et-des-visses')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/gvb-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/galvanisation-par-centrifugation-des-boulons-et-des-visses')}}">Galvanisation par centrifugation des boulons et des visses </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/galvanisation-a-chaud')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/galvanisation-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/galvanisation-a-chaud')}}">Galvanisation à chaud </a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalow')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/Ah-exemple.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalow')}}">Ateliers hangar en charpente légère Bungalow</a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{asset('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art')}}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/fp-exemple.png')}}" alt="Image">
+                            </a>
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{asset('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art')}}">Portes et fenêtres en œuvre d'art</a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
