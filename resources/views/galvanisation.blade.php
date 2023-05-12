@@ -136,18 +136,28 @@
 <section class="counter-section pb-50 mt-4">
     
     <div class="container">
-        <h1 class="mb-2">NOTRE BAIN DE ZINC  </h1>
+        <h1 class="mb-2">NOS BAINS DE ZINC (02) </h1>
         <div class="counter-wrap" style="background-image:none!important; padding-top:40px; padding-bottom:40px;" >
             <div class="row  mt-4">
-                <div class="col-lg-4 col-4">
+                <div class="col-lg-3 col-3">
                     <div class="main-counter-item wow fadeInUp delay-0-2s">
                         <h2 class="counter">10</h2>
                         <h2 class="point">m</h2>
                         <h3>de longueur</h3>
+                        <h5>Suite ain fezza 1</h5>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-4">
+                <div class="col-lg-3 col-3">
+                    <div class="main-counter-item wow fadeInUp delay-0-2s">
+                        <h2 class="counter">7</h2>
+                        <h2 class="point">m</h2>
+                        <h3>de longueur</h3>
+                        <h5>Suite ain fezza 2</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-3">
                     <div class="main-counter-item wow fadeInUp delay-0-4s">
                         <h2 class="counter">2</h2>
                         <h2 class="point">m</h2>
@@ -155,7 +165,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-4">
+                <div class="col-lg-3 col-3">
                     <div class="main-counter-item wow fadeInUp delay-0-6s">
                         <h2 class="counter">1.5</h2>
                         <h2 class="point">m</h2>
@@ -180,8 +190,7 @@
                         <h2>Procédé d’application</h2>
                     </div>
                     <div class=" wow fadeInRight delay-0-2s">
-                        <p class="p-style">METGAV a opté pour un procédé de galvanisation par immersion à chaud dans un bain de zinc de 10 mètres de longueur, 2 mètre de profondeur et 1,5 mètres de largeur, et cela pour les grandes pièces allant jusqu’à 12 mètres de longueur.
-                            Mais aussi la galvanisation des petites pièces telles que la boulonnerie et la visserie par la centrifugation.</p>
+                        <p class="p-style">Nos deux bains de zinc, l'un de 10 mètres et l'autre de 7 mètres, sont des équipements de pointe utilisés dans notre processus de galvanisation à chaud. Ils permettent une immersion complète des pièces métalliques dans le bain de zinc fondu, garantissant ainsi une couverture uniforme et une protection efficace contre la corrosion. Grâce à notre expertise en galvanisation et à nos bains de zinc modernes, nous sommes en mesure de fournir des produits de qualité supérieure qui répondent aux normes les plus strictes en matière de résistance à la corrosion et de durabilité.</p>
                     </div>
                 </div>
             </div>
@@ -191,7 +200,8 @@
             <section class="features-section ">
                 <div class="container">
                     <div class="row d-flex justify-content-between">
-                        <div class="col-lg-4 col-sm-6 ">
+
+                        
                             <div class="main-features-item wow fadeInUp delay-0-2s">
                                 <img src="{{asset('front/assets/images/icons/icon-1.jpg')}}" alt="">
                                
