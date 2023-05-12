@@ -60,6 +60,9 @@
     overflow: hidden !important;
 }
 
+.controller{
+    display: none!important;
+}
 </style>
 
 
@@ -207,10 +210,7 @@
                         <img src="{{asset('front/assets/images/about-img.jpg')}}" alt="Image">
                     </div>
                     <div>
-                        <img src="{{asset('front/assets/images/about-img.jpg')}}" alt="Image">
-                    </div>
-                    <div>
-                        <img src="{{asset('front/assets/images/about-img.jpg')}}" alt="Image">
+                        <img src="{{asset('front/assets/images/about-img2.jpg')}}" alt="Image">
                     </div>
 
                 </div>
@@ -476,7 +476,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="product-carousel owl-carousel ">
+            <div class="product-typeone-carousel owl-carousel ">
                     <div class="col-md-3" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/produit-a-la-chaine/Bs')}}" class="team-img">
@@ -488,7 +488,6 @@
                                     <h3>
                                         <a href="{{asset('/produit-a-la-chaine/Bs')}}">Supports BS</a>
                                     </h3>
-                                    <span>conçues pour supporter les lignes électriques <br> à haute tension...</span>
 
                                     <div class="team-social-link">
                                         <button class="controller">
@@ -511,7 +510,6 @@
                                     <h3>
                                         <a href="{{asset('/produit-a-la-chaine/tubulaire')}}">Supports tubulaires</a>
                                     </h3>
-                                    <span>Composants essentiels pour la distribution  <br> d'énergie électrique...</span>
 
                                     <div class="team-social-link">
                                         <button class="controller">
@@ -534,7 +532,6 @@
                                     <h3>
                                         <a href="{{asset('/produit-a-la-chaine/armements-electriques')}}">Armements électriques</a>
                                     </h3>
-                                    <span>Fabriqués avec précision à partir de matériaux <br> de haute qualité...</span>
 
                                     <div class="team-social-link">
                                         <button class="controller">

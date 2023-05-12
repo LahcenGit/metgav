@@ -1085,6 +1085,10 @@ textarea.form-control {
   font-family: "Barlow Condensed", sans-serif;
 }
 
+.nav-link-edit{
+  font-size: 17px!important;
+  padding: 15px !important;
+}
 .navbar-nav .nav-item .nav-link.active {
   color: #29A9E1;
 }

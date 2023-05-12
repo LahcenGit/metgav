@@ -110,24 +110,28 @@
             <div class="col-lg-7 mt-4 mb-4">
                 <div class="article-carousel owl-carousel owl-theme">
                     <div class="item">
-                        <img src="{{ asset('front/assets/images/galva/g1.jpg') }}" alt="Image">
+                        <img src="{{ asset('front/assets/images/tansf-metal/t1.jpg') }}" alt="Image">
                     </div>
                     <div class="item">
-                        <img src="{{ asset('front/assets/images/galva/g2.jpg') }}" alt="Image">
+                        <img src="{{ asset('front/assets/images/tansf-metal/t2.jpg') }}" alt="Image">
                     </div>
                     <div class="item">
-                        <img src="{{ asset('front/assets/images/galva/g3.jpg') }}" alt="Image">
+                        <img src="{{ asset('front/assets/images/tansf-metal/t3.jpg') }}" alt="Image">
                     </div>
                     <div class="item">
-                        <img src="{{ asset('front/assets/images/galva/g4.jpg') }}" alt="Image">
+                        <img src="{{ asset('front/assets/images/tansf-metal/t4.jpg') }}" alt="Image">
                     </div>
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/tansf-metal/t5.jpg') }}" alt="Image">
+                    </div>
+                    
                 </div>
             </div>
             
             <div class="col-lg-5 mt-2 mb-2">
                 <h1>De la conception à la fabrication !</h1>
               <p class="mt-2">
-                Notre atelier de transformation métallique de pointe chez Metgav est équipé des dernières technologies en matière de planage, découpe, usinage et assemblage de pièces métalliques sur mesure. Nous sommes spécialisés dans la conception et la fabrication de produits métalliques de haute qualité pour une large gamme d'applications industrielles et commerciales.
+                Nos ateliers de transformation métallique de pointe chez Metgav est équipé des dernières technologies en matière de planage, découpe, usinage et assemblage de pièces métalliques sur mesure. Nous sommes spécialisés dans la conception et la fabrication de produits métalliques de haute qualité pour une large gamme d'applications industrielles et commerciales.
               </p>
               <p class="mt-2">
                 Grâce à notre équipe de professionnels hautement qualifiés et à notre équipement de pointe, nous sommes en mesure de produire des pièces métalliques de haute précision avec une efficacité optimale, tout en maintenant des normes de qualité strictes à chaque étape du processus de production.
@@ -141,23 +145,26 @@
           
         </div>
 
-        <h1>Notre équipement de pointe !</h1>
+        <h1>Nos équipements de pointe !</h1>
 
-        <div class="row mt-2">
+        <div class="row mt-4 mb-2">
             <div class="col-md-6">
                 <p class="section-p" >  Une ligne de planage, dressage et découpage de tôle à partir de bobines de différentes dimensions et épaisseurs allant de 2 à 6mm.</p>
-                <p class="section-p" >Une ligne de découpe plasma de 12m de longueur et à 3 têtes d’oxycoupage qui permet de découper les tôles selon des figures géométriques précises telles les tôles trapézoïdales pour la fabrication des polygonaux et accessoires de différentes formes. </p>
-                <p class="section-p">Les presses plieuses en tandem de (2×6) allant jusqu’à 12m et plus de longueur.</p>
-                <p class="section-p">Une ligne de soudage semi automatique de haute performance pouvant souder des pylônes sur 12m et plus de longueur et 750mm de diamètre.</p>
+                <p class="section-p" >Trois (3) lignes de découpe plasma de 12m de longueur, deux (2) lignes de 2m de longueur et à 3 têtes d’oxycoupage qui permet de découper les tôles selon des figures géométriques précises telles les tôles trapézoïdales pour la fabrication des polygonaux et accessoires de différentes formes. </p>
+                <p class="section-p">Deux (2) presses plieuses en tandem de (2×6) allant jusqu’à 12m et plus de longueur.</p>
+                <p class="section-p">Deux (2) lignes de soudage semi automatique de haute performance pouvant souder des pylônes sur 12m et plus de longueur et 750mm de diamètre.</p>
                 <p class="section-p">Une cisaille hydraulique pour couper des tôles allant jusqu’à 3m de longueur.</p>
+                <p class="section-p">Quatre (4) cisailles poinçonneuses universelles pour découper la tôle en ruban de petite taille et des pièces métalliques selon les poinçons désirés.</p>
+
 
             </div>
             <div class="col-md-6">
-                <p class="section-p">Deux cisailles poinçonneuses universelles pour découper la tôle en ruban de petite taille et des pièces métalliques selon les poinçons désirés.</p>
 
                 <p  class="section-p">Une ligne de perçage/ sciage moderne munie d’un automate programmable pour la confection de charpente métallique et tout type de profilés marchand (605mm)</p>
                 <p  class="section-p">Une scie à ruban pour les coupes biaises des tôles et pièces métalliques</p>
                 <p  class="section-p">Une perceuse radiale.</p>
+                <p  class="section-p">3 Guillotines de 16mm.</p>
+                <p  class="section-p">200 postes à souder semi-automatique et a l'arc.</p>
                 <p  class="section-p">Des équipements de soudage pour l’assemblage des produits semi-finis.</p>
             </div>
             
@@ -166,7 +173,7 @@
 </section>
 <!--=== End Projects Details Section ===-->
 
-<!--=== Start Counter Section ===-->
+{{--<!--=== Start Counter Section ===-->
 <section class="counter-section pb-50 mt-4">
     
     <div class="container">
@@ -228,10 +235,10 @@
         </div>
     </div>
 </section>
-<!--=== End Counter Section ===-->
+<!--=== End Counter Section ===-->--}}
 
 <!--=== Start FAQ Section ===-->
-<section class="faq-section " style="padding-top:30px;padding-bottom:30px;margin-bottom: 20px;" >
+<section class="faq-section " style="padding-top:30px;padding-bottom:30px;margin-bottom: 20px;margin-top: 20px;" >
     
 
     <div class="container">
@@ -240,7 +247,7 @@
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s mb-4">
                     <div class="main-section-title left-title">
                         <span class="up-title">Vidéo</span>
-                        <h2 style="color:#ffff;">Voir l'atelier de transformation métallique</h2>
+                        <h2 style="color:#ffff;">Voir nos ateliers de transformation métallique</h2>
                     </div>
                     <p style="color:#ffff;">Dans cette vidéo, nous vous offrons un aperçu de nos capacités de production de pointe, de notre équipement de haute technologie et de notre équipe de professionnels qualifiés.</p>
                    
