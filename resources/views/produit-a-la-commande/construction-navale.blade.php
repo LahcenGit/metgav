@@ -88,7 +88,7 @@
                 <div class="article-carousel owl-carousel owl-theme">
 
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/cn/img1.png') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/cn/img-1.png') }}" alt="Image">
                         </div>
 
                         <div class="item">

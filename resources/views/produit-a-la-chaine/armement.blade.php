@@ -87,7 +87,7 @@
 
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a1.jpg') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/armement/a5.jpg') }}" alt="Image">
                         </div>
                         <div class="item">
                             <img src="{{ asset('front/assets/images/products/armement/a2.jpg') }}" alt="Image">
@@ -99,7 +99,7 @@
                             <img src="{{ asset('front/assets/images/products/armement/a4.jpg') }}" alt="Image">
                         </div>
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a5.jpg') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/armement/a1.jpg') }}" alt="Image">
                         </div>
 
                 </div>

@@ -587,27 +587,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
-                        <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="{{asset('/produit-a-la-commande/support-eclairage-standard')}}" class="team-img">
-                                <img src="{{asset('front/assets/images/products/ses-example.png')}}" alt="Image">
-                            </a>
 
-                            <div class="team-content hover-style wow">
-                                <div class="inner-border">
-                                    <h3>
-                                        <a href="{{asset('/produit-a-la-commande/support-eclairage-standard')}}">Supports d'éclairage standard</a>
-                                    </h3>
-                                    <div class="team-social-link">
-                                        <button class="controller">
-                                            <i class="icofont-arrow-right"></i>
-                                        </button>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/produit-a-la-commande/support-eclairage-en-lampe-classique')}}" class="team-img">
@@ -632,7 +612,7 @@
                     <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/produit-a-la-commande/support-eclairage-photovoltaique')}}" class="team-img">
-                                <img src="{{asset('front/assets/images/products/sep-exemple.png')}}" alt="Image">
+                                <img src="{{asset('front/assets/images/products/ses-example.png')}}" alt="Image">
                             </a>
 
                             <div class="team-content hover-style wow">
@@ -716,7 +696,7 @@
                     <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{asset('/produit-a-la-commande/chassis-vehicules')}}" class="team-img">
-                                <img src="{{asset('front/assets/images/products/pivot-exemple.png')}}" alt="Image">
+                                <img src="{{asset('front/assets/images/products/chassis-exemple.png')}}" alt="Image">
                             </a>
 
                             <div class="team-content hover-style wow">

@@ -88,15 +88,10 @@
                 <div class="article-carousel owl-carousel owl-theme">
 
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/pivot/img-1.png') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/chassis/img-1.png') }}" alt="Image">
                         </div>
 
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/pivot/img-2.png') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/pivot/img-3.png') }}" alt="Image">
-                        </div>
+
                 </div>
 
 

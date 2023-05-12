@@ -91,12 +91,7 @@
                             <img src="{{ asset('front/assets/images/products/sep/img-1.png') }}" alt="Image">
                         </div>
 
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/sep/img-2.png') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/sep/img-3.png') }}" alt="Image">
-                        </div>
+
                 </div>
 
 

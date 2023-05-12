@@ -87,18 +87,12 @@
 
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/gvb/img-2.png') }}" alt="Image">
-                        </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/gvb/img-3.png') }}" alt="Image">
-                        </div>
-                        <div class="item">
                             <img src="{{ asset('front/assets/images/products/gvb/img-1.png') }}" alt="Image">
                         </div>
-
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/products/gvb/img-2.png') }}" alt="Image">
+                        </div>
                 </div>
-
 
             </div>
 
