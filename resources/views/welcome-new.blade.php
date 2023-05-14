@@ -61,7 +61,7 @@
 }
 
 .controller{
-    display: none!important;
+    display: none;
 }
 </style>
 
@@ -206,12 +206,13 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-us-img me-15 wow fadeInLeft delay-0-2s site-slider  owl-carousel owl-theme">
-                    <div>
+                    <div class="item">
                         <img src="{{asset('front/assets/images/about-img.jpg')}}" alt="Image">
                     </div>
-                    <div>
+                    <div class="item">
                         <img src="{{asset('front/assets/images/about-img2.jpg')}}" alt="Image">
                     </div>
+                    
 
                 </div>
             </div>

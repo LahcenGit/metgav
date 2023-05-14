@@ -46,7 +46,7 @@
             @foreach($actualites as $item)
             <div class="col-lg-4 col-md-6">
                 <div class="main-blog-item wow fadeInUp delay-0-2s">
-                    <a href="blog-details.html" class="blog-img">
+                    <a href="{{asset('actualite/'.$item->slug)}}" class="blog-img">
                         <img src="{{ asset('storage/images/actualites/'.$item->images[0]->link) }}" alt="Image">
                     </a>
 

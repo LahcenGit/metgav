@@ -22,7 +22,7 @@ class FrontController extends Controller
     }
 
     public function actualites(){
-        $actualites = Actualite::all();
+        $actualites = Actualite::orderByDesc('date')->get();
         return view('actualites',compact('actualites'));
     }
 }
