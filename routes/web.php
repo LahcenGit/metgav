@@ -6,6 +6,8 @@ use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ActualiteController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MailController;
+use Illuminate\Support\Facades\Response;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -147,4 +149,17 @@ Route::get('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalow 
 });
 Route::get('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art ', function () {
     return view('produit-a-la-commande.portes-et-fenetres-en-œuvre-d art');
+});
+Route::get('/normes/galvanisation-iso-1461 ', function () {
+    return view('la-norme-iso');
+});
+
+//download file
+Route::get('/normes/acier-1025-2', function () {
+    $file = public_path('NBN-EN-10025-2.pdf');
+    $headers = array(
+        'Content-Type: application/pdf',
+    );
+
+    return Response::download($file, 'NBN-EN-10025-2.pdf', $headers);
 });
