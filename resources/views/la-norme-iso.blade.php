@@ -85,13 +85,13 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>La norme ISO</h2>
+            <h2>La norme ISO 1461</h2>
             <ul>
                 <li>
                     <a href="#">Accueil</a>
                 </li>
                 <li>
-                    La norme ISO
+                    La norme ISO 1461
                 </li>
             </ul>
         </div>
