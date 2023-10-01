@@ -30,6 +30,51 @@
             flex-direction: row;
             justify-content: center;
         }
+
+		.popup {
+    display: none;
+    position: fixed;
+    background: white;
+    border: 2px solid #29A9E1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    border-radius: 8px;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #29A9E1;
+    background-color: #29A9E1; /* Nouvelle couleur de fond */
+    color: white; /* Texte blanc */
+    padding: 10px 20px; /* Espacement du texte */
+    border-top-left-radius: 8px; /* Coins arrondis */
+    border-top-right-radius: 8px;
+}
+
+.popup-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.popup-content {
+    text-align: center;
+}
     </style>
 
     <body>
@@ -512,6 +557,17 @@
 
 
 		<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+    const popup = document.getElementById("popup");
+    popup.style.display = "block";
+});
+
+function closePopup() {
+    const popup = document.getElementById("popup");
+    popup.style.display = "none";
+}
+
 			$(document).ready(function() {
 			  $('.slider-carousel').owlCarousel({
 				loop: true,

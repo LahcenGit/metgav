@@ -65,13 +65,13 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Ateliers hangar en charpente légère Bungalow</h2>
+            <h2>Bungalow et maisonnette en charpente légère</h2>
             <ul>
                 <li>
                     Produit
                 </li>
                 <li>
-                    <a href="#">Ateliers hangar en charpente légère Bungalow</a>
+                    <a href="#">Bungalow et maisonnette en charpente légère</a>
                 </li>
             </ul>
         </div>

@@ -147,6 +147,9 @@ Route::get('/produit-a-la-commande/galvanisation-a-chaud ', function () {
 Route::get('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalow ', function () {
     return view('produit-a-la-commande.ateliers-hangar-en-charpente-legere-bungalow');
 });
+Route::get('/produit-a-la-commande/ateliers-hangar-en-charpente-metallique ', function () {
+    return view('produit-a-la-commande.ateliers-hangar-metallique');
+});
 Route::get('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art ', function () {
     return view('produit-a-la-commande.portes-et-fenetres-en-œuvre-d art');
 });
