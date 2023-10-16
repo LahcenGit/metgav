@@ -188,88 +188,19 @@
 								</ul>
 							</li>
 
+                            <li class="nav-item">
+								<a href="{{asset('/products')}}" class="nav-link">Produits</a>
+							</li>
+                            <li class="nav-item">
+								<a href="{{asset('/catalogue')}}" class="nav-link">Catalogue</a>
+							</li>
 							<li class="nav-item">
-								<a href="#" class="nav-link dropdown-toggles">Produits</a>
-
-								<ul class="sub-menu">
-                                   <li class="nav-item">
-                                        <a href="#" class="nav-link dropdown-toggles">Produit à la chaine</a>
-                                        <ul class="sub-menu-sub">
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-chaine/Bs')}}" class="nav-link">Supports BS</a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a href="{{ asset('/produit-a-la-chaine/tubulaire') }}" class="nav-link">Supports Tubulaires</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-chaine/armements-electriques')}}" class="nav-link">Armements Electriques</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link  dropdown-toggles">Produit à la commande</a>
-                                        <ul class="sub-menu-sub">
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/support-haute-tension')}}" class="nav-link nav-link-edit">Supports haute tension</a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a href="{{ asset('/produit-a-la-commande/support-eclairage-standard') }}" class="nav-link nav-link-edit">Supports d'éclairage standard</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/support-eclairage-en-lampe-classique')}}" class="nav-link nav-link-edit">Supports d’éclairage en lampe classique</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/support-eclairage-photovoltaique')}}" class="nav-link nav-link-edit">Supports d'éclairage photovoltaïque</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/support-telecommunication')}}" class="nav-link nav-link-edit">Supports de télécommunication</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/catenaires')}}" class="nav-link  nav-link-edit">Caténaires</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/pivot-irrigation')}}" class="nav-link  nav-link-edit">Pivots d'irrigation</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/chassis-vehicules')}}" class="nav-link nav-link-edit">Châssis véhicules</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/construction-navale')}}" class="nav-link nav-link-edit">La construction navale</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/caillebotis')}}" class="nav-link nav-link-edit">Caillebotis</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/fabrication-des-citernes')}}" class="nav-link nav-link-edit">Fabrication des citernes</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/galvanisation-par-centrifugation-des-boulons-et-des-visses')}}" class="nav-link nav-link-edit">Galvanisation par centrifugation des boulons et des visses</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/galvanisation-a-chaud ')}}" class="nav-link nav-link-edit">Galvanisation à chaud </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalows')}}" class="nav-link nav-link-edit">Ateliers hangar en charpente légère Bungalows</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="{{asset('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art')}}" class="nav-link nav-link-edit">Portes et fenêtres en œuvre d'art</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                </ul>
+								<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
 							</li>
 
                             <li class="nav-item">
 								<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
 							</li>
-
-                            <li class="nav-item">
-								<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
-							</li>
-
 							<li class="nav-item">
 								<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
 							</li>
@@ -284,6 +215,7 @@
 							</a>
 						</div>
 					</div>
+
 				</div>
 			</nav>
 		</header>
@@ -325,88 +257,14 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item has-children">
-                        <a href="#" class="nav-link dropdown-toggles">Produits</a>
+                    
 
-						<ul class="sub-menu">
-							<li class="nav-item">
-
-								<a href="#" class="nav-link dropdown-toggles">Produit à la chaine</a>
-								<ul class="sub-menu-sub">
-									<li class="nav-item">
-										<a href="{{asset('/produit-a-la-chaine/Bs')}}" class="nav-link">Supports BS</a>
-									</li>
-
-									<li class="nav-item">
-										<a href="{{ asset('/produit-a-la-chaine/tubulaire') }}" class="nav-link">Supports Tubulaires</a>
-									</li>
-									<li class="nav-item">
-										<a href="{{asset('/produit-a-la-chaine/armements-electriques')}}" class="nav-link">Armements Electriques</a>
-									</li>
-								</ul>
-							</li>	 
-						</ul>
-
-
-						<ul class="sub-menu">
-							<li class="nav-item">
-									<a href="#" class="nav-link  dropdown-toggles">Produit à la commande</a>
-									<ul class="sub-menu-sub">
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/support-haute-tension')}}" class="nav-link ">Supports haute tension</a>
-										</li>
-
-										<li class="nav-item">
-											<a href="{{ asset('/produit-a-la-commande/support-eclairage-standard') }}" class="nav-link">Supports d'éclairage standard</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/support-eclairage-en-lampe-classique')}}" class="nav-link ">Supports d’éclairage en lampe classique</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/support-eclairage-photovoltaique')}}" class="nav-link">Supports d'éclairage photovoltaïque</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/support-telecommunication')}}" class="nav-link">Supports de télécommunication</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/catenaires')}}" class="nav-link">Caténaires</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/pivot-irrigation')}}" class="nav-link ">Pivots d'irrigation</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/chassis-vehicules')}}" class="nav-link ">Châssis véhicules</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/construction-navale')}}" class="nav-link">La construction navale</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/caillebotis')}}" class="nav-link">Caillebotis</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/fabrication-des-citernes')}}" class="nav-link ">Fabrication des citernes</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/galvanisation-par-centrifugation-des-boulons-et-des-visses')}}" class="nav-link">Galvanisation par centrifugation des boulons et des visses</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/galvanisation-a-chaud ')}}" class="nav-link">Galvanisation à chaud </a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalows')}}" class="nav-link">Ateliers hangar en charpente légère Bungalows</a>
-										</li>
-										<li class="nav-item">
-											<a href="{{asset('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art')}}" class="nav-link">Portes et fenêtres en œuvre d'art</a>
-										</li>
-									</ul>
-						</ul>
-
-
-                    </li>
-
-
-
-
+					<li class="nav-item">
+						<a href="{{asset('/produits')}}" class="nav-link">Produits</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{asset('/catalogue')}}" class="nav-link">Catalogue</a>
+					</li>
 					<li class="nav-item">
 						<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
 					</li>
@@ -558,15 +416,19 @@
 
 		<script>
 
-document.addEventListener("DOMContentLoaded", function() {
-    const popup = document.getElementById("popup");
-    popup.style.display = "block";
-});
+		document.addEventListener("DOMContentLoaded", function() {
+			if (window.innerWidth < 768) {
+			const popup = document.getElementById("popup");
+			popup.style.display = "block";
+			}
+		});
 
-function closePopup() {
-    const popup = document.getElementById("popup");
-    popup.style.display = "none";
-}
+		function closePopup() {
+			const popup = document.getElementById("popup");
+			popup.style.display = "none";
+			const video = document.querySelector('video');
+			video.pause();
+		}
 
 			$(document).ready(function() {
 			  $('.slider-carousel').owlCarousel({

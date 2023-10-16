@@ -157,6 +157,20 @@ Route::get('/normes/galvanisation-iso-1461 ', function () {
     return view('la-norme-iso');
 });
 
+
+
+
+
+//catalogue 
+Route::get('/catalogue ', function () {
+    return view('catalogue');
+});
+
+//products 
+Route::get('/products ', function () {
+    return view('products');
+});
+
 //download file
 Route::get('/normes/acier-1025-2', function () {
     $file = public_path('NBN-EN-10025-2.pdf');
