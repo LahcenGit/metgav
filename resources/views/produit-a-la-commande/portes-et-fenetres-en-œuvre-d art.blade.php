@@ -87,7 +87,7 @@
 
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/fp/img-1.png') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/fp/porte-fenetre.jpg') }}" alt="Image">
                         </div>
                 </div>
             </div>
@@ -95,10 +95,10 @@
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Portes et fenêtres en œuvre d'art</h3>
-                    <p> Les portes et fenêtres en œuvre d'art sont des éléments de décoration intérieure ou extérieure qui combinent à la fois des qualités esthétiques et fonctionnelles. Contrairement aux portes et fenêtres conventionnelles, ces œuvres d'art sont souvent conçues pour être uniques, personnalisées et fabriquées à la main par des artisans experts.
-
-                        Ces portes et fenêtres peuvent être fabriquées à partir de différents matériaux, tels que le bois, le métal, le verre, la pierre ou une combinaison de ceux-ci. Les artisans utilisent souvent des techniques de fabrication traditionnelles, telles que la forge, la sculpture sur bois, la peinture à la main ou la vitrail.
+                    <p> Nos portes et fenêtres en œuvre d'art sont bien plus que de simples éléments architecturaux, ce sont des pièces maîtresses qui fusionnent l'art, le design et la fonctionnalité pour créer un espace qui respire la beauté, l'élégance et la performance.
                     </p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -106,15 +106,20 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les portes et fenêtres en œuvre d'art sont des éléments de décoration intérieure ou extérieure qui combinent à la fois des qualités esthétiques et fonctionnelles. Contrairement aux portes et fenêtres conventionnelles, ces œuvres d'art sont souvent conçues pour être uniques, personnalisées et fabriquées à la main par des artisans experts.
-
-                                    Ces portes et fenêtres peuvent être fabriquées à partir de différents matériaux, tels que le bois, le métal, le verre, la pierre ou une combinaison de ceux-ci. Les artisans utilisent souvent des techniques de fabrication traditionnelles, telles que la forge, la sculpture sur bois, la peinture à la main ou la vitrail.</p>
+                                <ul>
+                                    <li><b>Design Exquis :</b>Nos portes et fenêtres sont conçues avec une attention méticuleuse aux détails, alliant l'esthétique aux normes de fonctionnalité les plus élevées.</li>
+                                    <li><b>Matériaux de Qualité : </b>Nous utilisons des matériaux de première qualité, du bois aux métaux, en passant par le verre, pour garantir la durabilité et la beauté à long terme.</li>
+                                    <li><b>Personnalisation : </b>Chaque porte et fenêtre en œuvre d'art peut être personnalisée pour correspondre parfaitement à l'esthétique de votre espace et à vos préférences.</li>
+                                    <li><b>Performance Énergétique :</b>Nos fenêtres sont conçues pour offrir une excellente isolation thermique, vous aidant ainsi à économiser sur les coûts énergétiques.</li>
+                                    <li><b>Sécurité : </b>La sécurité n'est pas en reste. Nos portes et fenêtres sont équipées de mécanismes de verrouillage robustes et de verre résistant.</li>
+                                    <li><b>CInstallation Professionnelle : </b>Nous offrons une installation professionnelle pour garantir que chaque pièce s'intègre parfaitement dans votre espace.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

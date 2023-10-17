@@ -153,6 +153,28 @@ Route::get('/produit-a-la-commande/ateliers-hangar-en-charpente-metallique ', fu
 Route::get('/produit-a-la-commande/portes-et-fenetres-en-œuvre-d art ', function () {
     return view('produit-a-la-commande.portes-et-fenetres-en-œuvre-d art');
 });
+Route::get('/produit-a-la-commande/treillis-soudé ', function () {
+    return view('produit-a-la-commande.treillis-soudé');
+});
+Route::get('/produit-a-la-commande/roulottes-de-chantiers ', function () {
+    return view('produit-a-la-commande.roulottes-de-chantiers');
+});
+Route::get('/produit-a-la-commande/boulons-et-ecrous ', function () {
+    return view('produit-a-la-commande.boulons-et-ecrous');
+});
+Route::get('/produit-a-la-commande/fil-galvanisé ', function () {
+    return view('produit-a-la-commande.fil-galvanisé');
+});
+Route::get('/produit-a-la-commande/mat-eclairage-stade-portuaire ', function () {
+    return view('produit-a-la-commande.mat-eclairage-stade-portuaire');
+});
+Route::get('/produit-a-la-commande/chassis-metallique-panneau ', function () {
+    return view('produit-a-la-commande.chassis-metallique-panneau');
+});
+Route::get('/produit-a-la-commande/support-camera ', function () {
+    return view('produit-a-la-commande.support-camera');
+});
+
 Route::get('/normes/galvanisation-iso-1461 ', function () {
     return view('la-norme-iso');
 });

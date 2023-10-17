@@ -84,28 +84,19 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
                 <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
+                    <div class="item">
                             <img src="{{ asset('front/assets/images/products/cn/img-1.png') }}" alt="Image">
-                        </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/cn/img-2.png') }}" alt="Image">
-                        </div>
-
+                    </div>
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>La construction navale</h3>
-                    <p>La construction navale est l'ensemble des activités liées à la conception, la construction et la réparation de navires. Cette industrie est cruciale pour le commerce international, le transport de marchandises et de personnes, la pêche et les activités militaires.
-
-                        La construction navale implique une grande variété de compétences techniques, allant de la conception et de l'ingénierie navale à la soudure, la peinture, l'électricité et l'installation de systèmes mécaniques. Les navires peuvent être construits en utilisant différents matériaux, tels que l'acier, l'aluminium, la fibre de verre, le bois ou le béton, en fonction de leur utilisation et des exigences réglementaires.</p>
+                    <p>La construction navale est l'art de concevoir, de fabriquer et d'assembler des navires, des bateaux et des embarcations de toutes tailles et pour une variété d'applications, qu'il s'agisse de navires de guerre, de bateaux de pêche, de paquebots de croisière ou de navires de recherche.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -113,15 +104,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>La construction navale est l'ensemble des activités liées à la conception, la construction et la réparation de navires. Cette industrie est cruciale pour le commerce international, le transport de marchandises et de personnes, la pêche et les activités militaires.
-
-                                    La construction navale implique une grande variété de compétences techniques, allant de la conception et de l'ingénierie navale à la soudure, la peinture, l'électricité et l'installation de systèmes mécaniques. Les navires peuvent être construits en utilisant différents matériaux, tels que l'acier, l'aluminium, la fibre de verre, le bois ou le béton, en fonction de leur utilisation et des exigences réglementaires.</p>
+                                <ul>
+                                    <li><b>Conception Spécialisée :</b>Chaque navire est conçu sur mesure en fonction de son utilisation prévue, en tenant compte de la navigation, de la charge utile, de la stabilité et d'autres facteurs clés.</li>
+                                    <li><b>Matériaux de Qualité : </b>Nous utilisons des matériaux marins de haute qualité, tels que l'acier inoxydable, l'aluminium et la fibre de verre, pour garantir la durabilité et la résistance à la corrosion.</li>
+                                    <li><b>Ingénierie de Pointe : </b>Nos équipes d'ingénieurs et de concepteurs utilisent des logiciels de pointe pour assurer la performance, la sécurité et l'efficacité de chaque navire.</li>
+                                    <li><b>Construction Méticuleuse :</b>Chaque élément du navire est construit avec précision, de la coque au pont, en passant par les systèmes mécaniques et électroniques.</li>
+                                    <li><b>Conformité aux Normes : </b>Tous les navires sont construits conformément aux réglementations et aux normes de sécurité internationales.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

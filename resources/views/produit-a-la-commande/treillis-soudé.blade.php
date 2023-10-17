@@ -65,13 +65,13 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Supports d’éclairage en lampe classique</h2>
+            <h2>Treillis soudé</h2>
             <ul>
                 <li>
                     Produit
                 </li>
                 <li>
-                    <a href="#">Supports d’éclairage en lampe classique</a>
+                    <a href="#">Treillis soudé</a>
                 </li>
             </ul>
         </div>
@@ -84,21 +84,17 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
                 <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/sel/img-1.png') }}" alt="Image">
-                        </div>
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/products/Treillis/Treillis.jpg') }}" alt="Image">
+                    </div>
                 </div>
             </div>
-
             <div class="col-lg-6">
                 <div class="product-details-main-content">
-                    <h3>Les supports d’éclairage en lampe classique</h3>
-                    <p>Les supports d'éclairage en lampe classique sont bien plus que de simples dispositifs pour éclairer une pièce. Ils incarnent l'élégance intemporelle, ajoutant une touche de raffinement à tout espace. </p>
-                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
-                    </a>
+                    <h3>Treillis soudé</h3>
+                    <p>Découvrez notre treillis soudé de qualité supérieure, conçu pour répondre aux exigences de la construction et de l'industrie. Notre treillis soudé est fabriqué en acier de première qualité et offre une résistance exceptionnelle, une polyvalence de conception, et une durabilité inégalée. Idéal pour renforcer la stabilité de vos projets, ce produit fiable trouve sa place dans une variété d'applications, des bâtiments aux infrastructures, en passant par les clôtures et les renforcements de sols.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span></a>
                 </div>
             </div>
 
@@ -106,18 +102,18 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés : </button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
                                 <ul>
-                                    <li><b>Design Élégant :</b>Nos supports d'éclairage sont conçus avec une attention minutieuse aux détails, capturant l'esthétique intemporelle des époques passées.</li>
-                                    <li><b>Matériaux de Qualité : </b> Nous utilisons des matériaux de haute qualité tels que le laiton, le cristal et le verre pour garantir une durabilité et une beauté à long terme.</li>
-                                    <li><b>Styles Variés : </b>Notre gamme de supports d'éclairage classiques comprend une variété de styles, allant des designs victoriens aux lampadaires d'inspiration rétro.</li>
-                                    <li><b>Éclairage Ambiant :</b> Les supports d'éclairage en lampe classique diffusent une lumière douce et chaleureuse qui crée une atmosphère accueillante.</li>
-                                    <li><b>Compatibilité avec les Ampoules LED : </b> Nos lampes classiques sont souvent compatibles avec des ampoules LED modernes, alliant ainsi style classique et efficacité énergétique.</li>
+                                    <li><b>Construction en Grille :</b> Le treillis soudé est fabriqué en soudant ensemble des barres d'acier perpendiculaires pour former une structure en grille.</li>
+                                    <li><b>Diversité de Tailles et de Formes  : </b>Disponible dans une gamme de tailles et de formes, le treillis soudé peut être adapté à des besoins spécifiques de renforcement structurel.</li>
+                                    <li><b>Résistance Structurelle : </b> Il offre une résistance élevée à la traction et à la compression, renforçant ainsi la capacité de charge des structures.</li>
+                                    <li><b>Facilité d'Installation : </b>Le treillis soudé est facile à manipuler et à installer, ce qui réduit le temps de construction.</li>
+                                    <li><b>Applications Polyvalentes : </b>Il est utilisé dans la construction de bâtiments, de ponts, de murs de soutènement, de dalles de béton, et bien plus encore.</li>
                                 </ul>
                             </div>
                         </div>

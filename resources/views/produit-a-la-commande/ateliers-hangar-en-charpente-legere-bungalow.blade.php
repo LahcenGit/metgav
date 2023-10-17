@@ -87,27 +87,18 @@
 
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/ah/img-1.png') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/ah/bangalow-et-maisonnette.jpg') }}" alt="Image">
                         </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/ah/img-2.png') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/ah/img-3.png') }}" alt="Image">
-                        </div>
-
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Ateliers hangar en charpente légère Bungalow</h3>
-                    <p> Les ateliers et hangars en charpente légère sont des constructions modulaires et légères qui sont faciles à assembler et à démonter. Ils sont généralement construits à partir de cadres en acier et de panneaux en métal, et peuvent être utilisés pour stocker des véhicules, du matériel ou pour abriter des activités industrielles ou artisanales. Les ateliers et hangars en charpente légère peuvent être personnalisés en fonction de vos besoins spécifiques en matière de taille, de forme et d'équipements.
-                        Les bungalows sont des constructions préfabriquées qui sont conçues pour une installation rapide et facile. Ils peuvent être utilisés comme bureaux temporaires, salles de classe mobiles ou logements temporaires pour le personnel. Les bungalows peuvent être équipés de tout le nécessaire pour une habitation confortable, comme des systèmes de chauffage et de climatisation, des salles de bains et des cuisines.
+                    <p> Nos ateliers hangar en charpente légère de type bungalow sont la solution idéale pour répondre à vos besoins en matière d'espace de travail polyvalent. Chez Metgav industry, nous vous offrons des bâtiments durables et fonctionnels qui allient esthétique et praticité pour répondre à une variété d'applications, que ce soit pour la fabrication, le stockage, le commerce ou d'autres activités professionnelles.
                     </p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -115,14 +106,20 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les ateliers et hangars en charpente légère sont des constructions modulaires et légères qui sont faciles à assembler et à démonter. Ils sont généralement construits à partir de cadres en acier et de panneaux en métal, et peuvent être utilisés pour stocker des véhicules, du matériel ou pour abriter des activités industrielles ou artisanales. Les ateliers et hangars en charpente légère peuvent être personnalisés en fonction de vos besoins spécifiques en matière de taille, de forme et d'équipements.
-                                    Les bungalows sont des constructions préfabriquées qui sont conçues pour une installation rapide et facile. Ils peuvent être utilisés comme bureaux temporaires, salles de classe mobiles ou logements temporaires pour le personnel. Les bungalows peuvent être équipés de tout le nécessaire pour une habitation confortable, comme des systèmes de chauffage et de climatisation, des salles de bains et des cuisines.</p>
+                                <ul>
+                                    <li><b>Durabilité Supérieure :</b>Fabriqués à partir de matériaux de qualité, nos bâtiments sont conçus pour résister aux intempéries, à la corrosion et à l'usure.</li>
+                                    <li><b>Polyvalence d'Utilisation : </b> Les ateliers bungalow sont adaptés à une gamme variée d'applications, des activités industrielles aux espaces de stockage et plus encore.</li>
+                                    <li><b>Personnalisation : </b>Chaque bâtiment peut être personnalisé en termes de taille, de design et d'aménagement intérieur pour répondre à vos besoins spécifiques.</li>
+                                    <li><b>Installation Rapide:</b> La charpente légère permet une installation rapide, économisant ainsi du temps et de l'argent.</li>
+                                    <li><b>Esthétique Agréable : </b> Nos ateliers hangar en charpente légère offrent un aspect soigné et professionnel qui s'intègre harmonieusement dans divers environnements.</li>
+                                    <li><b>Entretien Facile  : </b>Les matériaux utilisés sont simples à entretenir, assurant une longue durée de vie de votre bâtiment.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

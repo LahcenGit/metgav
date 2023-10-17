@@ -84,32 +84,19 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
                 <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/pivot/img-1.png') }}" alt="Image">
-                        </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/pivot/img-2.png') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/pivot/img-3.png') }}" alt="Image">
-                        </div>
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/products/pivot/img-1.png') }}" alt="Image">
+                    </div>
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Pivots d'irrigation</h3>
-                    <p>Les pivots d'irrigation sont des systèmes d'irrigation mécanisés qui permettent d'arroser de grandes surfaces de cultures avec un minimum d'intervention humaine. Ils sont composés d'une série de tuyaux en acier ou en aluminium montés sur des roues et pivotant autour d'un point central, appelé tour.
-
-                        Les pivots d'irrigation peuvent être alimentés par des sources d'eau variées, telles que des puits, des lacs, des rivières ou des canaux d'irrigation. L'eau est pompée depuis la source et distribuée le long des tuyaux du pivot d'irrigation à l'aide de buses ou de gicleurs, qui arrosent les cultures en rotation.
-
-                        Les pivots d'irrigation peuvent être équipés de différentes technologies pour améliorer l'efficacité de l'irrigation, comme des capteurs de sol pour mesurer l'humidité du sol, des systèmes de régulation de la pression de l'eau et des systèmes de contrôle automatique pour ajuster la quantité d'eau distribuée en fonction des besoins des cultures.</p>
+                    <p>Les pivots d'irrigation sont des systèmes d'irrigation automatisés utilisés dans l'agriculture pour apporter de l'eau aux cultures de manière efficace et économique. Chez Metgav industry, nous proposons des pivots d'irrigation de haute qualité conçus pour améliorer la productivité agricole, économiser l'eau et simplifier le processus d'irrigation.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -117,17 +104,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les pivots d'irrigation sont des systèmes d'irrigation mécanisés qui permettent d'arroser de grandes surfaces de cultures avec un minimum d'intervention humaine. Ils sont composés d'une série de tuyaux en acier ou en aluminium montés sur des roues et pivotant autour d'un point central, appelé tour.
-
-                                    Les pivots d'irrigation peuvent être alimentés par des sources d'eau variées, telles que des puits, des lacs, des rivières ou des canaux d'irrigation. L'eau est pompée depuis la source et distribuée le long des tuyaux du pivot d'irrigation à l'aide de buses ou de gicleurs, qui arrosent les cultures en rotation.
-
-                                    Les pivots d'irrigation peuvent être équipés de différentes technologies pour améliorer l'efficacité de l'irrigation, comme des capteurs de sol pour mesurer l'humidité du sol, des systèmes de régulation de la pression de l'eau et des systèmes de contrôle automatique pour ajuster la quantité d'eau distribuée en fonction des besoins des cultures.</p>
+                                <ul>
+                                    <li><b>Conception Robuste :</b>Nos pivots sont fabriqués avec des matériaux de haute qualité pour résister aux conditions environnementales difficiles, y compris le soleil, la pluie, la boue et la poussière.</li>
+                                    <li><b>Automatisation Avancée : </b>Les pivots d'irrigation sont équipés de systèmes de contrôle automatisés qui permettent une gestion précise de la distribution d'eau.</li>
+                                    <li><b>Flexibilité de Conception : </b>Ils sont modulaires et peuvent être adaptés à différentes tailles et formes de champs pour une couverture optimale.</li>
+                                    <li><b>Économie d'Eau :</b>Nos pivots sont conçus pour minimiser le gaspillage d'eau en distribuant l'eau là où c'est nécessaire, évitant ainsi l'arrosage excessif.</li>
+                                    <li><b>Entretien Simplifié : </b>Les systèmes sont conçus pour être faciles à entretenir, ce qui réduit les temps d'arrêt.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

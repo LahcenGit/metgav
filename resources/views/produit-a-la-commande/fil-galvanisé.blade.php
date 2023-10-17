@@ -65,13 +65,13 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Supports d’éclairage en lampe classique</h2>
+            <h2>Fil galvanisé</h2>
             <ul>
                 <li>
                     Produit
                 </li>
                 <li>
-                    <a href="#">Supports d’éclairage en lampe classique</a>
+                    <a href="#">Fil galvanisé</a>
                 </li>
             </ul>
         </div>
@@ -84,40 +84,37 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
-                <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/sel/img-1.png') }}" alt="Image">
-                        </div>
+               <div class="article-carousel owl-carousel owl-theme">
+                    <div class="item">
+                            <img src="{{ asset('front/assets/images/products/fil/fil-galvanisé.jpg') }}" alt="Image">
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
-                    <h3>Les supports d’éclairage en lampe classique</h3>
-                    <p>Les supports d'éclairage en lampe classique sont bien plus que de simples dispositifs pour éclairer une pièce. Ils incarnent l'élégance intemporelle, ajoutant une touche de raffinement à tout espace. </p>
-                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
-                    </a>
+                    <h3>Fil galvanisé</h3>
+                    <p>Le fil galvanisé est un matériau métallique polyvalent et fiable qui a une large gamme d'applications dans diverses industries. À Metgav industry , nous fournissons du fil galvanisé de haute qualité, reconnu pour sa résistance à la corrosion et sa durabilité exceptionnelle, en faisant un choix privilégié pour de nombreuses applications. </p>
                 </div>
+                <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                </a>
             </div>
-
             <div class="col-lg-12 col-md-12">
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés du Fil Galvanisé </button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
                                 <ul>
-                                    <li><b>Design Élégant :</b>Nos supports d'éclairage sont conçus avec une attention minutieuse aux détails, capturant l'esthétique intemporelle des époques passées.</li>
-                                    <li><b>Matériaux de Qualité : </b> Nous utilisons des matériaux de haute qualité tels que le laiton, le cristal et le verre pour garantir une durabilité et une beauté à long terme.</li>
-                                    <li><b>Styles Variés : </b>Notre gamme de supports d'éclairage classiques comprend une variété de styles, allant des designs victoriens aux lampadaires d'inspiration rétro.</li>
-                                    <li><b>Éclairage Ambiant :</b> Les supports d'éclairage en lampe classique diffusent une lumière douce et chaleureuse qui crée une atmosphère accueillante.</li>
-                                    <li><b>Compatibilité avec les Ampoules LED : </b> Nos lampes classiques sont souvent compatibles avec des ampoules LED modernes, alliant ainsi style classique et efficacité énergétique.</li>
+                                    <li><b>Résistance à la Corrosion  :</b> Le revêtement de zinc sur le fil galvanisé offre une excellente protection contre la corrosion, le rendant adapté à une utilisation en extérieur et dans des environnements humides.</li>
+                                    <li><b>Durabilité : </b>Notre fil galvanisé est fabriqué avec des matériaux de qualité supérieure pour garantir sa résistance à l'usure et sa longévité.</li>
+                                    <li><b>Variété de Tailles et de Types : </b> Nous proposons une vaste gamme de boulons et d'écrous, y compris des écrous hexagonaux, des boulons à tête hexagonale, des boulons à tête fraisée, des écrous à ailettes, et bien d'autres, pour répondre à vos besoins spécifiques.</li>
+                                    <li><b>Protection contre la Corrosion : </b>Les revêtements spéciaux et les traitements anti-corrosion assurent une longue durée de vie, même dans des environnements exposés à l'humidité ou aux intempéries.</li>
+                                    <li><b>Polyvalence  : </b>Nos boulons et écrous sont adaptés à une grande variété d'applications, de la construction de bâtiments aux projets industriels et résidentiels.</li>
                                 </ul>
                             </div>
                         </div>

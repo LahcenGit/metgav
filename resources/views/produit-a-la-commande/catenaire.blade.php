@@ -91,22 +91,15 @@
                             <img src="{{ asset('front/assets/images/products/catenaire/img-1.png') }}" alt="Image">
                         </div>
 
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/catenaire/img-2.png') }}" alt="Image">
-                        </div>
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Les caténaires</h3>
-                    <p>Les caténaires sont des systèmes de câbles et de supports utilisés pour fournir une alimentation électrique aux véhicules électriques tels que les trains, les tramways et les trolleybus. Les caténaires se composent d'un fil conducteur aérien en métal, généralement en cuivre ou en aluminium, qui est suspendu au-dessus de la voie de transport à l'aide de supports isolants.
-
-                        Le fil conducteur est alimenté par une source d'alimentation électrique à une extrémité de la ligne, généralement une sous-station électrique, qui fournit l'électricité nécessaire pour alimenter les véhicules. Les véhicules sont équipés d'un dispositif de captage, appelé pantographe, qui se connecte au fil conducteur et permet de capter l'énergie électrique nécessaire pour alimenter les moteurs électriques du véhicule.
-
-                        Les caténaires sont largement utilisées dans les réseaux de transport en commun, tels que les tramways, les métros et les trolleybus, ainsi que dans les réseaux ferroviaires. Elles permettent une alimentation électrique continue et fiable des véhicules électriques, en évitant la nécessité de transporter des batteries lourdes et coûteuses à bord des véhicules.</p>
+                    <p>Les caténaires sont un composant vital de l'électrification ferroviaire, fournissant de l'énergie aux trains en mouvement. Chez Metgav industry, nous sommes fiers de fournir des solutions de caténaires fiables et durables qui alimentent les systèmes de transport ferroviaire modernes.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -114,18 +107,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les caténaires sont des systèmes de câbles et de supports utilisés pour fournir une alimentation électrique aux véhicules électriques tels que les trains, les tramways et les trolleybus. Les caténaires se composent d'un fil conducteur aérien en métal, généralement en cuivre ou en aluminium, qui est suspendu au-dessus de la voie de transport à l'aide de supports isolants.
-
-                                    Le fil conducteur est alimenté par une source d'alimentation électrique à une extrémité de la ligne, généralement une sous-station électrique, qui fournit l'électricité nécessaire pour alimenter les véhicules. Les véhicules sont équipés d'un dispositif de captage, appelé pantographe, qui se connecte au fil conducteur et permet de capter l'énergie électrique nécessaire pour alimenter les moteurs électriques du véhicule.
-
-                                    Les caténaires sont largement utilisées dans les réseaux de transport en commun, tels que les tramways, les métros et les trolleybus, ainsi que dans les réseaux ferroviaires. Elles permettent une alimentation électrique continue et fiable des véhicules électriques, en évitant la nécessité de transporter des batteries lourdes et coûteuses à bord des véhicules.</p>
-
+                                <ul>
+                                    <li><b>Conception Robuste :</b>Nos caténaires sont conçues pour résister aux conditions environnementales et aux contraintes mécaniques, garantissant leur durabilité à long terme.</li>
+                                    <li><b>Transmission d'Énergie Électrique  : </b> Les caténaires fournissent l'énergie électrique nécessaire pour propulser les locomotives électriques, offrant une solution économe en énergie.</li>
+                                    <li><b>Haute Tension et Fiabilité : </b>Nos systèmes de caténaires fonctionnent sous haute tension, assurant une transmission fiable de l'électricité aux trains.</li>
+                                    <li><b>Maintenance Facilitée :</b>  Nous concevons nos caténaires pour faciliter l'entretien et la réparation, minimisant ainsi les temps d'arrêt.</li>
+                                    <li><b>Sécurité Ferroviaire : </b> Les caténaires sont conçues pour résister aux chocs, minimisant ainsi les risques pour la sécurité ferroviaire.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

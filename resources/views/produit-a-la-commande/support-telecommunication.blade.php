@@ -86,30 +86,18 @@
             <div class="col-lg-6">
 
                 <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/st/img-2.png') }}" alt="Image">
-                        </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/st/img-3.png') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/st/img-1.png') }}" alt="Image">
-                        </div>
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/products/st/telecom.jpg') }}" alt="Image">
+                    </div>
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Les supports de télécommunication</h3>
-                    <p>Les supports de télécommunication industrielle sont des équipements qui permettent la transmission de données, de voix ou d'images dans un environnement industriel. Ces supports sont conçus pour résister aux conditions difficiles que l'on peut rencontrer dans les installations industrielles, telles que les vibrations, les températures extrêmes, l'humidité, la poussière et les interférences électromagnétiques.
-
-                        Il existe différents types de supports de télécommunication industrielle, tels que les câbles en fibre optique, les câbles en cuivre, les antennes sans fil, les réseaux Ethernet et les modems industriels. Chaque type de support a ses propres avantages et inconvénients en fonction des exigences de l'installation industrielle.
-
-                        Les supports de télécommunication industrielle sont utilisés dans de nombreux secteurs industriels, tels que la fabrication, la production d'énergie, la gestion des déchets, le traitement de l'eau et de l'air, ainsi que dans les transports. Ils sont essentiels pour assurer la communication entre les différentes parties d'une installation industrielle et pour permettre la surveillance et le contrôle à distance des processus industriels.</p>
+                    <p>Les supports de télécommunication sont des structures essentielles qui soutiennent les réseaux de communication, tels que les antennes de téléphonie mobile, les antennes de diffusion, et les équipements de télécommunication.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -117,17 +105,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les supports de télécommunication industrielle sont des équipements qui permettent la transmission de données, de voix ou d'images dans un environnement industriel. Ces supports sont conçus pour résister aux conditions difficiles que l'on peut rencontrer dans les installations industrielles, telles que les vibrations, les températures extrêmes, l'humidité, la poussière et les interférences électromagnétiques.
-
-                                    Il existe différents types de supports de télécommunication industrielle, tels que les câbles en fibre optique, les câbles en cuivre, les antennes sans fil, les réseaux Ethernet et les modems industriels. Chaque type de support a ses propres avantages et inconvénients en fonction des exigences de l'installation industrielle.
-
-                                    Les supports de télécommunication industrielle sont utilisés dans de nombreux secteurs industriels, tels que la fabrication, la production d'énergie, la gestion des déchets, le traitement de l'eau et de l'air, ainsi que dans les transports. Ils sont essentiels pour assurer la communication entre les différentes parties d'une installation industrielle et pour permettre la surveillance et le contrôle à distance des processus industriels.</p>
+                                <ul>
+                                    <li><b>Robustesse Structurelle :</b>Nos supports sont fabriqués à partir de matériaux de haute qualité, tels que l'acier galvanisé, pour garantir une résistance structurelle exceptionnelle.</li>
+                                    <li><b>Hauteur et Charge : </b>Les supports sont conçus pour supporter des équipements lourds, y compris des antennes, des câbles et des équipements de télécommunication.</li>
+                                    <li><b>Résistance aux Intempéries : </b>Les structures sont conçues pour résister aux conditions environnementales les plus difficiles, de la pluie et de la neige aux vents forts.</li>
+                                    <li><b>Personnalisation  :</b>Chaque support est conçu pour répondre aux besoins spécifiques des équipements de télécommunication et des réseaux, offrant une flexibilité maximale.</li>
+                                    <li><b>Entretien Facilité: </b>Les supports sont conçus pour un entretien facile, permettant un accès aux équipements pour des opérations de maintenance.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

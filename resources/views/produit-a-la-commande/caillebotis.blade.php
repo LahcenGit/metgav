@@ -102,7 +102,7 @@
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Caillebotis</h3>
-                    <p>Un caillebotis est une grille de sécurité utilisée pour couvrir les trappes de sol, les regards et les caniveaux pour empêcher les chutes et protéger les personnes de tout dommage. Il est souvent fabriqué en acier ou en aluminium, bien que d'autres matériaux tels que le bois, le béton et la fibre de verre peuvent également être utilisés.Les caillebotis sont disponibles dans une gamme de tailles, de formes et de configurations, en fonction de leur utilisation spécifique. Ils peuvent être plats ou en relief, avec des barres d'appui horizontales ou verticales, et avec des espaces entre les barres allant de quelques millimètres à plusieurs centimètres.</p>
+                    <p>Les caillebotis, également connus sous le nom de grilles ou de grilles de sol, sont des éléments architecturaux et fonctionnels qui apportent à la fois esthétique et durabilité à divers espaces. </p>
                 </div>
             </div>
 
@@ -110,14 +110,20 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Un caillebotis est une grille de sécurité utilisée pour couvrir les trappes de sol, les regards et les caniveaux pour empêcher les chutes et protéger les personnes de tout dommage. Il est souvent fabriqué en acier ou en aluminium, bien que d'autres matériaux tels que le bois, le béton et la fibre de verre peuvent également être utilisés.Les caillebotis sont disponibles dans une gamme de tailles, de formes et de configurations, en fonction de leur utilisation spécifique. Ils peuvent être plats ou en relief, avec des barres d'appui horizontales ou verticales, et avec des espaces entre les barres allant de quelques millimètres à plusieurs centimètres.</p>
-
+                                <ul>
+                                    <li><b>Durabilité Exceptionnelle :</b>Fabriqués à partir de matériaux de première qualité tels que l'acier, l'aluminium ou le plastique renforcé de verre, nos caillebotis résistent à l'usure, à la corrosion et aux conditions environnementales difficiles.</li>
+                                    <li><b>Sécurité Maximale : </b> Les caillebotis offrent une surface antidérapante, garantissant la sécurité des piétons et des véhicules, même dans des conditions humides ou glissantes.</li>
+                                    <li><b>Design Polyvalent :  </b>Disponibles dans une variété de designs, de tailles, de formes et de finitions, nos caillebotis s'adaptent à une large gamme d'applications, de l'industrie aux espaces publics.</li>
+                                    <li><b>Entretien Facile :</b>Les caillebotis sont simples à entretenir, ce qui les rend idéaux pour des zones à fort trafic ou des environnements exigeants.</li>
+                                    <li><b>Installation Simple : </b>La conception de nos caillebotis permet une installation rapide et efficace, économisant ainsi du temps et des coûts.</li>
+                                    <li><b>Applications Multiples : </b> Nos caillebotis sont couramment utilisés dans la construction, l'industrie, les parcs, les espaces commerciaux et bien d'autres lieux.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

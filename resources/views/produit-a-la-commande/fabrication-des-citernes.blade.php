@@ -86,24 +86,17 @@
             <div class="col-lg-6">
 
                 <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
+                    <div class="item">
                             <img src="{{ asset('front/assets/images/products/fc/img-1.png') }}" alt="Image">
-                        </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/fc/img-2.png') }}" alt="Image">
-                        </div>
-
+                    </div>
                 </div>
-
-
             </div>
-
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Fabrication des citernes </h3>
-                    <p>Les citernes sont des réservoirs de stockage utilisés pour stocker une variété de liquides, tels que l'eau, le pétrole, les produits chimiques, les gaz et les aliments. La fabrication de citernes implique plusieurs étapes, y compris la conception, la fabrication, l'installation et la maintenance.</p>
+                    <p>La fabrication de citernes est un processus essentiel qui permet de créer des réservoirs robustes et durables pour le stockage de liquides, de matières en vrac, de produits chimiques et plus encore. Chez Metgav industry, nous sommes spécialisés dans la conception et la fabrication de citernes de haute qualité, offrant une solution de stockage fiable pour une variété d'applications industrielles et commerciales.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -111,13 +104,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les citernes sont des réservoirs de stockage utilisés pour stocker une variété de liquides, tels que l'eau, le pétrole, les produits chimiques, les gaz et les aliments. La fabrication de citernes implique plusieurs étapes, y compris la conception, la fabrication, l'installation et la maintenance.</p>
+                                <ul>
+                                    <li><b>Matériaux de Qualité  :</b>Nous utilisons des matériaux de première qualité, tels que l'acier inoxydable, l'acier au carbone ou le plastique renforcé de verre, pour garantir la durabilité et la résistance chimique.</li>
+                                    <li><b>Conception sur Mesure: </b>Chaque citerne est conçue sur mesure pour répondre aux spécifications et aux besoins de stockage spécifiques de nos clients.</li>
+                                    <li><b>Options de Revêtement : </b>Nous offrons des options de revêtement pour garantir la compatibilité du réservoir avec les matériaux stockés, minimisant ainsi la corrosion et la contamination.</li>
+                                    <li><b>Accessoires et Équipements :</b>Nos citernes peuvent être équipées de pompes, de jauges, de systèmes de contrôle de niveau et d'autres accessoires pour faciliter la manipulation et le suivi des matériaux stockés.</li>
+                                    <li><b>Normes de Sécurité : </b>Toutes nos citernes sont construites conformément aux normes de sécurité et de qualité les plus strictes.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

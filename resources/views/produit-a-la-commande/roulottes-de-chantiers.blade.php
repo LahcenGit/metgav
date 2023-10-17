@@ -65,13 +65,13 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Supports d’éclairage en lampe classique</h2>
+            <h2>Roulottes de chantiers</h2>
             <ul>
                 <li>
                     Produit
                 </li>
                 <li>
-                    <a href="#">Supports d’éclairage en lampe classique</a>
+                    <a href="#">Roulottes de chantiers</a>
                 </li>
             </ul>
         </div>
@@ -84,21 +84,17 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
-                <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/sel/img-1.png') }}" alt="Image">
-                        </div>
+               <div class="article-carousel owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/products/roulette/roulette.jpg') }}" alt="Image">
+                    </div>
                 </div>
             </div>
-
             <div class="col-lg-6">
                 <div class="product-details-main-content">
-                    <h3>Les supports d’éclairage en lampe classique</h3>
-                    <p>Les supports d'éclairage en lampe classique sont bien plus que de simples dispositifs pour éclairer une pièce. Ils incarnent l'élégance intemporelle, ajoutant une touche de raffinement à tout espace. </p>
-                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
-                    </a>
+                    <h3>Roulottes de chantiers</h3>
+                    <p>Nos roulottes de chantier sont conçues pour répondre à vos besoins en matière de mobilité, de confort et d'efficacité sur le chantier. Dotées d'une structure robuste et d'aménagements intelligents, elles offrent une solution pratique pour les travailleurs et les équipes sur le terrain.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span></a>
                 </div>
             </div>
 
@@ -106,18 +102,18 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Principales : </button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <ul>
-                                    <li><b>Design Élégant :</b>Nos supports d'éclairage sont conçus avec une attention minutieuse aux détails, capturant l'esthétique intemporelle des époques passées.</li>
-                                    <li><b>Matériaux de Qualité : </b> Nous utilisons des matériaux de haute qualité tels que le laiton, le cristal et le verre pour garantir une durabilité et une beauté à long terme.</li>
-                                    <li><b>Styles Variés : </b>Notre gamme de supports d'éclairage classiques comprend une variété de styles, allant des designs victoriens aux lampadaires d'inspiration rétro.</li>
-                                    <li><b>Éclairage Ambiant :</b> Les supports d'éclairage en lampe classique diffusent une lumière douce et chaleureuse qui crée une atmosphère accueillante.</li>
-                                    <li><b>Compatibilité avec les Ampoules LED : </b> Nos lampes classiques sont souvent compatibles avec des ampoules LED modernes, alliant ainsi style classique et efficacité énergétique.</li>
+                               <ul>
+                                    <li><b>Mobilité Maximale :</b> Nos roulottes de chantier sont facilement transportables, vous permettant de les déplacer rapidement là où vous en avez besoin.</li>
+                                    <li><b>Confort et Commodité : </b>L'intérieur spacieux est équipé de tout ce dont vous avez besoin, de la cuisine aux espaces de repos, pour que votre équipe soit bien installée.</li>
+                                    <li><b>Résistance et Durabilité : </b>Construites pour résister aux conditions les plus exigeantes sur le chantier, nos roulottes sont prêtes à affronter les éléments.</li>
+                                    <li><b>Sécurité  : </b> Les roulottes de chantier offrent un refuge sûr, idéal pour les pauses, les réunions de sécurité et la gestion des documents essentiels.</li>
+                                    <li><b>Polyvalence  : </b>Qu'il s'agisse d'un site de construction, d'un projet industriel ou de travaux publics, nos roulottes s'adaptent à tous les besoins.</li>
                                 </ul>
                             </div>
                         </div>

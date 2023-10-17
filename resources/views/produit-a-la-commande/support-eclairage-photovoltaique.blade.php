@@ -88,7 +88,7 @@
                 <div class="article-carousel owl-carousel owl-theme">
 
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/sep/img-1.png') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/ses/ses.png') }}" alt="Image">
                         </div>
 
 
@@ -100,11 +100,9 @@
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Les supports d'éclairage photovoltaïque</h3>
-                    <p>Les supports d'éclairage photovoltaïque sont des structures conçues pour fournir un éclairage public à l'aide de panneaux solaires pour capter l'énergie solaire et la transformer en énergie électrique pour alimenter les lampes. Ces supports peuvent atteindre des hauteurs allant jusqu'à 45 mètres pour éclairer de vastes espaces publics.
-
-                        Ces supports sont généralement fabriqués à partir de matériaux légers et résistants, tels que l'aluminium ou l'acier inoxydable, pour résister aux conditions météorologiques extrêmes et minimiser les coûts de maintenance. Ils sont également conçus pour être esthétiques, offrant une apparence moderne et élégante pour s'adapter à différents environnements urbains ou ruraux.
-
-                        Les panneaux solaires utilisés sur ces supports d'éclairage photovoltaïques sont généralement intégrés dans le design de la structure elle-même, permettant de capter l'énergie solaire directement sans nécessiter de montage supplémentaire. Les lampes peuvent être équipées de LED ou d'autres technologies d'éclairage de haute efficacité énergétique pour offrir une illumination uniforme et de haute qualité.</p>
+                    <p>Les supports d'éclairage photovoltaïque sont des structures conçues pour soutenir des panneaux solaires photovoltaïques, capturant l'énergie solaire pour alimenter l'éclairage extérieur. </p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -112,18 +110,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les supports d'éclairage photovoltaïque sont des structures conçues pour fournir un éclairage public à l'aide de panneaux solaires pour capter l'énergie solaire et la transformer en énergie électrique pour alimenter les lampes. Ces supports peuvent atteindre des hauteurs allant jusqu'à 45 mètres pour éclairer de vastes espaces publics.
-
-                                    Ces supports sont généralement fabriqués à partir de matériaux légers et résistants, tels que l'aluminium ou l'acier inoxydable, pour résister aux conditions météorologiques extrêmes et minimiser les coûts de maintenance. Ils sont également conçus pour être esthétiques, offrant une apparence moderne et élégante pour s'adapter à différents environnements urbains ou ruraux.
-
-                                    Les panneaux solaires utilisés sur ces supports d'éclairage photovoltaïques sont généralement intégrés dans le design de la structure elle-même, permettant de capter l'énergie solaire directement sans nécessiter de montage supplémentaire. Les lampes peuvent être équipées de LED ou d'autres technologies d'éclairage de haute efficacité énergétique pour offrir une illumination uniforme et de haute qualité.</p>
-
+                                <ul>
+                                    <li><b>Panels Solaires Intégrés :</b>Nos supports intègrent des panneaux solaires photovoltaïques de haute efficacité pour capturer l'énergie solaire.</li>
+                                    <li><b>Stockage d'Énergie : </b>L'énergie solaire capturée est stockée dans des batteries pour alimenter l'éclairage pendant la nuit ou par temps nuageux.</li>
+                                    <li><b>Éclairage à LED Économe en Énergie  : </b>Les supports sont équipés de luminaires à LED économes en énergie qui offrent un éclairage efficace.</li>
+                                    <li><b>Gestion Intelligente : </b> Les systèmes peuvent être équipés de capteurs et de systèmes de gestion pour optimiser l'utilisation de l'énergie solaire.</li>
+                                    <li><b>Durabilité : </b>Nos supports d'éclairage sont construits pour résister aux intempéries, assurant une longue durée de vie.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

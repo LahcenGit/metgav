@@ -84,33 +84,19 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
                 <div class="article-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/bs/bs-1.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/bs/bs-5.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/bs/bs-2.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/bs/bs-3.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/bs/bs-4.jpg') }}" alt="Image">
-                        </div>
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/products/bs/bs.png') }}" alt="Image">
+                    </div>
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Les support BS</h3>
                     <p>Les supports BS sont des structures métalliques spécialement conçues pour supporter les lignes électriques à haute tension. Chez notre usine Metgav, nous fabriquons des supports BS de haute qualité, conformes aux normes, pour répondre aux besoins de nos clients.</p>
-
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -118,7 +104,7 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés</button>
                         </li>
 
                     </ul>
@@ -126,19 +112,13 @@
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>
-                                    Les supports BS sont des structures métalliques spécialement conçues pour supporter les lignes électriques à haute tension. Chez notre usine de galvanisation à chaud et transformation métallique, nous fabriquons des supports BS de haute qualité, conformes aux normes britanniques, pour répondre aux besoins de nos clients.
-                                </p>
-                                <p>
-                                    Nos supports BS sont fabriqués à partir de matériaux de première qualité, soigneusement sélectionnés pour leur durabilité, leur résistance et leur capacité à résister aux conditions climatiques et environnementales les plus difficiles. Nous utilisons des techniques de fabrication avancées pour assurer la qualité et la précision de chaque support BS que nous produisons.
-                                </p>
-                                <p>
-                                    Nos supports BS sont disponibles dans une gamme de tailles et de designs pour répondre à une variété de besoins. Nous pouvons également personnaliser les supports BS selon les exigences spécifiques de nos clients, y compris la taille, le matériau, la forme et la couleur.
-                                </p>
-                                <p>
-                                    Nous sommes fiers de fournir des supports BS de haute qualité et fiables qui répondent aux normes britanniques les plus strictes pour garantir la sécurité et la fiabilité des installations électriques. Contactez-nous pour plus d'informations sur nos supports BS et comment nous pouvons répondre à vos besoins de support de lignes électriques.
-                                </p>
-
+                                <ul>
+                                    <li><b>Robustesse Structurelle :</b> Les supports BS sont fabriqués en acier de haute qualité pour garantir une résistance exceptionnelle aux charges mécaniques et aux contraintes environnementales.</li>
+                                    <li><b>Haute Tension : </b>Ils sont conçus pour supporter des niveaux élevés de tension électrique en toute sécurité.</li>
+                                    <li><b>Diversité de Conception : </b> Les supports BS sont disponibles dans une variété de conceptions et de hauteurs pour s'adapter aux besoins spécifiques des projets de transmission d'énergie.</li>
+                                    <li><b>Galvanisation à Chaud : </b>Pour minimiser la corrosion, les supports peuvent être galvanisés à chaud pour une durabilité accrue.</li>
+                                    <li><b>Respect des Normes : </b>Tous les supports BS sont fabriqués en conformité avec les normes de sécurité et de qualité de l'industrie.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

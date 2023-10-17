@@ -84,33 +84,19 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a5.jpg') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/armement/armement.png') }}" alt="Image">
                         </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a2.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a3.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a4.jpg') }}" alt="Image">
-                        </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/armement/a1.jpg') }}" alt="Image">
-                        </div>
-
                 </div>
-
-
             </div>
-
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>ARMEMENTS ELECTRIQUES</h3>
-                    <p>Les armements électriques sont fabriqués avec précision à partir de matériaux de haute qualité, puis traités avec notre processus de galvanisation à chaud pour une protection maximale contre la corrosion. Nos armements électriques sont produits avec une grande attention aux détails et conformément aux normes les plus élevées de qualité et de sécurité, pour garantir une performance optimale et une longue durée de vie.</p>
+                    <p>
+                        Les armements électriques sont des dispositifs ou systèmes électriques utilisés pour réaliser diverses fonctions dans un environnement électrique ou électronique. Ils sont couramment utilisés dans l'industrie, les équipements électroniques, les infrastructures électriques et bien d'autres domaines.</p>
+                        <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                        </a>
                 </div>
             </div>
 
@@ -118,17 +104,20 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés</button>
                         </li>
 
-
                     </ul>
-
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les armements électriques sont fabriqués avec précision à partir de matériaux de haute qualité, puis traités avec notre processus de galvanisation à chaud pour une protection maximale contre la corrosion. Nos armements électriques sont produits avec une grande attention aux détails et conformément aux normes les plus élevées de qualité et de sécurité, pour garantir une performance optimale et une longue durée de vie.</p>
-
+                                <ul>
+                                    <li><b>Variété d'Applications :</b> Les armements électriques sont utilisés dans une variété d'applications, y compris la commutation, le contrôle, la protection, la distribution de l'énergie électrique et la gestion des signaux électroniques.</li>
+                                    <li><b>Composants Électriques : </b>Ils sont constitués de divers composants électriques, tels que les interrupteurs, les relais, les disjoncteurs, les contacteurs, les fusibles, les câbles, les connecteurs et les tableaux électriques.</li>
+                                    <li><b>Automatisation : </b>Les armements électriques sont souvent intégrés à des systèmes d'automatisation pour permettre un contrôle précis et programmable des dispositifs électriques.</li>
+                                    <li><b>Sécurité Électrique : </b> Certains armements électriques, tels que les disjoncteurs et les fusibles, sont conçus pour protéger les circuits contre les surcharges et les courts-circuits.</li>
+                                    <li><b>Gestion de l'Énergie : </b> Ils sont utilisés pour gérer la distribution de l'énergie électrique dans les bâtiments, les usines et les réseaux électriques.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

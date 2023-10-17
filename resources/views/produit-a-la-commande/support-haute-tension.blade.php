@@ -84,29 +84,19 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-
                 <div class="article-carousel owl-carousel owl-theme">
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/shq/img1.png') }}" alt="Image">
-                        </div>
-
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/shq/img2.png') }}" alt="Image">
-                        </div>
+                    <div class="item">
+                        <img src="{{ asset('front/assets/images/products/shq/img1.png') }}" alt="Image">
+                    </div>
                 </div>
-
-
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Les supports haute tension</h3>
-                    <p>Les supports haute tension sont des structures conçues pour supporter les câbles électriques à haute tension. Ils sont utilisés pour transporter l'électricité sur de longues distances, généralement à des tensions supérieures à 1000 volts. Ces structures peuvent prendre différentes formes et tailles, mais elles ont toutes en commun leur capacité à supporter des charges électriques importantes.
-
-                        Les supports haute tension peuvent être fabriqués à partir de divers matériaux, tels que l'acier, le béton armé ou le bois traité. Ils sont conçus pour résister aux conditions météorologiques difficiles, comme les vents forts, la pluie, la neige et la glace. Les supports peuvent être équipés d'isolateurs en céramique pour éviter les décharges électriques.
-
-                        Les supports haute tension peuvent être installés à différents endroits, y compris sur des pylônes, des mâts, des tours ou des poteaux. Le choix de la structure dépend de facteurs tels que la distance à parcourir, la charge électrique transportée et les conditions environnementales.</p>
+                    <p>Les supports haute tension sont des structures essentielles pour le transport de l'électricité à haute tension sur de longues distances. Ces supports servent de base pour les lignes électriques et assurent la stabilité du réseau électrique.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -114,18 +104,19 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                             <div class="product-details-description-content">
-                                <p>Les supports haute tension sont des structures conçues pour supporter les câbles électriques à haute tension. Ils sont utilisés pour transporter l'électricité sur de longues distances, généralement à des tensions supérieures à 1000 volts. Ces structures peuvent prendre différentes formes et tailles, mais elles ont toutes en commun leur capacité à supporter des charges électriques importantes.
-
-                                    Les supports haute tension peuvent être fabriqués à partir de divers matériaux, tels que l'acier, le béton armé ou le bois traité. Ils sont conçus pour résister aux conditions météorologiques difficiles, comme les vents forts, la pluie, la neige et la glace. Les supports peuvent être équipés d'isolateurs en céramique pour éviter les décharges électriques.
-
-                                    Les supports haute tension peuvent être installés à différents endroits, y compris sur des pylônes, des mâts, des tours ou des poteaux. Le choix de la structure dépend de facteurs tels que la distance à parcourir, la charge électrique transportée et les conditions environnementales.</p>
-
+                                <ul>
+                                    <li><b>Robustesse Structurelle :</b>Nos supports haute tension sont fabriqués en acier de haute qualité, en béton armé ou en matériaux composites pour résister aux conditions environnementales les plus sévères.</li>
+                                    <li><b>Conception sur Mesure: </b>Chaque support est conçu en fonction des besoins spécifiques du projet, qu'il s'agisse de lignes aériennes, de lignes souterraines ou de lignes sous-marines.</li>
+                                    <li><b>Haute Tension et Fiabilité : </b>NNos supports sont conçus pour supporter des niveaux de tension élevés, garantissant la transmission fiable de l'électricité.</li>
+                                    <li><b>Résistance aux Intempéries  :</b>Les supports sont conçus pour résister aux vents forts, aux tempêtes et à d'autres conditions climatiques extrêmes.</li>
+                                    <li><b>Entretien Facilité : </b>Les matériaux et les conceptions de nos supports sont adaptés pour minimiser l'entretien et prolonger leur durée de vie.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
