@@ -1019,14 +1019,14 @@
             <div class="product-typeone-carousel owl-carousel ">
                     <div class="col-md-3" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="#" class="team-img">
+                            <a href="{{ asset('prestation/galvanisation-a-chaud') }}" class="team-img">
                                 <img src="{{ asset('front/assets/images/products/presta-1.jpg') }}" alt="Image">
                             </a>
 
                             <div class="team-content hover-style wow">
                                 <div class="inner-border">
                                     <h3>
-                                        <a href="#">Galvanisation à chaud (unité Tlemcen)</a>
+                                        <a href="{{ asset('prestation/galvanisation-a-chaud') }}">Galvanisation à chaud (unité Tlemcen)</a>
                                     </h3>
 
                                     <div class="team-social-link">
@@ -1041,14 +1041,14 @@
                     </div>
                     <div class="col-md-3" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="#" class="team-img">
+                            <a href="{{ asset('/prestation/galvanisation-par-centrifugation-des-boulons-et-des-visses') }}" class="team-img">
                                 <img src="{{asset('front/assets/images/products/presta-2.jpg')}}" alt="Image">
                             </a>
 
                             <div class="team-content hover-style wow">
                                 <div class="inner-border">
                                     <h3>
-                                        <a href="#">Galvanisation par centrifugation des boulons et des visses</a>
+                                        <a href="{{ asset('/prestation/galvanisation-par-centrifugation-des-boulons-et-des-visses') }}">Galvanisation par centrifugation des boulons et des visses</a>
                                     </h3>
 
                                     <div class="team-social-link">
@@ -1063,14 +1063,14 @@
                     </div>
                     <div class="col-md-3" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="#" class="team-img">
+                            <a href="{{ asset('prestation/galvanisation-a-chaud-ain-defla') }}" class="team-img">
                                 <img src="{{asset('front/assets/images/products/presta-3.jpg')}}" alt="Image">
                             </a>
 
                             <div class="team-content hover-style wow">
                                 <div class="inner-border">
                                     <h3>
-                                        <a href="#">Galvanisation à chaud (unité Ain Defla)</a>
+                                        <a href="{{ asset('prestation/galvanisation-a-chaud-ain-defla') }}">Galvanisation à chaud (unité Ain Defla)</a>
                                     </h3>
 
                                     <div class="team-social-link">

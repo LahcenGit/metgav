@@ -86,7 +86,7 @@
             <div class="col-lg-6">
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/galvanisation/galva.png') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/galvanisation/galva-ain-defla.png') }}" alt="Image">
                         </div>
                 </div>
             </div>

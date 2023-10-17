@@ -89,9 +89,7 @@
                         <div class="item">
                             <img src="{{ asset('front/assets/images/products/gvb/img-1.png') }}" alt="Image">
                         </div>
-                        <div class="item">
-                            <img src="{{ asset('front/assets/images/products/gvb/img-2.png') }}" alt="Image">
-                        </div>
+
                 </div>
 
             </div>
@@ -99,9 +97,10 @@
             <div class="col-lg-6">
                 <div class="product-details-main-content">
                     <h3>Galvanisation par centrifugation des boulons et des visses </h3>
-                    <p>La galvanisation par centrifugation est un procédé de revêtement de surface qui est souvent utilisé pour protéger les boulons et les vis de la corrosion.
-                        La galvanisation par centrifugation est un processus efficace et économique pour protéger les boulons et les vis de la corrosion. Ce processus assure une adhérence uniforme du revêtement sur toutes les surfaces, même les zones difficiles à atteindre, pour une protection à long terme contre la rouille et la corrosion.
+                    <p>La galvanisation par centrifugation des boulons et des vis est un procédé essentiel pour garantir la durabilité et la fiabilité de ces fixations, qu'elles soient utilisées dans la construction, l'industrie, l'automobile, ou d'autres domaines. Grâce à cette couche de zinc protectrice, les boulons et les vis résistent aux éléments et restent en bon état pendant de nombreuses années, assurant ainsi le bon fonctionnement des structures et des équipements où ils sont utilisés.
                     </p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -109,14 +108,22 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Description</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés</button>
                         </li>
+
                     </ul>
                     <div class="tab-content" id="myTabContent">
-                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-                            <div class="product-details-description-content">
-                                <p>La galvanisation par centrifugation est un procédé de revêtement de surface qui est souvent utilisé pour protéger les boulons et les vis de la corrosion.
-                                    La galvanisation par centrifugation est un processus efficace et économique pour protéger les boulons et les vis de la corrosion. Ce processus assure une adhérence uniforme du revêtement sur toutes les surfaces, même les zones difficiles à atteindre, pour une protection à long terme contre la rouille et la corrosion.</p>
+                        <div class="col-lg-12 col-md-12">
+                            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                                <div class="product-details-description-content">
+                                    <ul>
+                                        <li><b>Revêtement en Zinc :</b>Le processus de galvanisation par centrifugation implique d'immerger les boulons et les vis dans un bain de zinc fondu, puis de les retirer et de les faire tourner rapidement pour éliminer l'excès de zinc. Cela crée une couche de zinc uniforme sur la surface des pièces.</li>
+                                        <li><b>Protection Contre la Corrosion : </b>La couche de zinc agit comme une barrière protectrice qui empêche la formation de rouille et de corrosion sur les boulons et les vis.</li>
+                                        <li><b>Résistance aux Intempéries : </b>Les boulons et les vis galvanisés par centrifugation résistent efficacement aux conditions environnementales difficiles, y compris l'humidité, la pluie, le sel et les UV.</li>
+                                        <li><b>Durabilité : </b> Cette méthode prolonge la durée de vie des boulons et des vis, réduisant ainsi les besoins de maintenance et de remplacement.</li>
+                                        <li><b>Uniformité : </b>La galvanisation par centrifugation assure une couverture uniforme sur toutes les parties des boulons et des vis, y compris les filetages, ce qui est essentiel pour leur bon fonctionnement.</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

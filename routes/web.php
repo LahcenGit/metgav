@@ -138,11 +138,14 @@ Route::get('/produit-a-la-commande/caillebotis ', function () {
 Route::get('/produit-a-la-commande/fabrication-des-citernes ', function () {
     return view('produit-a-la-commande.fabrication-des-citernes ');
 });
-Route::get('/produit-a-la-commande/galvanisation-par-centrifugation-des-boulons-et-des-visses ', function () {
+Route::get('/prestation/galvanisation-par-centrifugation-des-boulons-et-des-visses ', function () {
     return view('produit-a-la-commande.galvanisation-par-centrifugation-des-boulons-et-des-visses ');
 });
-Route::get('/produit-a-la-commande/galvanisation-a-chaud ', function () {
+Route::get('prestation/galvanisation-a-chaud ', function () {
     return view('produit-a-la-commande.galvanisation-a-chaud ');
+});
+Route::get('prestation/galvanisation-a-chaud-ain-defla ', function () {
+    return view('galvanisation-ain-defla ');
 });
 Route::get('/produit-a-la-commande/ateliers-hangar-en-charpente-legere-bungalow ', function () {
     return view('produit-a-la-commande.ateliers-hangar-en-charpente-legere-bungalow');
@@ -183,12 +186,12 @@ Route::get('/normes/galvanisation-iso-1461 ', function () {
 
 
 
-//catalogue 
+//catalogue
 Route::get('/catalogue ', function () {
     return view('catalogue');
 });
 
-//products 
+//products
 Route::get('/products ', function () {
     return view('products');
 });
