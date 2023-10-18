@@ -87,7 +87,7 @@
 
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('front/assets/images/products/ah/bangalow-et-maisonnette.jpg') }}" alt="Image">
+                            <img src="{{ asset('front/assets/images/products/Ah/bangalow-et-maisonnette.jpg') }}" alt="Image">
                         </div>
                 </div>
             </div>

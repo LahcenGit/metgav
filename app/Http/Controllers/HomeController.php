@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Actualite;
 use App\Models\Article;
 use Illuminate\Http\Request;
 
@@ -20,7 +21,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $articles = Article::all();
-        return view('welcome-new',compact('articles'));
+        $actualites = Actualite::limit(6)->orderByDesc('date')->get();
+        return view('welcome-new',compact('actualites'));
     }
 }

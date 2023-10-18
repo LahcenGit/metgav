@@ -25,4 +25,8 @@ class FrontController extends Controller
         $actualites = Actualite::orderByDesc('date')->get();
         return view('actualites',compact('actualites'));
     }
+    public function articles(){
+        $articles = Article::orderByDesc('date')->get();
+        return view('articles',compact('articles'));
+    }
 }

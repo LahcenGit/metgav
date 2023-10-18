@@ -197,7 +197,9 @@
 							<li class="nav-item">
 								<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
 							</li>
-
+                            <li class="nav-item">
+								<a href="{{asset('/articles')}}" class="nav-link">Articles</a>
+							</li>
                             <li class="nav-item">
 								<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
 							</li>
@@ -257,7 +259,7 @@
                         </ul>
                     </li>
 
-                    
+
 
 					<li class="nav-item">
 						<a href="{{asset('/produits')}}" class="nav-link">Produits</a>
@@ -272,7 +274,9 @@
 					<li class="nav-item">
 						<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
 					</li>
-
+                    <li class="nav-item">
+                        <a href="{{asset('/articles')}}" class="nav-link">Articles</a>
+                    </li>
 					<li class="nav-item">
 						<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
 					</li>
@@ -353,10 +357,10 @@
 
 							<ul class="import-link">
 								<li>
-									<a href="#">Produits</a>
+									<a href="{{ asset('/products') }}">Produits</a>
 								</li>
 								<li>
-									<a href="#">A propos</a>
+									<a href="{{ asset('/a-propos-metgav') }}">A propos</a>
 								</li>
 								<li>
 									<a href="#">Tlemcen</a>

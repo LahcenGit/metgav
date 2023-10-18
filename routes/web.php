@@ -91,6 +91,7 @@ Route::resource('/admin',AdminController::class)->middleware('can:admin');
 Route::get('/article/{slug}',[App\Http\Controllers\FrontController::class, 'detailArticle']);
 Route::get('/actualite/{slug}',[App\Http\Controllers\FrontController::class, 'detailActualite']);
 Route::get('/actualites',[App\Http\Controllers\FrontController::class, 'actualites']);
+Route::get('/articles',[App\Http\Controllers\FrontController::class, 'articles']);
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index']);
 
 //route products

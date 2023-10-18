@@ -1219,35 +1219,35 @@
             <div class="row">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title left-title">
-                        <span class="up-title">section Articles</span>
-                        <h2>Une variété d'articles pertinents.</h2>
+                        <span class="up-title">section Actualités</span>
+                        <h2>Les dernières actualités </h2>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                    <p style="line-height: 1.5">Dans cette section, vous trouverez une variété d'articles pertinents et informatifs sur la galvanisation à chaud et la transformation métallique. Nous partageons notre expertise et nos connaissances pour vous aider à mieux comprendre les avantages de la galvanisation à chaud et ses applications dans différents secteurs.</p>
+                    <p style="line-height: 1.5">Dans cette section, vous trouverez une variété d'articles pertinents et instructifs couvrant une gamme de sujets d'actualité. Notre objectif est de vous tenir informé des derniers développements et des informations essentielles pour rester au courant des événements importants.</p>
                 </div>
             </div>
         </div>
 
         <div class="row justify-content-center">
 
-            @foreach ($articles as $article)
+            @foreach ($actualites as $actualite)
                 <div class="col-lg-4 col-md-6">
                     <div class="main-blog-item wow fadeInUp delay-0-2s">
-                        <a href="{{asset('article/'.$article->slug)}}" class="blog-img">
-                            <img src="{{asset('storage/images/articles/'.$article->images[0]->link)}}" alt="Image">
+                        <a href="{{asset('actualite/'.$actualite->slug)}}" class="blog-img">
+                            <img src="{{asset('storage/images/actualites/'.$actualite->images[0]->link)}}" alt="Image">
                         </a>
 
                         <div class="blog-content hover-style">
                             <div class="inner-border">
                                 <ul>
-                                    <li>février 12, 2023</li>
+                                    <li>{{ $actualite->date }}</li>
                                 </ul>
                                 <h3>
-                                    <a href="{{asset('article/'.$article->slug)}}">{{$article->title}}</a>
+                                    <a href="{{asset('actualite/'.$actualite->slug)}}">{{$actualite->title}}</a>
                                 </h3>
-                                <p class="overflow-section">{{$article->description }}...</p>
-                                <a href="{{asset('article/'.$article->slug)}}" class="main-detail-btn">
+                                <p class="overflow-section">{{$actualite->description }}...</p>
+                                <a href="{{asset('actualite/'.$actualite->slug)}}" class="main-detail-btn">
                                     Lire plus
                                     <i class="icofont-plus"></i>
                                 </a>
