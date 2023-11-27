@@ -83,7 +83,7 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>Atelier de Galvanisation à chaud</h2>
+            <h2>Galvanisation à chaud</h2>
             <ul>
                 <li>
                     <a href="#">Service</a>
@@ -201,7 +201,7 @@
                 <div class="container">
                     <div class="row d-flex justify-content-between">
 
-                        
+                        <div class="col-lg-4 col-sm-6">
                             <div class="main-features-item wow fadeInUp delay-0-2s">
                                 <img src="{{asset('front/assets/images/icons/icon-1.jpg')}}" alt="">
                                
@@ -337,7 +337,7 @@
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s mb-4">
                     <div class="main-section-title left-title">
                         <span class="up-title">Vidéo</span>
-                        <h2>Voir l'atelier de Galvanisation à chaud</h2>
+                        <h2>Voir nos Ateliers de Galvanisation à chaud</h2>
                     </div>
                     <p>Découvrez notre équipement de pointe en action, et observez comment nous préparons méticuleusement chaque pièce pour garantir une application uniforme et durable du revêtement de zinc.</p>
 

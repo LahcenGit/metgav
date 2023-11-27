@@ -178,6 +178,12 @@ Route::get('/produit-a-la-commande/chassis-metallique-panneau ', function () {
 Route::get('/produit-a-la-commande/support-camera ', function () {
     return view('produit-a-la-commande.support-camera');
 });
+Route::get('/produit-a-la-commande/panneau-publicitaire ', function () {
+    return view('produit-a-la-commande.panneaux-publicitaires');
+});
+Route::get('/produit-a-la-commande/glissiere-securite ', function () {
+    return view('produit-a-la-commande.glissiere-securite');
+});
 
 Route::get('/normes/galvanisation-iso-1461 ', function () {
     return view('la-norme-iso');

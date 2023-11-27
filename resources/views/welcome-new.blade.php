@@ -75,7 +75,7 @@
                 <div class="item">
                     <div class="banner-content">
                         <h1 class="wow fadeInUp delay-0-2s">METGAV INDUSTRY ,</h1>
-                        <p class="wow fadeInUp delay-0-4s">Galvanisation à Chaud & Transformation Métallique</p>
+                        <p class="wow fadeInUp delay-0-4s">Transformation Métallique & Galvanisation à Chaud</p>
 
                         <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                             <span>
@@ -999,6 +999,49 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{ asset('/produit-a-la-commande/panneau-publicitaire ') }}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/support-pub.jpg')}}" alt="Image">
+                            </a>
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{ asset('/produit-a-la-commande/panneau-publicitaire  ') }}">Panneaux publicitaires</a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{ asset('/produit-a-la-commande/glissiere-securite') }}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/glissiere.jpg')}}" alt="Image">
+                            </a>
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{ asset('/produit-a-la-commande/glissiere-securite') }}">Glissières de sécurité</a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
 
@@ -1099,7 +1142,7 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="main-counter-item wow fadeInUp delay-0-2s">
-                        <h2 class="counter">35907 </h2>
+                        <h2 class="counter">69305 </h2>
                         <h2 class="point">m<sup>2</sup></h2>
                         <h3>superficie totale</h3>
                     </div>
@@ -1193,7 +1236,7 @@
                 <div class="video-content wow fadeInLeft delay-0-2s">
                     <span class="up-title">Video</span>
                     <h2>Plongez dans l'univers de notre usine </h2>
-                    <p>Observez la structure de notre usine et les processus de production en action pour mieux comprendre notre savoir-faire en matière...</p>
+                    <p>Observez la structure de nos usines et les processus de production en action pour mieux comprendre notre savoir-faire en matière...</p>
 
                     <a href="{{asset('/a-propos-metgav')}}" class="main-btn wow fadeInUp delay-0-8s">
                         <span>
@@ -1205,7 +1248,7 @@
             </div>
 
             <div class="col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rhrjh6JXOHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bbQP7-YzGGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </div>

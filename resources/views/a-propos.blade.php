@@ -108,6 +108,15 @@
                 <div class="col-lg-8">
                     <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
+                            <img src="{{ asset('front/assets/images/apropos/a4.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/apropos/a5.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
+                            <img src="{{ asset('front/assets/images/apropos/a6.jpg') }}" alt="Image">
+                        </div>
+                        <div class="item">
                             <img src="{{ asset('front/assets/images/apropos/a1.jpg') }}" alt="Image">
                         </div>
                         <div class="item">
@@ -156,8 +165,8 @@
             <div class=" row project-details-cntent ptb-50">
                 <div class="col-md-8">
                     <p class="mt-2">
-                        <b>Depuis 2019,</b> Metgav s'est engagée à fournir des produits de qualité supérieure à nos clients en Algérie et dans d'autres pays. Nous sommes spécialisés dans la production de produits métalliques tels que des profilés en acier, des tubes en acier, des poutrelles en acier et des produits de galvanisation à chaud.
-                       <p> Notre usine est équipée des technologies les plus avancées pour répondre aux normes internationales de qualité et de sécurité. Nous sommes fiers de notre expertise technique et de notre capacité à répondre aux demandes des clients, quels que soient leurs besoins.</p>
+                       <b>METGAV INDUSTRY</b>  est une entreprise spécialisée dans la transformation métallique et la galvanisation à chaud. Notre entreprise se positionne comme une force novatrice, s'engageant dans une démarche durable. 
+                       <p> METGAV est dotée des technologies les plus avancées afin de répondre aux normes internationales en matière de qualité et de sécurité. Nous sommes fiers de notre expertise technique et de notre capacité à satisfaire les demandes de nos clients, quelles que soient leurs exigences..</p>
                       </p>
                 </div>
                 <div class="col-md-4" style="background-color: #29A9E1; padding:20px;">
@@ -169,6 +178,45 @@
         </div>
     </section>
     <!--=== End Projects Details Section ===-->
+
+
+    
+<!--=== Start Counter Section ===-->
+<section class="counter-section ">
+    <div class="container">
+        <div class="counter-wrap pt-100 pb-70">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="main-counter-item wow fadeInUp delay-0-2s">
+                        <h2 class="counter">35907 </h2>
+                        <h2 class="point">m<sup>2</sup></h2>
+                        <h3>superficie totale</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="main-counter-item wow fadeInUp delay-0-4s">
+                        <h2 class="counter">900</h2>
+                        <h3>emplois directs</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="main-counter-item wow fadeInUp delay-0-6s">
+                        <h2 class="counter">2000</h2>
+                        <h3>emplois indirects</h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="main-counter-item wow fadeInUp delay-0-8s">
+                        <h2 class="counter">1400</h2>
+                        <h2 class="point">+</h2>
+                        <h3>clients</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--=== End Counter Section ===-->
 
 
 <!--=== Start FAQ Section ===-->
@@ -207,12 +255,12 @@
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s mb-4">
                     <div class="main-section-title left-title">
                         <span class="up-title">Vidéo</span>
-                        <h2>Découvrez notre usine et son positionnement </h2>
+                        <h2>Plongez dans l'univers de notre usine </h2>
                     </div>
-                    <p>vous pourrez découvrir notre usine et son positionnement géographique, ainsi que la structure de notre site de production. Vous pourrez également voir notre équipement de pointe et notre personnel qualifié en action, montrant les différentes étapes de notre processus de production, de la fabrication à la galvanisation à chaud.</p>
+                    <p>Observez la structure de nos usines et les processus de production en action pour mieux comprendre notre savoir-faire en matière...</p>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rhrjh6JXOHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bbQP7-YzGGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 </div>
             </div>
