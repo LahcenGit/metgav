@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Froidis- Professionel dashboard</title>
+        <title>METGAV INDUSTRY - Metal & galvanizing</title>
         <!-- Favicon icon -->
 		<link rel="shortcut icon" type="image/x-icon" href="{{ asset('front/assets/img/favicon.png') }}">
         <link href="{{asset('dashboard/vendor/datatables/css/jquery.dataTables.min.css')}}" rel="stylesheet">
@@ -23,8 +23,7 @@
         <link rel="stylesheet" href="{{asset('dashboard/vendor/toastr/css/toastr.min.css')}}">
         <link href="{{asset('dashboard/vendor/summernote/summernote.css')}}" rel="stylesheet">
         <link href="{{ asset('dashboard/vendor/dropzone/dist/dropzone.css') }}" rel="stylesheet">
-
-
+        <link rel="icon" type="image/png" href="{{asset('front/assets/images/favicon.png')}}">
 
         <style>
             .text-cosmekarn{
@@ -67,7 +66,10 @@
         ***********************************-->
         <div class="nav-header">
             <a href="index.html" class="brand-logo">
-                <img src="{{asset('front/assets/images/logo.png')}}" alt="Image">
+                <img class="logo-abbr" src="{{ asset('dashboard/images/logo-white.png') }}" alt="">
+                <img class="logo-compact" src="{{ asset('dashboard/images/logo-text-white.png') }}" alt="">
+                <img class="brand-title" src="{{ asset('dashboard/images/logo-text-white.png') }}" alt="">
+
             </a>
 
             <div class="nav-control">

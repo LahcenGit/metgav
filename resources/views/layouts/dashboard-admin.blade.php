@@ -49,8 +49,6 @@
             <a href="{{ asset('/admin') }}" class="brand-logo">
                 <img class="logo-abbr" src="{{ asset('dashboard/images/logo-white.png') }}" alt="">
                 <img class="logo-abbr" src="{{ asset('dashboard/images/logo-text-white.png') }}" alt="">
-
-
             </a>
 
             <div class="nav-control">

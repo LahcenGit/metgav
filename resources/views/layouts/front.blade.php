@@ -150,16 +150,6 @@
 						<img src="{{asset('front/assets/images/logo.png')}}" alt="Logo">
 					</a>
 
-					<div class="for-mobile-options">
-						<div class="menu-right-options d-flex align-items-center">
-							<a href="{{asset('/demande-devis')}}" class="main-btn">
-								<span>
-									 Besoin d'un devis
-									<i class="icofont-arrow-right"></i>
-								</span>
-							</a>
-						</div>
-					</div>
                     <div class="for-mobile-options">
 						<div class="menu-right-options d-flex align-items-center">
                             @auth
@@ -233,18 +223,11 @@
 								<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
 							</li>
 							<li class="nav-item">
-								<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
+								<a href="{{asset('/demande-devis')}}" class="nav-link">Devis</a>
 							</li>
 						</ul>
 
-						<div class="menu-right-options">
-							<a href="{{asset('/demande-devis')}}" class="main-btn">
-								<span>
-									Besoin d'un devis
-									<i class="icofont-arrow-right"></i>
-								</span>
-							</a>
-						</div>
+					
                         <div class="menu-right-options mr-3">
                             @auth
                             @if(Auth::user()->type == 'professional')
@@ -333,15 +316,9 @@
                         <a href="{{asset('/articles')}}" class="nav-link">Articles</a>
                     </li>
 					<li class="nav-item">
-						<a href="{{asset('/demande-devis')}}" class="nav-link">Contact</a>
+						<a href="{{asset('/demande-devis')}}" class="nav-link">Devis</a>
 					</li>
 
-					<a href="{{asset('/demande-devis')}}" class="main-btn">
-						<span>
-							Besoin d'un devis
-							<i class="icofont-arrow-right"></i>
-						</span>
-					</a>
                     @auth
                             @if(Auth::user()->type == 'professional')
                                 <a href="{{asset('/professional')}}" class="main-btn">
@@ -590,6 +567,19 @@
 
 		    });
 	    </script>
+
+<script>
+	    
+	document.addEventListener('DOMContentLoaded', function() {
+		var audio = document.createElement('audio');
+		audio.src = '{{ asset('music-metgav.mp3') }}';
+		audio.autoplay = true;
+		audio.loop = true;
+		audio.volume = 0.2; // Réglez le volume selon vos préférences (0.0 - 1.0)
+		document.body.appendChild(audio);
+	});
+			</script>
+			
 @stack('contact-scripts')
 
     </body>
