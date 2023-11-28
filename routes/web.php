@@ -7,7 +7,7 @@ use App\Http\Controllers\ActualiteController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Response;
-
+use TheHocineSaad\LaravelAlgereography\Models\Wilaya;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -35,10 +35,6 @@ Route::get('/charpente-metallique', function () {
 Route::get('/article', function () {
     return view('article');
 });
-
-
-
-
 
 
 Route::get('/galvanisation-a-chaud', function () {
@@ -69,8 +65,16 @@ Route::get('/demande-devis', function () {
     return view('devis');
 });
 
-
-
+Route::get('/register-pro', function () {
+    $wilayas = Wilaya::all();
+    return view('auth.register',compact('wilayas'));
+});
+Route::get('/login-pro', function () {
+   return view('auth.login-pro');
+});
+Route::get('/professional', function () {
+    return view('professional.dashboard-professional');
+ });
 
 Route::get('/a-propos-metgav', function () {
     return view('a-propos');

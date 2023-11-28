@@ -27,7 +27,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = '/';
     public function login(Request $request)
     {
         $input = $request->all();
@@ -44,6 +44,9 @@ class LoginController extends Controller
         {
             if(auth::user()->type == 'admin'){
                 return redirect('admin');
+            }
+            if(auth::user()->type == 'professional'){
+                return redirect('/');
             }
         }
         else{

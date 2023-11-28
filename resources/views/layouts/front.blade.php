@@ -160,6 +160,35 @@
 							</a>
 						</div>
 					</div>
+                    <div class="for-mobile-options">
+						<div class="menu-right-options d-flex align-items-center">
+                            @auth
+                                @if(Auth::user()->type == 'professional')
+                                    <a href="{{asset('/professional')}}" class="main-btn">
+                                        <span>
+                                            {{ Auth::user()->name }}
+                                            <i class="icofont-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                @else
+                                    <a href="{{asset('/admin')}}" class="main-btn">
+                                        <span>
+                                            {{ Auth::user()->name }}
+                                            <i class="icofont-arrow-right"></i>
+                                        </span>
+                                    </a>
+                                @endif
+                            @else
+                                <a href="{{asset('/login-pro')}}" class="main-btn">
+                                    <span>
+                                        Connexion
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
+                            @endauth
+
+						</div>
+					</div>
 
 					<a href="javascript:void(0);" class="mobile-menu">
 						<div class="mobile-menu-btn">
@@ -215,6 +244,32 @@
 									<i class="icofont-arrow-right"></i>
 								</span>
 							</a>
+						</div>
+                        <div class="menu-right-options mr-3">
+                            @auth
+                            @if(Auth::user()->type == 'professional')
+                                <a href="{{asset('/professional')}}" class="main-btn">
+                                    <span>
+                                        {{ Auth::user()->name }}
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
+                            @else
+                                <a href="{{asset('/admin')}}" class="main-btn">
+                                    <span>
+                                        {{ Auth::user()->name }}
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
+                            @endif
+                        @else
+                            <a href="{{asset('/login-pro')}}" class="main-btn">
+                                <span>
+                                    Connexion
+                                    <i class="icofont-arrow-right"></i>
+                                </span>
+                            </a>
+                        @endauth
 						</div>
 					</div>
 
@@ -287,7 +342,30 @@
 							<i class="icofont-arrow-right"></i>
 						</span>
 					</a>
-
+                    @auth
+                            @if(Auth::user()->type == 'professional')
+                                <a href="{{asset('/professional')}}" class="main-btn">
+                                    <span>
+                                        {{ Auth::user()->name }}
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
+                            @else
+                                <a href="{{asset('/admin')}}" class="main-btn">
+                                    <span>
+                                        {{ Auth::user()->name }}
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
+                            @endif
+                        @else
+                            <a href="{{asset('/login-pro')}}" class="main-btn">
+                                <span>
+                                    Connexion
+                                    <i class="icofont-arrow-right"></i>
+                                </span>
+                            </a>
+                        @endauth
 
 				</ul>
 
