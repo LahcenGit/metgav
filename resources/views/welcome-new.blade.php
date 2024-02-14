@@ -275,30 +275,30 @@
         </div>
 
         <div class="services-slider owl-carousel owl-theme " >
-            <div class="main-services-item wow fadeInUp delay-0-2s">
-                <i class="icofont-fire-burn"></i>
-                <h3>
-                    <a href="{{asset('/galvanisation-a-chaud')}}">Galvanisation à chaud</a>
-                </h3>
-                <p>La galvanisation est devenue à la fois un slogan et une exigence pour le secteur métallurgique vu son importance en ...</p>
-
-                <a href="{{asset('/galvanisation-a-chaud')}}" class="main-detail-btn">
-                    <i class="icofont-plus"></i>
-                    Lire plus
-                </a>
-                <img src="{{asset('front/assets/images/services-card-shape.png')}}" class="services-card-shape" alt="Image">
-            </div>
-
             <div class="main-services-item wow fadeInUp delay-0-4s ">
                 <i class="icofont-building"></i>
                 <h3>
                     <a href="{{asset('/transformation-metalique')}}">Transformation métallique</a>
                 </h3>
-                <p>Spécialisée dans l’étude, la conception et la fabrication, METGAV dispose d’un atelier de transformation métallique...</p>
+                <p>De l'idée à la réalité métallique - explorez notre expertise exceptionnelle dans l'étude, la conception et la fabrication. Plongez dans l'excellence métallique avec METGAV. </p>
 
                 <a href="{{asset('/transformation-metalique')}}" class="main-detail-btn">
                     <i class="icofont-plus"></i>
-                    Lire plus
+                    Découvrir davantage...
+                </a>
+                <img src="{{asset('front/assets/images/services-card-shape.png')}}" class="services-card-shape" alt="Image">
+            </div>
+
+            <div class="main-services-item wow fadeInUp delay-0-2s">
+                <i class="icofont-fire-burn"></i>
+                <h3>
+                    <a href="{{asset('/galvanisation-a-chaud')}}">Galvanisation à chaud</a>
+                </h3>
+                <p>Transformez vos métaux en chefs-d'œuvre durables ! Découvrez comment notre galvanisation à chaud, plus qu'un slogan, est une nécessité dans l'industrie métallurgique. </p>
+
+                <a href="{{asset('/galvanisation-a-chaud')}}" class="main-detail-btn">
+                    <i class="icofont-plus"></i>
+                    Explorez maintenant...
                 </a>
                 <img src="{{asset('front/assets/images/services-card-shape.png')}}" class="services-card-shape" alt="Image">
             </div>
@@ -1180,11 +1180,11 @@
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title left-title">
                         <span class="up-title">Nos partenaires</span>
-                        <h2>Découvrez nos partenaires de confiance</h2>
+                        <h2>Explorez notre réseau de partenaires de confiance</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                    <p>Nous sommes fiers de collaborer avec des entreprises renommées dans l'industrie de la galvanisation à chaud et de la transformation métallique pour offrir des produits et des services de qualité supérieure à nos clients. Explorez notre liste de partenaires pour en savoir plus sur nos relations commerciales solides et durables.</p>
+                    <p>Nous sommes honorés de travailler en collaboration avec des entreprises éminentes, couvrant une gamme diversifiée d'industries. Ces partenaires jouent un rôle essentiel dans la réalisation de notre engagement envers l'excellence, en fournissant des produits et des services de qualité supérieure à nos clients.</p>
                 </div>
             </div>
         </div>
