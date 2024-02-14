@@ -121,9 +121,9 @@
             <div class="col-lg-5 mt-2 mb-2">
                 <h1>Une protection durable et une finition esthétique !</h1>
               <p class="mt-2">
-                La galvanisation est devenue à la fois un slogan et une exigence pour le secteur métallurgique vu son importance en matière de protection contre la corrosion et c’est la raison pour laquelle METGAV INDUSTRY associe une ligne de galvanisation à chaud à l’atelier de transformation métallique qui actuellement devient le procédé le plus répondu dans le monde. METGAV INDUSTRY va pouvoir apporter des solutions appropriées au secteur lié à sa gamme de produits tel que le bâtiment, le mobilier urbain, la construction navale, l’énergie nouvelle…etc…
+                La galvanisation a émergé en tant que standard et impératif dans l'industrie métallurgique en raison de son rôle crucial dans la protection contre la corrosion. C'est dans cette optique que METGAV INDUSTRY intègre des lignes de galvanisation à chaud à ses ateliers, adoptant ainsi le procédé prédominant à l'échelle mondiale. METGAV INDUSTRY se positionne comme fournisseur de solutions adaptées à divers secteurs tels que le bâtiment, le mobilier urbain, la construction navale, l'énergie renouvelable, et bien d'autres.
               </p>
-              <p>Par voie de conséquence, METGAV INDUSTRY s’est dotée d’un procédé industriel concentré de technologie qui associe productivité, respect des hommes et de la nature.</p>
+              <p>Par conséquent, METGAV INDUSTRY s'est équipée d'un procédé industriel hautement technologique, combinant efficacité, respect des normes environnementales et bien-être des travailleurs.</p>
             </div>
 
           
@@ -190,7 +190,7 @@
                         <h2>Procédé d’application</h2>
                     </div>
                     <div class=" wow fadeInRight delay-0-2s">
-                        <p class="p-style">Nos deux bains de zinc, l'un de 10 mètres et l'autre de 7 mètres, sont des équipements de pointe utilisés dans notre processus de galvanisation à chaud. Ils permettent une immersion complète des pièces métalliques dans le bain de zinc fondu, garantissant ainsi une couverture uniforme et une protection efficace contre la corrosion. Grâce à notre expertise en galvanisation et à nos bains de zinc modernes, nous sommes en mesure de fournir des produits de qualité supérieure qui répondent aux normes les plus strictes en matière de résistance à la corrosion et de durabilité.</p>
+                        <p class="p-style">Nos deux bains de zinc, mesurant respectivement 10 mètres et 7 mètres, représentent des équipements de pointe essentiels à notre processus de galvanisation à chaud. Ces installations permettent une immersion complète des pièces métalliques dans le bain de zinc fondu, assurant ainsi une couverture uniforme et une protection efficace contre la corrosion. Grâce à notre expertise avancée en galvanisation et à l'utilisation de ces bains de zinc modernes, nous sommes en mesure de fournir des produits d'une qualité exceptionnelle, conformes aux normes les plus strictes en termes de résistance à la corrosion et de durabilité.</p>
                     </div>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                                
                                 <h3>1.Dégraissage</h3>
                                 <p class="lh-sm  mt-2">
-                                    Qui a pour but d’éliminer toutes les salissures et graisses qui empêchent la dissolution des oxydes de fer superficielles.
+                                    Le dégraissage a pour objectif d'éliminer toutes les salissures et les graisses qui entravent la dissolution des oxydes de fer à la surface.
                                     </p>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                                 <h3>
                                     2.Rinçage
                                     </h3>
-                                <p class="lh-sm  mt-2"> Un rinçage est effectué après le dégraissage afin de ne pas polluer les solutions qui suivent.</p>
+                                <p class="lh-sm  mt-2"> Après le dégraissage, un rinçage est effectué pour éviter toute contamination des solutions ultérieures.</p>
                             </div>
                         </div>
 
@@ -229,7 +229,7 @@
                                     3.Décapage
                                     </h3>
                                 <p class="lh-sm  mt-2">
-                                    Qui a pour but d’éliminer la calamine et le reste des oxydes présents à la surface de l’acier.
+                                    Le décapage vise à éliminer la calamine et les résidus d'oxydes présents à la surface de l'acier.
                                     </p>
                             </div>
                         </div>
@@ -249,7 +249,9 @@
                                     4.Rinçage
                                     </h3>
                                 <p class="lh-sm  mt-2">
-                                    Un deuxième rinçage est également effectué après le décapage afin de laver les pièces des sels de fer et des traces d’acide qui pourraient éventuellement contaminer l’opération suivante.
+                                    
+Un deuxième rinçage est réalisé après le décapage pour éliminer les sels de fer et les traces d'acide qui pourraient éventuellement contaminer l'opération suivante.
+
                                     </p>
                             </div>
                         </div>
@@ -261,7 +263,7 @@
                                     5.Fluxage
                                     </h3>
                                 <p class="lh-sm  mt-2"> 
-                                    Qui a pour but de protéger la pièce métallique contre une éventuelle ré-oxydation et d’optimiser l’adhérence du zinc sur la surface du métal
+                                    Le fluxage a pour objectif de protéger la pièce métallique contre une éventuelle ré-oxydation et d'optimiser l'adhérence du zinc à la surface du métal.
                                     </p>
                             </div>
                         </div>
@@ -271,7 +273,7 @@
                                 <img src="{{asset('front/assets/images/icons/icon-7.jpg')}}" alt="">
                                 <h3>6.Séchage</h3>
                                 <p class="lh-sm  mt-2">
-                                    Le séchage est effectué dans une enceinte fermée où circule un flux d’air chaud issu du bain de fusion afin d’éviter le choque thermique et les projections de zinc lors de l’immersion de la pièce
+                                    Le séchage s'effectue dans une enceinte fermée où circule un flux d'air chaud provenant du bain de fusion, afin d'éviter les chocs thermiques et les projections de zinc lors de l'immersion de la pièce.
                                     </p>
                             </div>
                         </div>
@@ -302,7 +304,7 @@
                                 <img src="{{asset('front/assets/images/icons/icon-6.jpg')}}" alt="">
                                 <h3> 8.Refroidissement & contrôle</h3>
                                 <p class="lh-sm  mt-2"> 
-                                    Les pièces galvanisés son t ensuite refroidies et contrôlées pour des raisons de fiabilité et de crédibilité par le biais d’un laboratoire très bien équipé pour un suivi rigoureux en matière d’analyse physico-chimique en amant et en avale du bain de zingage.
+                                    Les pièces galvanisées sont ensuite refroidies et soumises à un contrôle approfondi dans un laboratoire bien équipé, assurant un suivi rigoureux en matière d'analyse physico-chimique avant et après le bain de zingage.
                                     </p>
                             </div>
                         </div>
@@ -315,7 +317,7 @@
                                     </h3>
                                 <p class="lh-sm  mt-2">
 
-                                    Qui permet de donner un aspect d’éclat au produit fini
+                                    La passivation vise à donner un aspect éclatant au produit fini.
                                     </p>
                             </div>
                         </div>
