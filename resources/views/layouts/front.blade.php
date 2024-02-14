@@ -213,6 +213,22 @@
                             <li class="nav-item">
 								<a href="{{asset('/catalogue')}}" class="nav-link">Catalogue</a>
 							</li>
+                            <li class="nav-item">
+								<a href="#" class="nav-link dropdown-toggles">Filiales</a>
+
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="{{asset('/filiales/sarl-structural-industry')}}" class="nav-link">SARL Structural Industry</a>
+									</li>
+
+									<li class="nav-item">
+										<a href="{{asset('/filiales/sarl-cylex-industry')}}" class="nav-link">SARL Cylex Industry</a>
+									</li>
+                                    <li class="nav-item">
+										<a href="{{asset('/filiales/sarl-metal-et-metal')}}" class="nav-link">SARL Métal et Métal</a>
+									</li>
+								</ul>
+							</li>
 							<li class="nav-item">
 								<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
 							</li>
@@ -227,7 +243,7 @@
 							</li>
 						</ul>
 
-					
+
                         <div class="menu-right-options mr-3">
                             @auth
                             @if(Auth::user()->type == 'professional')
@@ -569,7 +585,7 @@
 	    </script>
 
 <script>
-	    
+
 	document.addEventListener('DOMContentLoaded', function() {
 		var audio = document.createElement('audio');
 		audio.src = '{{ asset('music-metgav.mp3') }}';
@@ -579,7 +595,7 @@
 		document.body.appendChild(audio);
 	});
 			</script>
-			
+
 @stack('contact-scripts')
 
     </body>

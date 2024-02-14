@@ -194,8 +194,17 @@ Route::get('/normes/galvanisation-iso-1461 ', function () {
 });
 
 
+//filiales
 
-
+Route::get('filiales/sarl-structural-industry', function () {
+    return view('filiales.sarl-structural');
+});
+Route::get('filiales/sarl-cylex-industry', function () {
+    return view('filiales.sarl-cylex');
+});
+Route::get('filiales/sarl-metal-et-metal', function () {
+    return view('filiales.sarl-metal');
+});
 
 //catalogue
 Route::get('/catalogue ', function () {
