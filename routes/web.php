@@ -192,6 +192,9 @@ Route::get('/produit-a-la-commande/panneau-publicitaire ', function () {
 Route::get('/produit-a-la-commande/glissiere-securite ', function () {
     return view('produit-a-la-commande.glissiere-securite');
 });
+Route::get('/produit-a-la-commande/kiosque-multiservices ', function () {
+    return view('produit-a-la-commande.kiosque-multiservices');
+});
 
 Route::get('/normes/galvanisation-iso-1461 ', function () {
     return view('la-norme-iso');
@@ -208,6 +211,9 @@ Route::get('filiales/sarl-cylex-industry', function () {
 });
 Route::get('filiales/sarl-metal-et-metal', function () {
     return view('filiales.sarl-metal');
+});
+Route::get('filiales/metgav-negoce', function () {
+    return view('filiales.metgav-negoce');
 });
 
 //unités

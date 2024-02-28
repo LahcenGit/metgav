@@ -65,10 +65,10 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>SARL Structural Industry</h2>
+            <h2>METGAV NEGOCE</h2>
             <ul>
                 <li>
-                    <a href="#" style="font-size: 25px !important">Fabrication d'accessoires en Aluminium  et en PVC</a>
+                    <a href="#" style="font-size: 25px !important">Société de Négociation Internationale</a>
                 </li>
             </ul>
         </div>
@@ -83,15 +83,17 @@
             <div class="col-lg-6">
                 <div class="article-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <img src="{{ asset('filiales/sarl-structural.jpg') }}" alt="Image">
+                            <img src="{{ asset('filiales/metgav-negoce.jpg') }}" alt="Image">
                         </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
-                    <h3>SARL structural Industry</h3>
-                    <p> SARL Structural Industry est une entreprise spécialisée dans la fabrication d'accessoires en aluminium et en PVC. Nous proposons des solutions de haute qualité pour les secteurs de la construction, de l'architecture et de la menuiserie. Notre engagement envers l'innovation et la qualité se reflète dans chaque produit que nous fabriquons. Choisissez SARL Structural Industry pour des accessoires durables, esthétiques et fonctionnels.
+                    <h3>METGAV NEGOCE</h3>
+                    <p> METGAV NEGOCE est la filiale de METGAV dédiée à la négociation internationale. Forte de l'expertise et de la réputation de sa société mère, METGAV NEGOCE s'engage à fournir des solutions de négoce efficaces et personnalisées pour répondre aux besoins de ses clients à l'échelle mondiale.
+                    </p>
+                    <p> Spécialisée dans la vente et l'achat de produits métalliques et de services connexes, METGAV NEGOCE met en œuvre une approche stratégique pour faciliter les transactions commerciales internationales, en mettant l'accent sur la qualité, la fiabilité et la satisfaction client.
                     </p>
                 </div>
             </div>
@@ -109,8 +111,8 @@
                             <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="product-details-description-content">
                                     <ul>
-                                        <li><b>Siege social : </b>zone semi industriel ZENATA Tlemcen.</li>
-                                        <li><b>Tel. : </b>+213 (0) 43 41 42 42  </li>
+                                        <li><b>Siege social : </b> Wilaya de Tlemcen.</li>
+                                        <li><b>Tel. : </b>+213 (0) 43 41 42 42</li>
 
                                     </ul>
                                 </div>
