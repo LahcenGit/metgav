@@ -58,12 +58,13 @@
         height: 4.5em !important;
         overflow: hidden !important;
     }
+    
     .td-size{
        font-size: 14px !important;
     }
-    </style>
+</style>
 
-<!--=== Start Page Banner Section ===-->
+<!-- Start Page Banner Section !-->
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
@@ -76,7 +77,7 @@
         </div>
     </div>
 </section>
-<!--=== End Page Banner Section ===-->
+<!-- End Page Banner Section !-->
 
 <!--=== Start Product Details Section ===-->
 <div class="product-details-area default-shape bg-color-linear-3 ptb-100">
