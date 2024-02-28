@@ -58,7 +58,9 @@
         height: 4.5em !important;
         overflow: hidden !important;
     }
-
+    .td-size{
+       font-size: 14px !important;
+    }
     </style>
 
 <!--=== Start Page Banner Section ===-->
@@ -127,8 +129,8 @@
             <div class="col-lg-8 text-center">
                 <div class="product-details-main-content mt-4">
                     <h2>Nos Revendeurs</h2>
-                    
-                    <table class="table table-striped mt-4">
+
+                    <table class="table table-striped mt-4 td-size">
                         <thead>
                           <tr style="background-color:#29A9E1; color:#ffff;">
                             <th scope="col">N°</th>
@@ -139,8 +141,103 @@
                         <tbody>
                           <tr>
                             <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
+                            <td>HAMDI ZOHEIR</td>
+                            <td>MAGHNIA</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>GRID DJAAFER</td>
+                            <td>COOPERATIVE IMMOBILIERE MOSTAKBALINE HΑΙ ΟΤΗΜΑNIA LOT N°13, MARAVAL ORAN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>HADJ BOULANOUAR</td>
+                            <td>N°10 GAZ EL BAROUD BENISAF, EURL ELECTRO-MENAGER ELNOUR (BOUTALEB)</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>EURL ELECTRO-MENAGER ELNOUR (BOUTALEB)</td>
+                            <td>N°04 RUE ADDA GUERBI ORAN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>KHELAFI MOHAMED</td>
+                            <td>N°263 ILOT</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>YAHIA OUALID DIHADJ</td>
+                            <td>SAIDA, KARA</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>KARA ZAITRI RACHID</td>
+                            <td>N°78 LOTISSEMENT BELAOULADI AMARNAS SIDI LAHCEN SIDI BEL ABBES</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>LABED ABDELKADER</td>
+                            <td>SIDI BEL ABBES</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>BENABDALLAH BENARMAS ACHRAF</td>
+                            <td>RESIDENCE LES PLAN TERRE BIR ELDJIR ORAN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">10</th>
+                            <td>BAMBRIK BENAMAR</td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <th scope="row">11</th>
+                            <td>BENDIMERED ZOHEIR</td>
+                            <td>BECHAR</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">12</th>
+                            <td>CHAKOURI ALI</td>
+                            <td>ORAN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">13</th>
+                            <td>LOUDJANI MOSTA</td>
+                            <td>MOSTA</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">14</th>
+                            <td>ZOUBID SLIMANE</td>
+                            <td>58 RUE SMAIL MOHAMMED ORAN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">15</th>
+                            <td>BENNANI AHMED</td>
+                            <td>SIDI MOHAMMED EL MOHAMMADIA MASCARA</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">16</th>
+                            <td>TAIBI YAMINA</td>
+                            <td>LOTISSEMENT ALI BOUMANDJEL MAGASIN 1 SAIDA</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">17</th>
+                            <td>ZAOUI EL AMINE</td>
+                            <td>RUE BELDJILALI MILOUD N°28 NEDROMA TLEMCEN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">18</th>
+                            <td>BENARBA SAID</td>
+                            <td>SID EL BACHIR ORAN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">19</th>
+                            <td>MEGHAGHI CHABANE</td>
+                            <td>SOUANI TLEMCEN</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">20</th>
+                            <td>HAMIDI ABDELKADER</td>
+                            <td>N° 84 RUE DIDOUCHE MOURAD MAGHNIA TLEMCEN</td>
                           </tr>
                         </tbody>
                       </table>
