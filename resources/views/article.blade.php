@@ -11,7 +11,7 @@
       transform: translateX(-50%);
       text-align: center;
     }
-    
+
     .owl-carousel .owl-nav button.owl-prev,
     .owl-carousel .owl-nav button.owl-next {
       font-size: 20px;
@@ -29,34 +29,34 @@
       opacity: 1;
       transition: 0.5s;
     }
-    
-    
+
+
     .owl-carousel .owl-nav button.owl-prev {
       position: relative;
       left: -5px;
     }
-    
+
     .owl-carousel .owl-nav button.owl-next {
       position: relative;
       right: -5px;
     }
-    
+
     .owl-carousel .owl-item.fadeOut {
       opacity: 0;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .owl-carousel .owl-item.fadeIn {
       opacity: 1;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .overflow-section{
         line-height: 1.5 !important;
         height: 4.5em !important;
         overflow: hidden !important;
     }
-    
+
     </style>
 <!--=== Start Page Banner Section ===-->
 <section class="page-banner-section" style="background-color: #035479; ">
@@ -90,8 +90,8 @@
                             </div>
                         @endforeach
                     </div>
-                      
-                    
+
+
                     <ul>
                         <li>
                             <i class="icofont-user-alt-3"></i>
@@ -103,7 +103,7 @@
                         </li>
                     </ul>
                     <p>{!! $article->description !!}</p>
-                
+
                 </div>
             </div>
 
@@ -130,13 +130,13 @@
                                         {{$item->title}}
                                     </a>
                                 </li>
-                                
+
                             @endforeach
-                          
-                            
+
+
                         </ul>
                     </div>
-                 
+
                 </div>
             </div>
         </div>
@@ -145,3 +145,4 @@
 <!--=== End Blog Details Section ===-->
 
 @endsection
+@section('articles-active', 'active')

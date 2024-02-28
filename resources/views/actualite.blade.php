@@ -146,3 +146,4 @@
 <!--=== End Blog Details Section ===-->
 
 @endsection
+@section('actualites-active', 'active')

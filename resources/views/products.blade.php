@@ -647,7 +647,5 @@
     </div>
 </section>
 <!--=== End Team Section ===-->
-
-
-
 @endsection
+@section('products-active', 'active')

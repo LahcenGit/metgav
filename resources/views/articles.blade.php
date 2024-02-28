@@ -75,3 +75,4 @@
 <!--=== End Blog Section ===-->
 
 @endsection
+@section('articles-active', 'active')

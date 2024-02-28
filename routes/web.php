@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\ActualiteController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\CommercialController;
+use App\Http\Controllers\DeviController;
 use App\Http\Controllers\MailController;
 use Illuminate\Support\Facades\Response;
 use TheHocineSaad\LaravelAlgereography\Models\Wilaya;
@@ -84,9 +86,11 @@ Route::get('/success-send', function () {
     return view('mail.success');
 });
 
-
+Route::resource('/demande-devis',DeviController::class);
+/*
 Route::post('/demande-devis/send',[App\Http\Controllers\MailController::class, 'sendEmail']);
 Route::get('/demande-devis/send',[App\Http\Controllers\MailController::class, 'index']);
+*/
 
 Auth::routes();
 Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
@@ -206,6 +210,20 @@ Route::get('filiales/sarl-metal-et-metal', function () {
     return view('filiales.sarl-metal');
 });
 
+//unités
+Route::get('unites/ain-fezza', function () {
+    return view('unites.ain-fezza');
+});
+Route::get('unites/extension-ain-fezza', function () {
+    return view('unites.extension-ain-fezza');
+});
+Route::get('unites/ghazaout', function () {
+    return view('unites.ghazaout');
+});
+Route::get('unites/boumedfaa', function () {
+    return view('unites.boumedfaa');
+});
+
 //catalogue
 Route::get('/catalogue ', function () {
     return view('catalogue');
@@ -225,3 +243,8 @@ Route::get('/normes/acier-1025-2', function () {
 
     return Response::download($file, 'NBN-EN-10025-2.pdf', $headers);
 });
+
+
+//commercial
+Route::resource('/commercial',CommercialController::class);
+Route::get('/show-detail-devis/{id}',[App\Http\Controllers\CommercialController::class, 'showDetailDevis']);

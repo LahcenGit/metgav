@@ -8,7 +8,7 @@
             <h2>Demander un devis</h2>
             <ul>
                 <li>
-                    <a href="index.html">Accueil</a>
+                    <a href="{{ asset('/') }}">Accueil</a>
                 </li>
                 <li>
                     Demander un devis
@@ -29,39 +29,79 @@
                         <h2>Demander un devis facilement !</h2>
                         <p>Remplissez le formulaire ci-dessous pour recevoir un devis personnalisé pour vos besoins en galvanisation à chaud et transformation métallique.</p>
 
-                        <form class="form-contact" id="contact-form" action="{{asset('/demande-devis/send')}}" method="POST" enctype='multipart/form-data'> 
+                        <form class="form-contact"  action="{{asset('/demande-devis')}}" method="POST" enctype='multipart/form-data'>
                             @csrf
                             <div class="row d-flex justify-content-center">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control"  name="first_name" placeholder="Nom *" id="first_name" required>
+                                        <input type="text" class="form-control @error('first_name') is-invalid @enderror"  name="first_name" placeholder="Nom *" required>
+                                            @error('first_name')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="last_name"  placeholder="Prenom *" id="last_name" required>
+                                        <input type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name"  placeholder="Prenom *"  required>
+                                            @error('last_name')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong>{{ $message }}</strong>
+                                                </span>
+                                            @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="phone" placeholder="Téléphone *" id="phone" required>
+                                        <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" placeholder="Téléphone *"  required>
+                                        @error('phone')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="entreprise" placeholder="Entreprise *" id="entreprise" required>
+                                        <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="Email *"  required>
+                                        @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control @error('entreprise') is-invalid @enderror" name="entreprise" placeholder="Entreprise *"  required>
+                                        @error('entreprise')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label>Registre de commerce* :</label>
-                                        <input type="file" class="form-control mt-2" name="file_one" placeholder="Registre commerce" id="file_one" required>
+                                        <input type="file" class="form-control mt-2 @error('file_one') is-invalid @enderror" name="file_one" placeholder="Registre commerce"  required>
+                                        @error('file_one')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         <label>NIF* :</label>
-                                        <input type="file" class="form-control mt-2" name="file_two" placeholder="NIF" id="file_two" required>
+                                        <input type="file" class="form-control mt-2 @error('file_two') is-invalid @enderror" name="file_two" placeholder="NIF"  required>
+                                        @error('file_two')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
@@ -78,12 +118,8 @@
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <textarea cols="30" name="detail" rows="10" class="form-control" placeholder="Plus de détails..." id="message"></textarea>
+                                        <textarea cols="30" name="detail" rows="10" class="form-control" placeholder="Plus de détails..."></textarea>
                                     </div>
-                                </div>
-
-                                <div id="show_contact_msg" >
-
                                 </div>
                                 <div class="col-12">
                                     <button type="submit" class="main-btn">
@@ -104,6 +140,7 @@
 
 
 @endsection
+@section('devis-active', 'active')
 {{--
 @push('contact-scripts')
 <script>

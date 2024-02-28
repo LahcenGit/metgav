@@ -1346,3 +1346,4 @@
 
 
 @endsection
+@section('accueil-active', 'active')

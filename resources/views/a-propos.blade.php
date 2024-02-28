@@ -13,7 +13,7 @@
       transform: translateX(-50%);
       text-align: center;
     }
-    
+
     .owl-carousel .owl-nav button.owl-prev,
     .owl-carousel .owl-nav button.owl-next {
       font-size: 20px;
@@ -31,34 +31,34 @@
       opacity: 1;
       transition: 0.5s;
     }
-    
-    
+
+
     .owl-carousel .owl-nav button.owl-prev {
       position: relative;
       left: -5px;
     }
-    
+
     .owl-carousel .owl-nav button.owl-next {
       position: relative;
       right: -5px;
     }
-    
+
     .owl-carousel .owl-item.fadeOut {
       opacity: 0;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .owl-carousel .owl-item.fadeIn {
       opacity: 1;
       transition: opacity 1s ease-in-out;
     }
-    
+
     .overflow-section{
         line-height: 1.5 !important;
         height: 4.5em !important;
         overflow: hidden !important;
     }
-    
+
     </style>
 
 <!--=== Start Preloader Section ===-->
@@ -91,7 +91,7 @@
                     <a href="#">Accueil</a>
                 </li>
                 <li>
-                    a propos 
+                    a propos
                 </li>
             </ul>
         </div>
@@ -125,20 +125,20 @@
                         <div class="item">
                             <img src="{{ asset('front/assets/images/apropos/a3.jpg') }}" alt="Image">
                         </div>
-                       
+
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="project-left-sidebar">
-                        
+
                         <div class="row align-items-center d-flex justify-content-center">
                             <div class="col">
                                 <div class="about-us-img me-15 wow fadeInLeft delay-0-2s">
                                     <img height="300px" width="400px" src="{{asset('front/assets/images/ceo-metgav.jpg')}}" alt="Image">
-                
+
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <div class="row align-items-center d-flex justify-content-center">
@@ -146,7 +146,7 @@
                                     <div class="about-content ms-15 wow fadeInRight delay-0-2s">
                                         <span class="up-title">Directeur général</span>
                                         <h2>Mr Abid Reda</h2>
-                    
+
                                         <a href="#section1" class="main-btn">
                                             <span>
                                                 Mot du Directeur général
@@ -155,7 +155,7 @@
                                         </a>
                                     </div>
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -165,7 +165,7 @@
             <div class=" row project-details-cntent ptb-50">
                 <div class="col-md-8">
                     <p class="mt-2">
-                       <b>METGAV INDUSTRY</b>  est une entreprise spécialisée dans la transformation métallique et la galvanisation à chaud. Notre entreprise se positionne comme une force novatrice, s'engageant dans une démarche durable. 
+                       <b>METGAV INDUSTRY</b>  est une entreprise spécialisée dans la transformation métallique et la galvanisation à chaud. Notre entreprise se positionne comme une force novatrice, s'engageant dans une démarche durable.
                        <p> METGAV est dotée des technologies les plus avancées afin de répondre aux normes internationales en matière de qualité et de sécurité. Nous sommes fiers de notre expertise technique et de notre capacité à satisfaire les demandes de nos clients, quelles que soient leurs exigences..</p>
                       </p>
                 </div>
@@ -180,7 +180,7 @@
     <!--=== End Projects Details Section ===-->
 
 
-    
+
 <!--=== Start Counter Section ===-->
 <section class="counter-section ">
     <div class="container">
@@ -240,7 +240,7 @@
             </div>
         </div>
 
-        
+
 
     </div>
 </section>
@@ -269,9 +269,5 @@
     </div>
 </section>
 <!--=== End Testimonial Section ===-->
-
-
-
-
-
 @endsection
+@section('autres-active', 'active')

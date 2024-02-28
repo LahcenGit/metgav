@@ -190,10 +190,10 @@
 						<ul class="navbar-nav m-auto">
 
 							<li class="nav-item">
-								<a href="{{asset('/')}}" class="nav-link  active">Accueil</a>
+								<a href="{{asset('/')}}" class="nav-link @yield('accueil-active')">Accueil</a>
 							</li>
-
-                            <li class="nav-item">
+                            {{--
+                                <li class="nav-item">
 								<a href="#" class="nav-link dropdown-toggles">Services</a>
 
 								<ul class="sub-menu">
@@ -205,16 +205,36 @@
 										<a href="{{asset('/transformation-metalique')}}" class="nav-link">Transformation métallique</a>
 									</li>
 								</ul>
+							    </li>
+                            --}}
+
+                            <li class="nav-item">
+								<a href="#" class="nav-link dropdown-toggles @yield('unite-active')">Unités</a>
+
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="{{asset('/unites/ain-fezza')}}" class="nav-link">AIN FEZZA (Tlemcen)</a>
+									</li>
+                                    <li class="nav-item">
+										<a href="{{asset('/unites/extension-ain-fezza')}}" class="nav-link">Extension AIN FEZZA (Tlemcen)</a>
+									</li>
+									<li class="nav-item">
+										<a href="{{asset('/unites/ghazaout')}}" class="nav-link">GHAZAOUET (Tlemcen)</a>
+									</li>
+                                    <li class="nav-item">
+										<a href="{{asset('/unites/boumedfaa')}}" class="nav-link">BOUMEDFAA (Aïn Defla)</a>
+									</li>
+								</ul>
 							</li>
 
                             <li class="nav-item">
-								<a href="{{asset('/products')}}" class="nav-link">Produits</a>
+								<a href="{{asset('/products')}}" class="nav-link @yield('products-active')">Produits</a>
 							</li>
                             <li class="nav-item">
-								<a href="{{asset('/catalogue')}}" class="nav-link">Catalogue</a>
+								<a href="{{asset('/catalogue')}}" class="nav-link @yield('catalogue-active')">Catalogue</a>
 							</li>
                             <li class="nav-item">
-								<a href="#" class="nav-link dropdown-toggles">Filiales</a>
+								<a href="#" class="nav-link dropdown-toggles @yield('filiales-active')">Filiales</a>
 
 								<ul class="sub-menu">
 									<li class="nav-item">
@@ -230,16 +250,24 @@
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
+								<a href="{{asset('/actualites')}}" class="nav-link @yield('actualites-active')">Actualités</a>
 							</li>
                             <li class="nav-item">
-								<a href="{{asset('/articles')}}" class="nav-link">Articles</a>
+								<a href="{{asset('/articles')}}" class="nav-link @yield('articles-active')">Articles</a>
 							</li>
                             <li class="nav-item">
-								<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
+								<a href="{{asset('/demande-devis')}}" class="nav-link @yield('devis-active')">Devis</a>
 							</li>
-							<li class="nav-item">
-								<a href="{{asset('/demande-devis')}}" class="nav-link">Devis</a>
+                            <li class="nav-item">
+								<a href="#" class="nav-link dropdown-toggles @yield('autres-active')">Autres</a>
+                                <ul class="sub-menu">
+									<li class="nav-item">
+										<a href="{{asset('/a-propos-metgav')}}" class="nav-link @yield('a-propos')">A propos</a>
+									</li>
+                                    <li class="nav-item">
+										<a href="{{asset('/unite/boumedfaa')}}" class="nav-link @yield('chiffres')">Chiffres</a>
+									</li>
+								</ul>
 							</li>
 						</ul>
 
@@ -298,8 +326,7 @@
                         <a href="{{asset('/')}}" class="nav-link  active">Accueil</a>
                     </li>
 
-
-                    <li class="nav-item has-children">
+                    {{--<li class="nav-item has-children">
                         <a href="#" class="nav-link dropdown-toggles">Services</a>
 
                         <ul class="sub-menu">
@@ -311,20 +338,33 @@
 								<a href="{{asset('/transformation-metalique')}}" class="nav-link">Transformation métallique</a>
 							</li>
                         </ul>
+                        </li>
+                      --}}
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link dropdown-toggles">Unités</a>
+
+                        <ul class="sub-menu">
+                            <li class="nav-item">
+                                <a href="{{asset('/unites/ain-fezza')}}" class="nav-link">AIN FEZZA (Tlemcen)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{asset('/unites/ain-fezza')}}" class="nav-link">Extension AIN FEZZA (Tlemcen)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{asset('/unites/ghazaout')}}" class="nav-link">GHAZAOUET (Tlemcen)</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{asset('/unites/boumedfaa')}}" class="nav-link">BOUMEDFAA (Aïn Defla)</a>
+                            </li>
+                        </ul>
                     </li>
-
-
-
-					<li class="nav-item">
-						<a href="{{asset('/produits')}}" class="nav-link">Produits</a>
+                    <li class="nav-item">
+						<a href="{{asset('/products')}}" class="nav-link">Produits</a>
 					</li>
 					<li class="nav-item">
 						<a href="{{asset('/catalogue')}}" class="nav-link">Catalogue</a>
 					</li>
-					<li class="nav-item">
-						<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
-					</li>
-
 					<li class="nav-item">
 						<a href="{{asset('/actualites')}}" class="nav-link">Actualités</a>
 					</li>
@@ -334,7 +374,17 @@
 					<li class="nav-item">
 						<a href="{{asset('/demande-devis')}}" class="nav-link">Devis</a>
 					</li>
-
+                    <li class="nav-item">
+                        <a href="#" class="nav-link dropdown-toggles">Autres</a>
+                        <ul class="sub-menu">
+                            <li class="nav-item">
+                                <a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{{asset('/unite/boumedfaa')}}" class="nav-link">Chiffres</a>
+                            </li>
+                        </ul>
+                    </li>
                     @auth
                             @if(Auth::user()->type == 'professional')
                                 <a href="{{asset('/professional')}}" class="main-btn">
