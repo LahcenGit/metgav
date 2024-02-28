@@ -65,10 +65,13 @@
 <section class="page-banner-section" style="background-color: #035479; ">
     <div class="container">
         <div class="page-banner-content">
-            <h2>SARL Structural Industry</h2>
+            <h2>Kiosque multiservices</h2>
             <ul>
                 <li>
-                    <a href="#" style="font-size: 25px !important">Fabrication d'accessoires en Aluminium  et en PVC</a>
+                    Produit
+                </li>
+                <li>
+                    <a href="#">Kiosque multiservices</a>
                 </li>
             </ul>
         </div>
@@ -82,17 +85,18 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="article-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="{{ asset('filiales/sarl-structural.jpg') }}" alt="Image">
-                        </div>
+                    <div class="item">
+                        <iframe width="800" height="400" src="https://www.youtube.com/embed/sntD45E6H_0" title="Metgav industry - Kiosque multi-service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
 
             <div class="col-lg-6">
                 <div class="product-details-main-content">
-                    <h3>SARL structural Industry</h3>
-                    <p> SARL Structural Industry est une entreprise spécialisée dans la fabrication d'accessoires en aluminium et en PVC. Nous proposons des solutions de haute qualité pour les secteurs de la construction, de l'architecture et de la menuiserie. Notre engagement envers l'innovation et la qualité se reflète dans chaque produit que nous fabriquons. Choisissez SARL Structural Industry pour des accessoires durables, esthétiques et fonctionnels.
-                    </p>
+                    <h3>Kiosque multiservices</h3>
+                    <p>Le kiosque multiservices de METGAV INDUSTRY offre une solution polyvalente et efficace pour répondre à une multitude de besoins. Conçu avec un souci de fonctionnalité et de durabilité, notre kiosque combine un design moderne avec une construction métallique robuste et une galvanisation à chaud pour assurer une longue durée de vie même dans des environnements extérieurs exigeants.</p>
+                    <a href="{{ asset('/demande-devis') }}" class="main-btn"><span>Demander un devis</span>
+                    </a>
                 </div>
             </div>
 
@@ -100,20 +104,18 @@
                 <div class="tab product-details-tab pt-100">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Détails:</button>
+                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Caractéristiques Clés :</button>
                         </li>
-
                     </ul>
                     <div class="tab-content" id="myTabContent">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-                                <div class="product-details-description-content">
-                                    <ul>
-                                        <li><b>Siege social : </b>zone semi industriel ZENATA Tlemcen.</li>
-                                        <li><b>Tel. : </b>+213 (0) 43 41 42 42  </li>
-
-                                    </ul>
-                                </div>
+                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                            <div class="product-details-description-content">
+                                <ul>
+                                    <li><b>Polyvalence :</b>Le kiosque multiservices est conçu pour être polyvalent, capable de s'adapter à une gamme variée d'applications.</li>
+                                    <li><b>Conception modulairee : </b>Grâce à sa conception modulaire, le kiosque peut être configuré de différentes manières pour s'adapter à différents espaces et répondre à des besoins spécifiques.</li>
+                                    <li><b>Robustesse et durabilité : </b>Fabriqué avec des matériaux métalliques de haute qualité et galvanisé à chaud, le kiosque offre une construction robuste et une longue durée de vie, même dans des environnements extérieurs difficiles.</li>
+                                    <li><b>Facilité d'utilisation :</b> Le kiosque est conçu pour offrir une expérience utilisateur conviviale, avec des fonctionnalités et des interfaces intuitives pour rendre l'accès aux différents services aussi simple que possible.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

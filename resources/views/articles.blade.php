@@ -58,7 +58,7 @@
                             <h3  class="overflow-section">
                                 <a href="{{asset('article/'.$item->slug)}}">{{ $item->title }}</a>
                             </h3>
-                            <p class="overflow-section">{{$item->description }}...</p>
+                            <p class="overflow-section">{{$item->function}}...</p>
                             <a href="{{asset('article/'.$item->slug)}}" class="main-detail-btn">
                                 Lire la suite
                                 <i class="icofont-plus"></i>

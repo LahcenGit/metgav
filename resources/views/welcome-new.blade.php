@@ -63,6 +63,7 @@
 .controller{
     display: none;
 }
+
 </style>
 
 
@@ -155,6 +156,39 @@
 
 
 <!--=== End Banner Section ===-->
+
+
+<!--=== Start Services Section ===-->
+<section class="services-section bg-color-251f1a ptb-50 mt-4">
+    <div class="container">
+        <div class="main-section-title white-title wow fadeInUp delay-0-2s">
+            <span class="up-title">Cours</span>
+            <h2>Cours actuels du zinc et de l'acier</h2>
+        </div>
+
+        <div class="services-slider owl-carousel owl-theme " >
+            <div class="main-services-item wow fadeInUp delay-0-4s ">
+                <h2 style="color: #f3f3f3;line-height: normal;">Zinc <span style="font-weight: 300">LME</span> </h2>
+                <h3 style="color: #f3f3f3" >2 312.50 <span style="font-size: 16px;">USD</span> </h3>
+                <p style="line-height: normal;">valeur indicative 2 153.35 EUR</p>
+                <p style="font-size: 25px; color:#ff4848">-0.09%</p>
+            </div>
+
+            <div class="main-services-item wow fadeInUp delay-0-2s">
+                <h2 style="color: #f3f3f3;line-height: normal;">Acier <span style="font-weight: 300">Boursorama</span> </h2>
+                <h3 style="color: #f3f3f3">920.00 <span style="font-size: 16px;">USD</span> </h3>
+                <p style="line-height: normal;">valeur indicative 857.21 EUR</p>
+                <p style="font-size: 25px; color:#ff4848">-0.65%</p>
+            </div>
+
+        </div>
+    </div>
+
+    <img src="{{asset('front/assets/images/services-bg-shape.png')}}" class="services-bg-shape" alt="Image">
+</section>
+<!--=== End Services Section ===-->
+
+
 
 <!--=== Start Features Section ===-->
 <section class="features-section pt-100 pb-70">
@@ -1042,6 +1076,27 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{ asset('/produit-a-la-commande/kiosque-multiservices') }}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/kiosque.jpg')}}" alt="Image">
+                            </a>
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{ asset('/produit-a-la-commande/kiosque-multiservices') }}">Kiosque multiservices</a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
 
@@ -1227,6 +1282,104 @@
     </div>
 </section>
 <!--=== End Testimonial Section ===-->
+
+
+<!--=== Start Team Section ===-->
+<section class="team-section bg-1 bg-color-f2f3f5 pt-100 pb-70">
+    <div class="container">
+        <div class="main-section-title-wrap">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 wow fadeInLeft delay-0-2s">
+                    <div class="main-section-title">
+                        
+                        <h2>Annuaire d'Entreprises</h2>
+                        <span class="up-title">Nous sommes fiers de figurer sur plusieurs plateformes commerciales renommées</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="product-typeone-carousel owl-carousel ">
+                    <div class="col-md-3" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="https://dz.kompass.com/c/metgav-industry-sarl/dz272263/" class="team-img">
+                                <img src="{{ asset('front/assets/images/logos/kompass.png') }}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="https://dz.kompass.com/c/metgav-industry-sarl/dz272263/">Kompass</a>
+                                    </h3>
+
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="https://www.pagesmaghreb.com/recherche/entreprises?r=metgav" class="team-img">
+                                <img src="{{asset('front/assets/images/logos/maghreb.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="https://www.pagesmaghreb.com/recherche/entreprises?r=metgav">PAGES MAGHREB</a>
+                                    </h3>
+
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="https://www.europages.fr/" class="team-img">
+                                <img src="{{asset('front/assets/images/logos/europage.png')}}" alt="Image">
+                            </a>
+
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="https://www.europages.fr/">Europages</a>
+                                    </h3>
+
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--=== End Team Section ===-->
+
+
+
+
 
 <!--=== Start Video Section ===-->
 <section class="video-section ptb-100">

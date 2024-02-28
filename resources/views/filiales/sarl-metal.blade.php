@@ -109,7 +109,7 @@
                             <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
                                 <div class="product-details-description-content">
                                     <ul>
-                                        <li><b>Adresse : </b>Siege social Es Sénia ORAN.</li>
+                                        <li><b>Siege social : </b> Es Sénia ORAN.</li>
                                         <li><b>Tel. : </b>+213 (0) 43 41 42 42</li>
 
                                     </ul>

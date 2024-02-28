@@ -227,6 +227,9 @@
                                     <li class="nav-item">
 										<a href="{{asset('/filiales/sarl-metal-et-metal')}}" class="nav-link">SARL Métal et Métal</a>
 									</li>
+                                    <li class="nav-item">
+										<a href="{{asset('/filiales/metgav-negoce')}}" class="nav-link">Metgav Negoce</a>
+									</li>
 								</ul>
 							</li>
 							<li class="nav-item">
@@ -316,10 +319,29 @@
 
 
 					<li class="nav-item">
-						<a href="{{asset('/produits')}}" class="nav-link">Produits</a>
+						<a href="{{asset('/products')}}" class="nav-link">Produits</a>
 					</li>
 					<li class="nav-item">
 						<a href="{{asset('/catalogue')}}" class="nav-link">Catalogue</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link dropdown-toggles">Filiales</a>
+
+						<ul class="sub-menu">
+							<li class="nav-item">
+								<a href="{{asset('/filiales/sarl-structural-industry')}}" class="nav-link">SARL Structural Industry</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="{{asset('/filiales/sarl-cylex-industry')}}" class="nav-link">SARL Cylex Industry</a>
+							</li>
+							<li class="nav-item">
+								<a href="{{asset('/filiales/sarl-metal-et-metal')}}" class="nav-link">SARL Métal et Métal</a>
+							</li>
+							<li class="nav-item">
+								<a href="{{asset('/filiales/metgav-negoce')}}" class="nav-link">Metgav Negoce</a>
+							</li>
+						</ul>
 					</li>
 					<li class="nav-item">
 						<a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>

@@ -555,6 +555,26 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class=" item col-lg-4 col-md-6" style="width:100%;">
+                        <div class="main-team-item fadeInUp delay-0-2s">
+                            <a href="{{ asset('/produit-a-la-commande/kiosque-multiservices') }}" class="team-img">
+                                <img src="{{asset('front/assets/images/products/kiosque.jpg')}}" alt="Image">
+                            </a>
+                            <div class="team-content hover-style wow">
+                                <div class="inner-border">
+                                    <h3>
+                                        <a href="{{ asset('/produit-a-la-commande/kiosque-multiservices') }}">Kiosque multiservices</a>
+                                    </h3>
+                                    <div class="team-social-link">
+                                        <button class="controller">
+                                            <i class="icofont-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
 
