@@ -79,41 +79,45 @@
 <!--=== Start Product Details Section ===-->
 <div class="product-details-area default-shape bg-color-linear-3 ptb-100">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="article-carousel owl-carousel owl-theme">
-                        <div class="item">
-                            <img src="{{ asset('filiales/sarl-structural.jpg') }}" alt="Image">
-                        </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6">
+        <div class="row align-items-center d-flex justify-content-center">
+            <div class="col-lg-8 text-center">
                 <div class="product-details-main-content">
-                    <h3>SARL structural Industry</h3>
+                    <h2>Présentation</h2>
                     <p> SARL Structural Industry est une entreprise spécialisée dans la fabrication d'accessoires en aluminium et en PVC. Nous proposons des solutions de haute qualité pour les secteurs de la construction, de l'architecture et de la menuiserie. Notre engagement envers l'innovation et la qualité se reflète dans chaque produit que nous fabriquons. Choisissez SARL Structural Industry pour des accessoires durables, esthétiques et fonctionnels.
                     </p>
                 </div>
             </div>
+        </div>
 
-            <div class="col-lg-12 col-md-12">
-                <div class="tab product-details-tab pt-100">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Détails:</button>
-                        </li>
+        <div class="row align-items-center d-flex justify-content-center " style="background-color: aliceblue; padding:20px;">
+            <div class="col-lg-8 text-center">
+                <div class="product-details-main-content">
+                    <div class="article-carousel owl-carousel owl-theme mt-3">
+                        <div class="item">
+                            <img src="{{ asset('filiales/sarl-structural.jpg') }}" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12 col-md-12">
+            <div class="tab product-details-tab pt-100">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="true">Coordonnées fiscaux :</button>
+                    </li>
 
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <div class="col-lg-12 col-md-12">
-                            <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
-                                <div class="product-details-description-content">
-                                    <ul>
-                                        <li><b>Siege social : </b>zone semi industriel ZENATA Tlemcen.</li>
-                                        <li><b>Tel. : </b>+213 (0) 43 41 42 42  </li>
-
-                                    </ul>
-                                </div>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+                            <div class="product-details-description-content">
+                                <ul>
+                                    <li><b>Gérant : </b> Mr. Hakem Sofiane</li>
+                                    <li><b>RC :</b> 22B0265804-00/13</li>
+                                    <li><b>NIF : </b> 002213026580475</li>
+                                    <li><b>Siege social : </b> Hai Khemisti N°16 Res Ammar BT G Lot 39.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -122,7 +126,6 @@
         </div>
     </div>
 </div>
-<!--=== End Product Details Section ===-->
 
 
 @endsection
