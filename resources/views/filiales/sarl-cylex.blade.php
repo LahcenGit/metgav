@@ -58,7 +58,7 @@
         height: 4.5em !important;
         overflow: hidden !important;
     }
-    
+
     .td-size{
        font-size: 14px !important;
     }
@@ -127,7 +127,7 @@
         </div>
 
         <div class="row align-items-center d-flex justify-content-center mt-4">
-            <div class="col-lg-8 text-center">
+            <div class="col-md-10 text-center">
                 <div class="product-details-main-content mt-4">
                     <h2>Nos Revendeurs</h2>
 
@@ -137,109 +137,136 @@
                             <th scope="col">N°</th>
                             <th scope="col">Nom</th>
                             <th scope="col">Adresse</th>
+                            <th scope="col">N° Tel</th>
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>HAMDI ZOHEIR</td>
-                            <td>MAGHNIA</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>GRID DJAAFER</td>
-                            <td>COOPERATIVE IMMOBILIERE MOSTAKBALINE HΑΙ ΟΤΗΜΑNIA LOT N°13, MARAVAL ORAN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td>HADJ BOULANOUAR</td>
-                            <td>N°10 GAZ EL BAROUD BENISAF, EURL ELECTRO-MENAGER ELNOUR (BOUTALEB)</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">4</th>
-                            <td>EURL ELECTRO-MENAGER ELNOUR (BOUTALEB)</td>
-                            <td>N°04 RUE ADDA GUERBI ORAN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">5</th>
-                            <td>KHELAFI MOHAMED</td>
-                            <td>N°263 ILOT</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">6</th>
-                            <td>YAHIA OUALID DIHADJ</td>
-                            <td>SAIDA, KARA</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">7</th>
-                            <td>KARA ZAITRI RACHID</td>
-                            <td>N°78 LOTISSEMENT BELAOULADI AMARNAS SIDI LAHCEN SIDI BEL ABBES</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">8</th>
-                            <td>LABED ABDELKADER</td>
-                            <td>SIDI BEL ABBES</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">9</th>
-                            <td>BENABDALLAH BENARMAS ACHRAF</td>
-                            <td>RESIDENCE LES PLAN TERRE BIR ELDJIR ORAN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">10</th>
-                            <td>BAMBRIK BENAMAR</td>
-                            <td></td>
-                          </tr>
-                          <tr>
-                            <th scope="row">11</th>
-                            <td>BENDIMERED ZOHEIR</td>
-                            <td>BECHAR</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">12</th>
-                            <td>CHAKOURI ALI</td>
-                            <td>ORAN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">13</th>
-                            <td>LOUDJANI MOSTA</td>
-                            <td>MOSTA</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">14</th>
-                            <td>ZOUBID SLIMANE</td>
-                            <td>58 RUE SMAIL MOHAMMED ORAN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">15</th>
-                            <td>BENNANI AHMED</td>
-                            <td>SIDI MOHAMMED EL MOHAMMADIA MASCARA</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">16</th>
-                            <td>TAIBI YAMINA</td>
-                            <td>LOTISSEMENT ALI BOUMANDJEL MAGASIN 1 SAIDA</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">17</th>
-                            <td>ZAOUI EL AMINE</td>
-                            <td>RUE BELDJILALI MILOUD N°28 NEDROMA TLEMCEN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">18</th>
-                            <td>BENARBA SAID</td>
-                            <td>SID EL BACHIR ORAN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">19</th>
-                            <td>MEGHAGHI CHABANE</td>
-                            <td>SOUANI TLEMCEN</td>
-                          </tr>
-                          <tr>
-                            <th scope="row">20</th>
-                            <td>HAMIDI ABDELKADER</td>
-                            <td>N° 84 RUE DIDOUCHE MOURAD MAGHNIA TLEMCEN</td>
-                          </tr>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>HAMDI ZOHEIR</td>
+                                <td>MAGHNIA</td>
+                                <td>0671 519 980</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>GRID DJAAFAR</td>
+                                <td>COOPERATIVE IMMOBILIERE MOSTAKBALINE HΑΙ ΟΤΗΜΑNIA LOT Nº13 MARAVAL ORAN</td>
+                                <td>0656 637 033</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>HADJ BOULANOUAR</td>
+                                <td>N°10 GAZ EL BAROUD BENISAF</td>
+                                <td>0792 102 841</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>EURL ELECTRO-MENAGER ELNOUR (BOUTALEB)</td>
+                                <td>N°04 RUE ADDA GUERBI ORAN</td>
+                                <td>0558 377 298</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>KHELAFI MOHAMED</td>
+                                <td>Nº263 ILOT J ROUTE SIG MASCARA</td>
+                                <td>0551 607 494</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>EURL EXTRA MULTI SERVICES</td>
+                                <td>66 RUE LARBI BEN MHIDI ORAN</td>
+                                <td>0660 070 006</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td>YAHIA OUALID DIHADJ</td>
+                                <td>CITE EBOUKHORS 1056 LOGT TRANCHE K04 ESCALIER 04 N°01 RDC SAIDA</td>
+                                <td>0773 863 886</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>KARA ZAITRI RACHID</td>
+                                <td>Nº12 RUE GARMOUCH SIDI BEL ABBES</td>
+                                <td>0556 629 575</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td>BAMBRIK CHIHAB EDDINE</td>
+                                <td>ORAN</td>
+                                <td>0540 877 803</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td>LABED ABDELKADER</td>
+                                <td>SIDI BEL ABBES</td>
+                                <td>0560 363 497</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">11</th>
+                                <td>BENABDALLAH BENARMAS ACHRAF</td>
+                                <td>RESIDENCE LES PLAN TERRE BIR ELDJIR ORAN</td>
+                                <td>0540 749 330</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">12</th>
+                                <td>BAMBRIK BENAMAR</td>
+                                <td>TLEMCEN</td>
+                                <td>0784 423 470</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">13</th>
+                                <td>BENDIMERED ZOHEIR</td>
+                                <td>BECHAR</td>
+                                <td>-</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">14</th>
+                                <td>CHAKOURI MAHMOUD</td>
+                                <td>ORAN</td>
+                                <td>0770 006 938</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">15</th>
+                                <td>MALEK MIHAMED</td>
+                                <td>CITE EL HAMRI ANGLE BD ALEXANDRE 1ER YOUGOSLAVIE N°16 ORAN</td>
+                                <td>041 361 496</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">16</th>
+                                <td>ZOUBID SLIMANE</td>
+                                <td>58 RUE SMAIL MOHAMMED ORAN</td>
+                                <td>0779 356 146</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">17</th>
+                                <td>BENNANI AHMED</td>
+                                <td>SIDI MOHAMMED EL MOHAMMADIA MASCARA</td>
+                                <td>0559 040 910</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">18</th>
+                                <td>TAIBI YAMINA</td>
+                                <td>LOTISSEMENT ALI BOUMANDJEL MAGASIN 1 SAIDA</td>
+                                <td>0775 625 373</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">19</th>
+                                <td>ZAOUI EL AMINE</td>
+                                <td>RUE BELDJILALI MILOUD N°28 NEDROMA TLEMCEN</td>
+                                <td>0770 613 652</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">20</th>
+                                <td>BENARBA SAID</td>
+                                <td>SID EL BACHIR ORAN</td>
+                                <td>0559 825 584</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">21</th>
+                                <td>MEGHAGHI CHABANE</td>
+                                <td>SOUANI TLEMCEN</td>
+                                <td>0549 278 438</td>
+                              </tr>
                         </tbody>
                       </table>
                 </div>
@@ -277,3 +304,4 @@
 
 
 @endsection
+@section('filiales-active', 'active')

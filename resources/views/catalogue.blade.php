@@ -30,7 +30,7 @@
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md-4 mt-3">
-               <a href="http://" class="btn btn-primary btn-lg" style="background-color: #29A9E1;">Télécharger le catalogue PDF</a> 
+               <a href="http://" class="btn btn-primary btn-lg" style="background-color: #29A9E1;">Télécharger le catalogue PDF</a>
             </div>
         </div>
     </div>
@@ -38,3 +38,4 @@
 <!--=== End Blog Details Section ===-->
 
 @endsection
+@section('catalogue-active', 'active')
