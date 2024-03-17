@@ -99,7 +99,7 @@
                         </li>
                         <li>
                             <i class="icofont-calendar"></i>
-                            20 Février 2023
+                            {{$article->date}}
                         </li>
                     </ul>
                     <p>{!! $article->description !!}</p>

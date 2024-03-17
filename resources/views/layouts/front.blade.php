@@ -550,7 +550,7 @@
 		<!--=== Start Copy Right Section ===-->
 		<div class="copy-right-section">
 			<div class="container">
-				<p>Copyright © 2023 Metgav. All Rights Reserved.</p>
+				<p>Copyright © 2024 Metgav. All Rights Reserved.</p>
 			</div>
 		</div>
 

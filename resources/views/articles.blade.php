@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight delay-0-2s">
-                    <p>Nous mettons à votre disposition notre expertise et notre expérience à travers une gamme diversifiée de sujets pertinents pour vous permettre de mieux appréhender notre domaine d'activité et pour rester informé des dernières avancées de l'industrie. Parcourez notre collection d'articles pour rester constamment à la pointe de l'actualité dans notre secteur.</p>
+                    <p>Nous mettons à votre disposition notre expertise et notre expérience à travers une gamme diversifiée de sujets pertinents pour vous permettre de mieux appréhender notre domaine d'activité et pour rester informé des dernières avancées de l'industrie. </p>
                 </div>
             </div>
         </div>
