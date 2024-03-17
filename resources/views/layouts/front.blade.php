@@ -160,13 +160,20 @@
                                             <i class="icofont-arrow-right"></i>
                                         </span>
                                     </a>
-                                @else
-                                    <a href="{{asset('/admin')}}" class="main-btn">
+                                @elseif(Auth::user()->type == 'commercial')
+                                    <a href="{{asset('/commercial')}}" class="main-btn">
                                         <span>
                                             {{ Auth::user()->name }}
                                             <i class="icofont-arrow-right"></i>
                                         </span>
                                     </a>
+                                @else
+                                <a href="{{asset('/admin')}}" class="main-btn">
+                                    <span>
+                                        {{ Auth::user()->name }}
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
                                 @endif
                             @else
                                 <a href="{{asset('/login-pro')}}" class="main-btn">
@@ -279,6 +286,13 @@
                             @auth
                             @if(Auth::user()->type == 'professional')
                                 <a href="{{asset('/professional')}}" class="main-btn">
+                                    <span>
+                                        {{ Auth::user()->name }}
+                                        <i class="icofont-arrow-right"></i>
+                                    </span>
+                                </a>
+                            @elseif(Auth::user()->type == 'commercial')
+                                <a href="{{asset('/commercial')}}" class="main-btn">
                                     <span>
                                         {{ Auth::user()->name }}
                                         <i class="icofont-arrow-right"></i>

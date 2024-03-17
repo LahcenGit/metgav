@@ -48,6 +48,9 @@ class LoginController extends Controller
             if(auth::user()->type == 'professional'){
                 return redirect('/');
             }
+            if(auth::user()->type == 'commercial'){
+                return redirect('/commercial');
+            }
         }
         else{
             return redirect()->route('login')
