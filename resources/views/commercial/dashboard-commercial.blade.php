@@ -6,7 +6,7 @@
             <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="javascript:void(0)">Commercial</a></li>
-                    <li class="breadcrumb-item active"><a href="javascript:void(0)">Demandes Devi</a></li>
+                    <li class="breadcrumb-item active"><a href="javascript:void(0)">Demandes Devis</a></li>
                 </ol>
             </div>
         </div>
@@ -14,7 +14,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">Demandes Devi</h4>
+                        <h4 class="card-title">Demandes Devis</h4>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
