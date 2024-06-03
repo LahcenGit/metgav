@@ -168,20 +168,35 @@
 
         <div class="services-slider owl-carousel owl-theme " >
             @foreach($settings as $setting)
-                <div class="main-services-item wow fadeInUp delay-0-4s ">
-                    <h2 style="color: #f3f3f3;line-height: normal;">{{ $setting->name }} <span style="font-weight: 300">@if($loop->first)LME @else Boursorama @endif</span> </h2>
-                    <h3 style="color: #f3f3f3" >{{ $setting->value_1 }} <span style="font-size: 16px;">USD</span> </h3>
-                    <p style="line-height: normal;">valeur indicative {{ $setting->value_2 }} EUR</p>
-                    @php
-                    // Conversion de la valeur de setting->value_3 en flottant
-                    $value3 = floatval(str_replace(['%', '+'], '', $setting->value_3));
-                    @endphp
+            <div class="main-services-item wow fadeInUp delay-0-4s">
+                <h2 style="color: #f3f3f3; line-height: normal;">
+                    {{ $setting->name }}
+                    <span style="font-weight: 300;">
+                        @if($loop->first)
+                            LME
+                        @else
+                            Boursorama
+                        @endif
+                    </span>
+                </h2>
+                <h3 style="color: #f3f3f3;">
+                    {{ $setting->value_1 }} <span style="font-size: 16px;">USD</span>
+                </h3>
+                <p style="line-height: normal;">
+                    valeur indicative {{ $setting->value_2 }} EUR
+                </p>
 
-                    <p style="font-size: 25px; color: {{ $value3 < 0 ? '#ff4848' : 'green' }};">
-                        {{ $setting->value_3 }}
-                    </p>
-                </div>
-            @endforeach
+                @php
+                    // Conversion inline pour valeur 3
+                    $value3 = floatval(str_replace(['%', '+'], '', $setting->value_3));
+                @endphp
+
+                <!-- Utilisation de la variable $value3 pour déterminer la couleur -->
+                <p style="font-size: 25px; color: {{ $value3 < 0 ? '#ff4848' : 'green' }};">
+                    {{ $setting->value_3 }}
+                </p>
+            </div>
+        @endforeach
         </div>
        <div class="main-section-title white-title wow fadeInUp delay-0-2s" style="margin-bottom:5px;">
             <span class="up-title">Taux de change</span>

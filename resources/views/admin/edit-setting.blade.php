@@ -25,7 +25,7 @@
                     </div>
                     <div class="card-body">
                         <div class="basic-form">
-                            <form action="{{url('admin/settings/'.$setting->id)}}" method="POST" enctype="multipart/form-data">
+                            <form action="{{url('editeur/settings/'.$setting->id)}}" method="POST" enctype="multipart/form-data">
                                 <input type="hidden" name="_method" value="PUT">
                                 @csrf
                                 <div class="form-row">
