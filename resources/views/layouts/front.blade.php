@@ -271,11 +271,15 @@
                             <li class="nav-item">
 								<a href="#" class="nav-link dropdown-toggles @yield('autres-active')">Autres</a>
                                 <ul class="sub-menu">
-									<li class="nav-item">
-										<a href="{{asset('/a-propos-metgav')}}" class="nav-link @yield('a-propos')">A propos</a>
+									
+                                    <li class="nav-item">
+										<a href="{{asset('/offre')}}" class="nav-link @yield('offre')">Offre spéciale</a>
 									</li>
                                     <li class="nav-item">
-										<a href="#" class="nav-link @yield('chiffres')">Chiffres</a>
+										<a href="{{asset('/chiffre-lettre')}}" class="nav-link @yield('chiffre-lettre')">Chiffres et lettre</a>
+									</li>
+									<li class="nav-item">
+										<a href="{{asset('/a-propos-metgav')}}" class="nav-link @yield('a-propos')">A propos</a>
 									</li>
 								</ul>
 							</li>
@@ -423,11 +427,15 @@
                         <a href="#" class="nav-link dropdown-toggles @yield('autres-active')">Autres</a>
                         <ul class="sub-menu">
                             <li class="nav-item">
-                                <a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
+                                <a href="{{asset('/offre')}}" class="nav-link">Offre spéciale</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Chiffres</a>
+                                <a href="{{asset('/chiffre-lettre')}}" class="nav-link">Chiffres et lettres</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="{{asset('/a-propos-metgav')}}" class="nav-link">A propos</a>
+                            </li>
+                           
                         </ul>
                     </li>
                     @auth
