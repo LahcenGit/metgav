@@ -255,6 +255,15 @@ Route::get('/normes/acier-1025-2', function () {
     return Response::download($file, 'NBN-EN-10025-2.pdf', $headers);
 });
 
+//chiffre et lettre
+Route::get('/chiffre-lettre ', function () {
+    return view('chiffre-lettre');
+});
+
+Route::get('/offre ', function () {
+    return view('offre');
+});
+
 
 //commercial
 Route::resource('/commercial',CommercialController::class);

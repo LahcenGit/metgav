@@ -188,7 +188,7 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="main-counter-item wow fadeInUp delay-0-2s">
-                        <h2 class="counter">35907 </h2>
+                        <h2 class="counter">69305 </h2>
                         <h2 class="point">m<sup>2</sup></h2>
                         <h3>superficie totale</h3>
                     </div>
