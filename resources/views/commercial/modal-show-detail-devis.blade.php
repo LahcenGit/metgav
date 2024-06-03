@@ -10,13 +10,18 @@
                 <div class="row">
                     <div class="col-6">
                         <h6><b>{{  $devis->entreprise }}  </b> </h6> <br><h7>{{$devis->details}}</h7>
-
                     </div>
-
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
-
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <a href="{{ asset('storage/images/identity-pro/'.$devis->RC) }}" download target="_blank" type="button" class="btn btn-primary">RC
+                        </a>
+                        <a href="{{ asset('storage/images/identity-pro/'.$devis->NIF) }}" download  type="button" class="btn btn-primary">NIF
+                        </a>
+                    </div>
+                </div>
+                <div class="modal-footer mt-3">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
                 </div>
             </div>
         </div>

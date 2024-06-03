@@ -12,7 +12,7 @@
             </div>
             <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="{{ asset('/admin') }}">Admin</a></li>
+                    <li class="breadcrumb-item"><a href="{{ asset('/editeur') }}">Editeur</a></li>
                     <li class="breadcrumb-item active"><a href="javascript:void(0)">Articles</a></li>
                 </ol>
             </div>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="card-body">
                         <div class="basic-form">
-                            <form action="{{url('admin/articles')}}" method="POST" enctype="multipart/form-data">
+                            <form action="{{url('editeur/articles')}}" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-row">
                                     <div class="form-group col-md-6">

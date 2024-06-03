@@ -299,7 +299,7 @@
                                     </span>
                                 </a>
                             @else
-                                <a href="{{asset('/admin')}}" class="main-btn">
+                                <a href="{{asset('/editeur')}}" class="main-btn">
                                     <span>
                                         {{ Auth::user()->name }}
                                         <i class="icofont-arrow-right"></i>

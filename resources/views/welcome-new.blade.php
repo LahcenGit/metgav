@@ -167,29 +167,29 @@
         </div>
 
         <div class="services-slider owl-carousel owl-theme " >
-            <div class="main-services-item wow fadeInUp delay-0-4s ">
-                <h2 style="color: #f3f3f3;line-height: normal;">Zinc <span style="font-weight: 300">LME</span> </h2>
-                <h3 style="color: #f3f3f3" >2 372.26 <span style="font-size: 16px;">USD</span> </h3>
-                <p style="line-height: normal;">valeur indicative 2 184.85 EUR</p>
-                <p style="font-size: 25px; color:#ff4848">-0.39%</p>
-            </div>
+            @foreach($settings as $setting)
+                <div class="main-services-item wow fadeInUp delay-0-4s ">
+                    <h2 style="color: #f3f3f3;line-height: normal;">{{ $setting->name }} <span style="font-weight: 300">@if($loop->first)LME @else Boursorama @endif</span> </h2>
+                    <h3 style="color: #f3f3f3" >{{ $setting->value_1 }} <span style="font-size: 16px;">USD</span> </h3>
+                    <p style="line-height: normal;">valeur indicative {{ $setting->value_2 }} EUR</p>
+                    @php
+                    // Conversion de la valeur de setting->value_3 en flottant
+                    $value3 = floatval(str_replace(['%', '+'], '', $setting->value_3));
+                    @endphp
 
-            <div class="main-services-item wow fadeInUp delay-0-2s">
-                <h2 style="color: #f3f3f3;line-height: normal;">Acier <span style="font-weight: 300">Boursorama</span> </h2>
-                <h3 style="color: #f3f3f3">789.00 <span style="font-size: 16px;">USD</span> </h3>
-                <p style="line-height: normal;">valeur indicative 726.67 EUR</p>
-                <p style="font-size: 25px; color:#ff4848">-0.13%</p>
-            </div>
-
+                    <p style="font-size: 25px; color: {{ $value3 < 0 ? '#ff4848' : 'green' }};">
+                        {{ $setting->value_3 }}
+                    </p>
+                </div>
+            @endforeach
         </div>
-
-        <div class="main-section-title white-title wow fadeInUp delay-0-2s" style="margin-bottom:5px;">
+       <div class="main-section-title white-title wow fadeInUp delay-0-2s" style="margin-bottom:5px;">
             <span class="up-title">Taux de change</span>
         </div>
 
         <div class="d-flex justify-content-center text-center" >
-             <span class="text-white"> <img src="https://s.brsimg.com/static/i/flags/EUR.png" > 1,00 € =  <img src="https://s.brsimg.com/static/i/flags/USA.png" > 1,0857 $ = 
-                <img src="https://s.brsimg.com/static/i/flags/GBR.png" > 0,8554 £ =  <img src="https://s.brsimg.com/static/i/flags/JPN.png" >  163,4234 ¥ = 
+             <span class="text-white"> <img src="https://s.brsimg.com/static/i/flags/EUR.png" > 1,00 € =  <img src="https://s.brsimg.com/static/i/flags/USA.png" > 1,0857 $ =
+                <img src="https://s.brsimg.com/static/i/flags/GBR.png" > 0,8554 £ =  <img src="https://s.brsimg.com/static/i/flags/JPN.png" >  163,4234 ¥ =
                 <img src="https://s.brsimg.com/static/i/flags/CHE.png" > 0,9608 SFr </span>
         </div>
     </div>
@@ -1086,7 +1086,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class=" item col-lg-4 col-md-6" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
                             <a href="{{ asset('/produit-a-la-commande/kiosque-multiservices') }}" class="team-img">
@@ -1301,7 +1301,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title">
-                        
+
                         <h2>Annuaire d'Entreprises</h2>
                         <span class="up-title">Metgav figure sur plusieurs plateformes commerciales renommées</span>
                     </div>
@@ -1388,7 +1388,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title">
-                        
+
                         <h2>Adhésions</h2>
                         <span class="up-title">METGAV s'inscrit dans une démarche collaborative</span>
                     </div>

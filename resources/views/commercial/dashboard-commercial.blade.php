@@ -40,8 +40,12 @@
                                         <td>{{ $devi->created_at }}</td>
                                         @if($devi->status == 0)
                                         <td id="td-status-{{$devi->id}}"><span class="badge badge-warning">En attente</span></td>
-                                        @else
-                                        <td id="td-status-{{$devi->id}}"><span class="badge badge-success">Validé</span></td>
+                                        @elseif($devi->status == 1)
+                                        <td id="td-status-{{$devi->id}}"><span class="badge badge-light">En cours de traitement</span></td>
+                                        @elseif($devi->status == 2)
+                                        <td id="td-status-{{$devi->id}}"><span class="badge badge-info">Traité</span></td>
+                                        @elseif($devi->status == 3)
+                                        <td id="td-status-{{$devi->id}}"><span class="badge badge-success">Cloturé</span></td>
                                         @endif
                                         <td>
                                             <div class="d-flex">
@@ -62,6 +66,8 @@
 </div>
 <div id="modal-section-devis">
 
+</div>
+<div id="modal-edit-status">
 </div>
 @endsection
 @push('modal-show-detail-devis')
@@ -87,5 +93,91 @@ $("body").on('click','.show-detail-devis',function() {
   });
 
 });
+</script>
+@endpush
+@push('modal-edit-status-scripts')
+<script>
+  $.ajaxSetup({
+  headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  }
+});
+
+$("body").on('click','.edit-status',function() {
+  var id = $(this).data('id');
+
+ $.ajax({
+
+    url: '/edit-status/'+id ,
+    type: "GET",
+    success: function (res) {
+      $('#modal-edit-status').html(res);
+      $('#modal-edit-status').find("#status").selectpicker();
+      $("#modalEditStatus").modal('show');
+    }
+  });
+
+});
+</script>
+<script>
+  $.ajaxSetup({
+  headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  }
+  });
+
+  $("#modal-edit-status").on('click','#save-status',function(e){
+
+        e.preventDefault();
+        let status = $('#status').val();
+        let id =  $('#id').val();
+         $.ajax({
+          type:"POST",
+          url: "/update-status/"+id,
+          data:{
+            "_token": "{{ csrf_token() }}",
+            status:status,
+           },
+
+          success:function(response){
+           $('#modalEditStatus').modal('hide');
+           toastr.success("Statut modifié avec succès", "Succès", {
+                    timeOut: 5e3,
+                    closeButton: !0,
+                    debug: !1,
+                    newestOnTop: !0,
+                    progressBar: !0,
+                    positionClass: "toast-top-right",
+                    preventDuplicates: !0,
+                    onclick: null,
+                    showDuration: "300",
+                    hideDuration: "1000",
+                    extendedTimeOut: "1000",
+                    showEasing: "swing",
+                    hideEasing: "linear",
+                    showMethod: "fadeIn",
+                    hideMethod: "fadeOut",
+                    tapToDismiss: !1
+
+            })
+         if(status == 0){
+              $("#td-status-"+id).html('<span class="badge badge-warning">'+'En Attente'+'</span>');
+            }
+             else if(status == 1){
+              $("#td-status-"+id).html('<span class="badge badge-light">'+'En cours de traitement'+'</span>');
+            }
+             else if(status == 2){
+              $("#td-status-"+id).html('<span class="badge badge-info">'+'Traité'+'</span>');
+            }
+
+             else if(status == 3){
+              $("#td-status-"+id).html('<span class="badge badge-success">'+'Cloturé'+'</span>');
+            }
+
+          },
+
+          });
+
+   });
 </script>
 @endpush

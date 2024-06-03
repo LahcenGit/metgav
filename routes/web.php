@@ -8,6 +8,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CommercialController;
 use App\Http\Controllers\DeviController;
 use App\Http\Controllers\MailController;
+use App\Http\Controllers\SettingController;
 use Illuminate\Support\Facades\Response;
 use TheHocineSaad\LaravelAlgereography\Models\Wilaya;
 /*
@@ -93,9 +94,13 @@ Route::get('/demande-devis/send',[App\Http\Controllers\MailController::class, 'i
 */
 
 Auth::routes();
-Route::resource('/admin/articles',ArticleController::class)->middleware('can:admin');
-Route::resource('/admin/actualites',ActualiteController::class)->middleware('can:admin');
-Route::resource('/admin',AdminController::class)->middleware('can:admin');
+//admin route
+Route::resource('/editeur/articles',ArticleController::class)->middleware('can:admin');
+Route::resource('/editeur/actualites',ActualiteController::class)->middleware('can:admin');
+Route::resource('/editeur/settings',SettingController::class)->middleware('can:admin');
+Route::resource('/editeur',AdminController::class)->middleware('can:admin');
+
+
 Route::get('/article/{slug}',[App\Http\Controllers\FrontController::class, 'detailArticle']);
 Route::get('/actualite/{slug}',[App\Http\Controllers\FrontController::class, 'detailActualite']);
 Route::get('/actualites',[App\Http\Controllers\FrontController::class, 'actualites']);
@@ -254,3 +259,5 @@ Route::get('/normes/acier-1025-2', function () {
 //commercial
 Route::resource('/commercial',CommercialController::class);
 Route::get('/show-detail-devis/{id}',[App\Http\Controllers\CommercialController::class, 'showDetailDevis']);
+Route::get('/edit-status/{id}',[App\Http\Controllers\DeviController::class, 'editStatus']);
+Route::post('/update-status/{id}',[App\Http\Controllers\DeviController::class, 'updateStatus']);

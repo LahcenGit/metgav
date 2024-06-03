@@ -588,8 +588,8 @@
                                 <a class="nav-link" href="#" role="button" data-toggle="dropdown">
                                     <img src="{{ asset('dashboard/images/profile/pic1.jpg') }}" width="20" alt=""/>
 									<div class="header-info">
-										<span>Bonjour, <strong>Admin</strong></span>
-										<small>Admin profil</small>
+										<span>Bonjour, <strong>{{ Auth::user()->name }}</strong></span>
+										<small>Editeur profile</small>
 									</div>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">
@@ -637,8 +637,8 @@
 							<span class="nav-text">Dashboard</span>
 						</a></li>
 
-                    <li class="nav-label">Articles</li>
-                    <li><a href="{{ url('/admin/articles/create') }}" class="ai-icon" href="javascript:void()" aria-expanded="false">
+
+                    <li><a href="{{ url('/editeur/articles/create') }}" class="ai-icon" href="javascript:void()" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <polygon points="0 0 24 0 24 24 0 24"/>
@@ -649,8 +649,8 @@
 							<span class="nav-text">Articles</span>
 						</a>
                     </li>
-                    <li class="nav-label">Actualités</li>
-                    <li><a href="{{ url('/admin/actualites/create') }}" class="ai-icon" href="javascript:void()" aria-expanded="false">
+
+                    <li><a href="{{ url('/editeur/actualites/create') }}" class="ai-icon" href="javascript:void()" aria-expanded="false">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <polygon points="0 0 24 0 24 24 0 24"/>
@@ -661,18 +661,33 @@
 							<span class="nav-text">Actualités</span>
 						</a>
                     </li>
-
-
-                    <li class="nav-label">Paramètres</li>
-                    <li><a href="#" class="ai-icon" aria-expanded="false">
-						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
+                    <li><a href="{{ url('/editeur/settings') }}" class="ai-icon" href="javascript:void()" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <rect x="0" y="0" width="24" height="24"/>
                                 <path d="M5,8.6862915 L5,5 L8.6862915,5 L11.5857864,2.10050506 L14.4852814,5 L19,5 L19,9.51471863 L21.4852814,12 L19,14.4852814 L19,19 L14.4852814,19 L11.5857864,21.8994949 L8.6862915,19 L5,19 L5,15.3137085 L1.6862915,12 L5,8.6862915 Z M12,15 C13.6568542,15 15,13.6568542 15,12 C15,10.3431458 13.6568542,9 12,9 C10.3431458,9 9,10.3431458 9,12 C9,13.6568542 10.3431458,15 12,15 Z" fill="#000000"/>
                             </g>
                         </svg>
-						<span class="nav-text">Setting</span>
-					</a></li>
+							<span class="nav-text">Paramètres</span>
+						</a>
+                    </li>
+
+                <!--
+                    <li><a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
+                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <rect x="0" y="0" width="24" height="24"/>
+                                <path d="M5,8.6862915 L5,5 L8.6862915,5 L11.5857864,2.10050506 L14.4852814,5 L19,5 L19,9.51471863 L21.4852814,12 L19,14.4852814 L19,19 L14.4852814,19 L11.5857864,21.8994949 L8.6862915,19 L5,19 L5,15.3137085 L1.6862915,12 L5,8.6862915 Z M12,15 C13.6568542,15 15,13.6568542 15,12 C15,10.3431458 13.6568542,9 12,9 C10.3431458,9 9,10.3431458 9,12 C9,13.6568542 10.3431458,15 12,15 Z" fill="#000000"/>
+                            </g>
+                        </svg>
+                            <span class="nav-text">Paramètres</span>
+                        </a>
+                        <ul aria-expanded="false">
+                            <li><a href="{{url('editeur/settings/create')}}">Ajouter</a></li>
+                            <li><a href="{{url('editeur/settings')}}">Paramètres</a></li>
+                        </ul>
+                    </li>
+                -->
                 </ul>
             </div>
 

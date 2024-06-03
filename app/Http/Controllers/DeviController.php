@@ -52,4 +52,16 @@ class DeviController extends Controller
         $devis->save();
         return redirect('/success-send')->with('success', 'Nous avons bien reçu votre demande de devis et nous allons la traiter dès que possible.');
       }
+
+      public function editStatus($id){
+        $devis = Devi::find($id);
+        return view('commercial.modal-edit-status',compact('devis'));
+      }
+
+      public function updateStatus($id , Request $request){
+        $devis = Devi::find($id);
+        $devis->status = $request->status;
+        $devis->save();
+        return true;
+      }
 }

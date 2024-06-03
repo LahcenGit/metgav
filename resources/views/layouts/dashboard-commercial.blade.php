@@ -14,6 +14,7 @@
     <link href="{{ asset('dashboard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet">
     <link href="{{ asset('dashboard/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('dashboard/vendor/summernote/summernote.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('Dashboard/vendor/toastr/css/toastr.min.css')}}">
 	<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('dashboard/uploader/drop_uploader.css')}}">
 
@@ -715,6 +716,7 @@
     <script src="{{ asset('dashboard/vendor/summernote/js/summernote.min.js') }}"></script>
     <!-- Summernote init -->
     <script src="{{ asset('dashboard/js/plugins-init/summernote-init.js') }}"></script>
+    <script src="{{asset('dashboard/vendor/toastr/js/toastr.min.js')}}"></script>
 	<script>
 	(function($) {
 		"use strict"
@@ -773,5 +775,6 @@
 
     </script>
 @stack('modal-show-detail-devis')
+@stack('modal-edit-status-scripts')
 </body>
 </html>
