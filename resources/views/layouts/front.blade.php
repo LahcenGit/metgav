@@ -113,7 +113,7 @@
 								</li>
 								<li>
 									<i class="icofont-phone"></i>
-									+213 (0) 43 41 42 42
+									+213 (0) 43 41 42 42 / +213 (0) 661 99 23 24
 								</li>
 							</ul>
 						</div>
@@ -131,7 +131,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="https://www.linkedin.com/company/metgav-industry" target="_blank">
+									<a href="https://dz.linkedin.com/in/metgav-industry-b72aa11aa" target="_blank">
 										<i class="icofont-linkedin"></i>
 									</a>
 								</li>
@@ -502,7 +502,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="https://www.linkedin.com/company/metgav-industry" target="_blank">
+									<a href="https://dz.linkedin.com/in/metgav-industry-b72aa11aa" target="_blank">
 										<i class="icofont-linkedin"></i>
 									</a>
 								</li>
@@ -552,6 +552,7 @@
 								<li>
 									<i class="icofont-envelope"></i>
 									<span>contact@metgav.dz</span>
+									<span>d.general@metgav.dz</span>
 								</li>
 								<li>
 									<i class="icofont-location-pin"></i>
@@ -559,7 +560,8 @@
 								</li>
 								<li>
 									<i class="icofont-phone"></i>
-									<a href="tel:+213 (0) 43 41 46 04"> Tel : +213 (0) 43 41 42 42 / Fax +213 (0)43 41 49 32 </a>
+									<a > Tel : +213 (0) 43 41 42 42 <br> +213 (0) 661 99 23 24 </a> <br>
+									<a >  Fax : +213 (0)43 41 49 32 </a>
 								</li>
 							</ul>
 						</div>

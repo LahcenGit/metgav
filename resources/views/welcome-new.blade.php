@@ -64,6 +64,20 @@
     display: none;
 }
 
+.new-product  {
+            background-color: red;
+            color: white;
+            padding: 20px;
+        }
+.new-product-text {
+           font-size: 22px;
+        }
+
+.new-product-text a {
+           text-decoration: none;
+        }
+   
+
 </style>
 
 
@@ -527,9 +541,14 @@
     </div>
 </section>
 <!--=== End Projects Section ===-->
-
+<div class="new-product text-center d-flex justify-content-center align-items-center">
+    <p class="new-product-text mb-0 me-3">Nouveau produit 2024 : <b>Kiosque multiservices</b></p>
+    <a href="{{asset('/produit-a-la-commande/kiosque-multiservices')}}" class="btn btn-light ms-3">Découvrir !</a>
+</div>
 <!--=== Start Team Section ===-->
 <section class="team-section bg-1 bg-color-f2f3f5 pt-100 pb-70">
+    
+
     <div class="container">
         <div class="main-section-title-wrap">
             <div class="row d-flex justify-content-center">
@@ -1303,6 +1322,18 @@
             <div >
                 <img src="{{asset('front/assets/images/logos/galvazinc.jpg')}}" alt="Image">
             </div>
+            <div >
+                <img src="{{asset('front/assets/images/logos/sirio.jpg')}}" alt="Image">
+            </div>
+            <div >
+                <img src="{{asset('front/assets/images/logos/sonatrach.jpg')}}" alt="Image">
+            </div>
+            <div >
+                <img src="{{asset('front/assets/images/logos/orsim.jpg')}}" alt="Image">
+            </div>
+            <div >
+                <img src="{{asset('front/assets/images/logos/aon.jpg')}}" alt="Image">
+            </div>
         </div>
     </div>
 </section>
@@ -1316,7 +1347,6 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-6 wow fadeInLeft delay-0-2s">
                     <div class="main-section-title">
-
                         <h2>Annuaire d'Entreprises</h2>
                         <span class="up-title">Metgav figure sur plusieurs plateformes commerciales renommées</span>
                     </div>
@@ -1352,14 +1382,14 @@
                     </div>
                     <div class="col-md-3" style="width:100%;">
                         <div class="main-team-item fadeInUp delay-0-2s">
-                            <a href="https://www.pagesmaghreb.com/recherche/entreprises?r=metgav" class="team-img">
+                            <a href="https://www.pagesmaghreb.com/entreprise/metgav-industry-244685/tlemcen-49/algerie" class="team-img">
                                 <img src="{{asset('front/assets/images/logos/maghreb.png')}}" alt="Image">
                             </a>
 
                             <div class="team-content hover-style wow">
                                 <div class="inner-border">
                                     <h3>
-                                        <a href="https://www.pagesmaghreb.com/recherche/entreprises?r=metgav">PAGES MAGHREB</a>
+                                        <a href="https://www.pagesmaghreb.com/entreprise/metgav-industry-244685/tlemcen-49/algerie">PAGES MAGHREB</a>
                                     </h3>
 
                                     <div class="team-social-link">
@@ -1416,6 +1446,32 @@
                 <div class="col-md-6" >
                     <div class="main-team-item fadeInUp delay-0-2s">
                         <img  src="{{ asset('members/cci-tafna.jpg') }}" alt="Image">
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="main-section-title-wrap">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6 wow fadeInLeft delay-0-2s">
+                    <div class="main-section-title">
+
+                        <h2>Liens outils</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+                <div class="col-sm-2" >
+                    <div class="main-team-item fadeInUp delay-0-2s text-center">
+                       <a href="https://sidjilcom.cnrc.dz"><img width="100" src="{{ asset('/cnrc.png') }}" alt="Image"></a> 
+                    </div>
+                </div>
+                <div class="col-sm-2" >
+                    <div class="main-team-item fadeInUp delay-0-2s text-center">
+                       <a href="https://www.algex.dz"><img  width="100"  src="{{ asset('/algex.png') }}" alt="Image"></a> 
                     </div>
                 </div>
         </div>
